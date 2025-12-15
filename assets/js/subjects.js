@@ -1,48 +1,43 @@
 /**
  * subjects.js
- * Configuration file for Subject Icons, Colors, and File Mapping
+ * Defines the list of subjects for GS1 and CSAT
  */
 
-// 1. GS PAPER 1 (12 Subjects)
 const subjectsGS1 = [
-    { name: 'Indian Polity', icon: 'fa-landmark', color: 'orange' },
-    { name: 'Modern India', icon: 'fa-feather-pointed', color: 'yellow' },
-    { name: 'Ancient India', icon: 'fa-scroll', color: 'amber' },
-    { name: 'Medieval India', icon: 'fa-chess-rook', color: 'amber' },
-    { name: 'Art & Culture', icon: 'fa-palette', color: 'rose' },
-    { name: 'World Geography', icon: 'fa-earth-americas', color: 'blue' },
-    { name: 'Indian Geography', icon: 'fa-map-location-dot', color: 'cyan' },
-    { name: 'Environment', icon: 'fa-leaf', color: 'green' },
-    { name: 'Indian Economy', icon: 'fa-indian-rupee-sign', color: 'emerald' },
-    { name: 'Science & Tech', icon: 'fa-microchip', color: 'purple' },
-    { name: 'Intl. Relations', icon: 'fa-handshake', color: 'indigo' },
-    { name: 'Miscellaneous', icon: 'fa-star', color: 'slate' }
+    { name: "Ancient History", id: "ancient" },
+    { name: "Medieval History", id: "medieval" },
+    { name: "Modern History", id: "modern" },
+    { name: "Art & Culture", id: "art_culture" },
+    { name: "Indian Polity", id: "polity" },
+    { name: "Indian Geography", id: "indian_geo" },
+    { name: "World Geography", id: "world_geo" },
+    { name: "Environment", id: "environment" },
+    { name: "Indian Economy", id: "economy" },
+    { name: "Science & Tech", id: "science_tech" },
+    { name: "Intl. Relations", id: "ir" }
 ];
 
-// 2. CSAT PAPER 2 (3 Subjects)
 const subjectsCSAT = [
-    { name: 'Mathematics', icon: 'fa-calculator', color: 'red' },
-    { name: 'Reasoning', icon: 'fa-brain', color: 'violet' },
-    { name: 'Passages', icon: 'fa-book-open', color: 'teal' }
+    { name: "Mathematics", id: "csat_math" },
+    { name: "Reasoning", id: "csat_reasoning" },
+    { name: "Reading Passage", id: "csat_passage" }
 ];
 
-// Filename Mapping (Must match your data/ folder)
-// Note: We do NOT hardcode topics here anymore. core.js scans them dynamically.
+// Mapping readable names to filenames
 const filenameMap = {
-    'Indian Polity': 'polity',
-    'Modern India': 'modern_history',
-    'Ancient India': 'ancient_history',
-    'Medieval India': 'medieval_history',
-    'Art & Culture': 'art_culture',
-    'World Geography': 'world_geo',
-    'Indian Geography': 'indian_geo',
-    'Environment': 'environment',
-    'Indian Economy': 'economy',
-    'Science & Tech': 'science_tech',
-    'Intl. Relations': 'ir',
-    'Miscellaneous': 'misc',
-    'Mathematics': 'csat_math',
-    'Reasoning': 'csat_reasoning',
-    'Passages': 'csat_passage'
+    "Ancient History": "ancient_history",
+    "Medieval History": "medieval_history",
+    "Modern History": "modern_history",
+    "Art & Culture": "art_culture",
+    "Indian Polity": "polity",
+    "Indian Geography": "indian_geo",
+    "World Geography": "world_geo",
+    "Environment": "environment",
+    "Indian Economy": "economy",
+    "Science & Tech": "science_tech",
+    "Intl. Relations": "ir",
+    "Mathematics": "csat_math",
+    "Reasoning": "csat_reasoning",
+    "Reading Passage": "csat_passage"
 };
 
