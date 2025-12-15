@@ -3,33 +3,34 @@
  * Handles Modal Logic for the Resources Page
  */
 
-// Explicitly attach functions to window so HTML onclick="" can find them
-window.openNoteModal = function(modalId) {
+// 1. OPEN MODAL
+window.openModal = function(modalId) {
     const modal = document.getElementById(modalId);
     if (modal) {
         modal.classList.remove('hidden');
-        // Optional: Prevent background scrolling when modal is open
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden'; // Lock background scroll
     } else {
-        console.error("Modal not found:", modalId);
+        console.error("Error: Modal ID not found ->", modalId);
     }
 }
 
-window.closeNoteModal = function(modalId) {
+// 2. CLOSE MODAL
+window.closeModal = function(modalId) {
     const modal = document.getElementById(modalId);
     if (modal) {
         modal.classList.add('hidden');
-        // Restore background scrolling
-        document.body.style.overflow = '';
+        document.body.style.overflow = ''; // Unlock background scroll
     }
 }
 
-// Close modal if clicking outside the white card (on the blurred background)
+// 3. CLOSE ON BACKGROUND CLICK
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.fixed').forEach(modal => {
+    // Select all elements whose ID starts with "modal-"
+    const modals = document.querySelectorAll('[id^="modal-"]'); 
+    
+    modals.forEach(modal => {
         modal.addEventListener('click', (e) => {
-            // If the click is on the background (id: modal-psir), close it.
-            // If the click is inside the white box, do nothing.
+            // If the user clicks the dark background (and not the white box)
             if (e.target === modal) {
                 modal.classList.add('hidden');
                 document.body.style.overflow = '';
