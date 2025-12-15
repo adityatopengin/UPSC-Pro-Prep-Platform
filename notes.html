@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,7 +37,6 @@
 
             <div onclick="openNoteModal('modal-psir')" class="glass-card h-48 rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between cursor-pointer hover:scale-[1.02] transition-transform shadow-lg border border-white/60 bg-white/40 group">
                 <div class="absolute -right-6 -top-6 w-24 h-24 bg-purple-400/20 rounded-full blur-xl group-hover:bg-purple-400/30 transition-all duration-500"></div>
-                
                 <div class="relative z-10">
                     <div class="w-10 h-10 rounded-xl bg-purple-100/80 backdrop-blur-sm text-purple-600 flex items-center justify-center text-lg shadow-sm mb-2">
                         <i class="fa-solid fa-landmark-dome"></i>
@@ -48,28 +47,33 @@
                     <h3 class="text-base font-bold text-slate-800 leading-tight">PSIR Optional</h3>
                     <p class="text-[10px] text-slate-600 mt-1 font-medium">Shubhra Ranjan Notes & Topper Copies</p>
                     <div class="mt-3 flex items-center gap-1 text-[10px] font-bold text-purple-700">
-                        <span>Open Drive</span> <i class="fa-solid fa-arrow-right"></i>
+                        <span>Open Details</span> <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
             </div>
 
-            <div class="glass-card h-48 rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between bg-gradient-to-br from-amber-50/40 to-orange-50/40 border border-white/60">
-                <div class="absolute bottom-0 right-0 text-orange-500/10 text-6xl -mb-4 -mr-4"><i class="fa-solid fa-scale-balanced"></i></div>
-                <div>
-                    <span class="bg-orange-100/80 backdrop-blur text-orange-700 text-[9px] font-bold px-2 py-1 rounded-md border border-orange-200/50">GS Paper 4</span>
-                </div>
-                <div class="relative z-10">
-                    <h3 class="text-sm font-bold text-slate-800">Ethics Case Studies</h3>
-                    <p class="text-[10px] text-slate-600 mt-1 leading-snug font-medium">Solved examples and key definitions.</p>
-                </div>
+            <div onclick="openNoteModal('modal-toppers')" class="glass-card h-48 rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between cursor-pointer hover:scale-[1.02] transition-transform shadow-lg border border-white/60 bg-white/40 group">
+                 <div class="absolute -right-6 -top-6 w-24 h-24 bg-blue-400/20 rounded-full blur-xl group-hover:bg-blue-400/30 transition-all duration-500"></div>
+                 <div class="relative z-10">
+                    <div class="w-10 h-10 rounded-xl bg-blue-100/80 backdrop-blur-sm text-blue-600 flex items-center justify-center text-xl shadow-sm mb-2">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                    </div>
+                 </div>
+                 <div class="relative z-10">
+                     <h3 class="text-base font-bold text-slate-800 leading-tight">Topper Copies</h3>
+                     <p class="text-[10px] text-slate-600 mt-1 font-medium">GS 1, 2, 3, 4 , Essay & Optional</p>
+                     <div class="mt-3 flex items-center gap-1 text-[10px] font-bold text-blue-600">
+                        <span>Open Archive</span> <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                 </div>
             </div>
 
-            <div class="glass-card aspect-square rounded-3xl p-5 relative overflow-hidden flex flex-col justify-center items-center text-center bg-white/30 border border-white/60 hover:bg-white/50 transition-colors">
-                <div class="w-12 h-12 rounded-full bg-blue-100/80 text-blue-600 flex items-center justify-center text-xl mb-2 backdrop-blur-sm">
-                    <i class="fa-solid fa-pen-fancy"></i>
+            <div class="glass-card aspect-square rounded-3xl p-5 relative overflow-hidden flex flex-col justify-center items-center text-center bg-gradient-to-br from-amber-50/40 to-orange-50/40 border border-white/60">
+                <div class="w-12 h-12 rounded-full bg-orange-100/80 text-orange-600 flex items-center justify-center text-xl mb-2 backdrop-blur-sm">
+                    <i class="fa-solid fa-scale-balanced"></i>
                 </div>
-                <h3 class="text-sm font-bold text-slate-800">Topper Copies</h3>
-                <p class="text-[9px] text-slate-500 mt-1 font-medium">Real handwritten answers</p>
+                <h3 class="text-sm font-bold text-slate-800">Ethics</h3>
+                <p class="text-[9px] text-slate-500 mt-1 font-medium">Case Studies</p>
             </div>
 
             <div class="glass-card aspect-square rounded-3xl p-5 relative overflow-hidden flex flex-col justify-center items-center text-center bg-white/30 border border-white/60 hover:bg-white/50 transition-colors">
@@ -100,34 +104,96 @@
     </main>
 
     <div id="modal-psir" class="fixed inset-0 z-[100] hidden bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
-        <div class="bg-white/90 backdrop-blur-2xl w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
-            
+        <div class="bg-white/95 backdrop-blur-2xl w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
             <div class="w-12 h-12 rounded-2xl bg-purple-100 text-purple-600 flex items-center justify-center text-xl mb-4 shadow-sm">
                 <i class="fa-solid fa-landmark-dome"></i>
             </div>
-            
             <h3 class="text-lg font-bold text-slate-800">Political Science & IR</h3>
-            <div class="text-sm text-slate-600 mt-2 leading-relaxed font-medium">
-                Complete repository for PSIR Optional. Includes:
-                <ul class="list-disc list-inside text-xs text-slate-500 mt-2 space-y-1 ml-1">
-                    <li>Shubhra Ranjan Mam's Class Notes</li>
-                    <li>Topper Answer Copies (Rank 1-10)</li>
-                    <li>Value Added Material (IGP, IR)</li>
-                </ul>
+            <p class="text-xs font-bold text-purple-600 uppercase tracking-wide mt-1">Your all-in-one digital library</p>
+            <div class="mt-4 space-y-3 mb-6">
+                <div class="flex items-start gap-3 p-2">
+                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
+                    <h4 class="text-xs font-bold text-slate-700">Latest Handwritten Notes</h4>
+                </div>
+                <div class="flex items-start gap-3 p-2">
+                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
+                    <h4 class="text-xs font-bold text-slate-700">Topic-wise PYQs (2013–2025)</h4>
+                </div>
+                 <div class="flex items-start gap-3 p-2">
+                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
+                    <h4 class="text-xs font-bold text-slate-700">Official Syllabus</h4>
+                </div>
+                 <div class="flex items-start gap-3 p-2">
+                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
+                    <h4 class="text-xs font-bold text-slate-700">Theme Templates</h4>
+                </div>
             </div>
-
-            <a href="https://drive.google.com/drive/folders/1-2kk78IRyyhx3TFV2_87cm_iGgdWMwQH" target="_blank" class="mt-6 flex items-center justify-center gap-2 w-full bg-slate-900 text-white py-3.5 rounded-xl font-bold shadow-lg hover:bg-slate-800 active:scale-95 transition-all">
-                <i class="fa-brands fa-google-drive"></i> Open Drive Folder
+            <a href="https://drive.google.com/drive/folders/1-2kk78IRyyhx3TFV2_87cm_iGgdWMwQH" target="_blank" class="flex items-center justify-center gap-2 w-full bg-purple-600 text-white py-3 rounded-xl font-bold shadow-lg shadow-purple-200 hover:bg-purple-700 active:scale-95 transition-all mb-3">
+                <i class="fa-brands fa-google-drive"></i> Open Master Notes Drive
             </a>
-
-            <button onclick="closeNoteModal('modal-psir')" class="w-full mt-3 py-3 text-xs font-bold text-slate-400 hover:text-slate-600">
-                Dismiss
-            </button>
+            <a href="https://drive.google.com/drive/folders/1ZNxTSm-DaEKgN-ACDj0y7w6QFKeY7YhO?usp=sharing" target="_blank" class="flex items-center justify-center gap-2 w-full bg-white text-purple-600 border-2 border-purple-100 py-3 rounded-xl font-bold hover:bg-purple-50 active:scale-95 transition-all">
+                <i class="fa-solid fa-pen-nib"></i> Open PSIR Topper Copies
+            </a>
+            <button onclick="closeNoteModal('modal-psir')" class="w-full mt-4 py-2 text-xs font-bold text-slate-400 hover:text-slate-600">Dismiss</button>
         </div>
     </div>
 
-    <div id="app-nav"></div>
-    <script src="assets/js/page-notes.js"></script>
-</body>
-</html>
+    <div id="modal-toppers" class="fixed inset-0 z-[100] hidden bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
+        <div class="bg-white/95 backdrop-blur-2xl w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
+            
+            <div class="flex justify-between items-start mb-4">
+                <div>
+                    <h3 class="text-lg font-bold text-slate-800">Topper Archives</h3>
+                    <p class="text-xs text-slate-500">Official repositories from top institutes.</p>
+                </div>
+                <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-4 mt-6">
+                
+                <a href="http://www.visionias.in/resources/toppers_answers.php" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-slate-900 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">V</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Vision</span>
+                </a>
+
+                <a href="https://blog.forumias.com/toppers-copies/" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-red-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">F</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Forum</span>
+                </a>
+
+                <a href="https://www.insightsonindia.com/toppers-answer-scripts/" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-teal-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">I</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Insights</span>
+                </a>
+
+                <a href="https://www.nextias.com/toppers-copies" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">N</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Next IAS</span>
+                </a>
+
+                <a href="https://www.drishtiias.com/toppers-interview" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">D</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Drishti</span>
+                </a>
+
+                <a href="https://vajiramandravi.com/upsc-toppers-answer-copies/" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-yellow-400 text-yellow-900 flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">VR</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Vajiram</span>
+                </a>
+
+                <a href="https://iasscore.in/toppers-copy" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">G</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">GS Score</span>
+                </a>
+
+                <a href="https://sunyaias.com/toppers-copies" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-orange-500 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">S</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">Sunya</span>
+                </a>
+
+                <a href="https://iasbaba.com/toppers-answer-copies/" target="_blank" class="flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">B</div>
+                    <span class="text-[10px] font-bold text-slate-600 text-center">IAS Baba</span>
 
