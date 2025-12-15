@@ -1,44 +1,54 @@
 /**
  * page-selection.js
- * Controls the Topic Selection UI, Mock Modals, and Quick Actions
+ * Controls Topic Selection
  */
 
+// Force render immediately when file loads, then again when DOM is ready
+// This fixes the "Blank List" issue
+if (typeof renderSubjectList === 'function') renderSubjectList();
+
 document.addEventListener('DOMContentLoaded', () => {
-    renderSubjectList();
-    setupModeToggle();
+    // Small delay to ensure HTML ID elements exist
+    setTimeout(() => {
+        renderSubjectList();
+        setupModeToggle();
+    }, 50);
 });
 
-// 1. Render the List of Subjects (GS1 & CSAT)
 function renderSubjectList() {
     const gsContainer = document.getElementById('gs1-subjects');
     const csatContainer = document.getElementById('csat-subjects');
+
+    // Safety check: if subjects.js didn't load, stop
+    if (typeof subjectsGS1 === 'undefined') {
+        console.error("subjectsGS1 is missing. Check subjects.js");
+        return;
+    }
 
     if (gsContainer) {
         gsContainer.innerHTML = subjectsGS1.map(sub => createSubjectRow(sub, 'gs1')).join('');
     }
     
-    // Optional: If you want CSAT subjects listed below GS1, uncomment this
-    /* if (csatContainer) {
+    // Auto-render CSAT below GS1 if the container exists
+    if (csatContainer) {
         csatContainer.innerHTML = subjectsCSAT.map(sub => createSubjectRow(sub, 'csat')).join('');
-    } 
-    */
+    }
 }
 
 function createSubjectRow(sub, paper) {
-    // Determine icon and color based on subject ID/Name
     let icon = 'fa-book';
     let colorClass = 'bg-slate-100 text-slate-500';
 
-    // Simple mapping for visuals
     if (sub.name.includes('Polity')) { icon = 'fa-landmark'; colorClass = 'bg-orange-100 text-orange-600'; }
     else if (sub.name.includes('History')) { icon = 'fa-scroll'; colorClass = 'bg-amber-100 text-amber-600'; }
     else if (sub.name.includes('Geo')) { icon = 'fa-earth-asia'; colorClass = 'bg-emerald-100 text-emerald-600'; }
     else if (sub.name.includes('Economy')) { icon = 'fa-coins'; colorClass = 'bg-blue-100 text-blue-600'; }
     else if (sub.name.includes('Science')) { icon = 'fa-flask'; colorClass = 'bg-purple-100 text-purple-600'; }
     else if (sub.name.includes('Environment')) { icon = 'fa-leaf'; colorClass = 'bg-green-100 text-green-600'; }
+    else if (sub.name.includes('Math')) { icon = 'fa-calculator'; colorClass = 'bg-pink-100 text-pink-600'; }
 
     return `
-        <div onclick="startQuiz('${paper}', '${sub.name}')" class="group flex items-center gap-4 p-3 rounded-xl bg-white border border-slate-100 shadow-sm cursor-pointer hover:border-blue-300 hover:shadow-md transition-all active:scale-98">
+        <div onclick="startQuiz('${paper}', '${sub.name}')" class="group flex items-center gap-4 p-3 rounded-xl bg-white/80 border border-slate-100 shadow-sm cursor-pointer hover:border-blue-300 hover:shadow-md hover:bg-white transition-all active:scale-98 mb-2">
             <div class="w-10 h-10 rounded-lg ${colorClass} flex items-center justify-center text-lg shadow-sm group-hover:scale-110 transition-transform">
                 <i class="fa-solid ${icon}"></i>
             </div>
@@ -53,65 +63,32 @@ function createSubjectRow(sub, paper) {
     `;
 }
 
-// 2. Navigation Logic
+// Navigation Logic
 function startQuiz(paper, subject) {
     const mode = localStorage.getItem('upsc_quiz_mode') || 'test';
-    
-    // Save Configuration
-    const config = {
-        paper: paper,
-        subject: subject,
-        mode: mode,
-        count: 10,  // Default
-        timeLimit: mode === 'test' ? 600 : 0, // 10 mins for test
-        quickType: 'standard'
-    };
-    
-    saveQuizConfig(config); // Helper in core.js
+    const config = { paper, subject, mode, count: 10, timeLimit: mode === 'test' ? 600 : 0, quickType: 'standard' };
+    saveQuizConfig(config);
     window.location.href = 'quiz_interface.html';
 }
 
 function startQuickQuiz(paper, type) {
     const mode = localStorage.getItem('upsc_quiz_mode') || 'test';
-    const config = {
-        paper: paper,
-        subject: 'Mix', // Will load from multiple files or a specific 'mix' file
-        mode: mode,
-        count: 10,
-        timeLimit: mode === 'test' ? 600 : 0,
-        quickType: type // 'random' or 'mistakes'
-    };
-    
+    const config = { paper, subject: 'Mix', mode, count: 10, timeLimit: mode === 'test' ? 600 : 0, quickType: type };
     if (type === 'mistakes') {
         const mistakes = JSON.parse(localStorage.getItem('upsc_mistakes') || '[]');
-        if (mistakes.length === 0) {
-            alert("No mistakes recorded yet! Great job (or start practicing).");
-            return;
-        }
+        if (mistakes.length === 0) { alert("No mistakes recorded yet!"); return; }
     }
-
     saveQuizConfig(config);
     window.location.href = 'quiz_interface.html';
 }
 
 function openMockModal(paper) {
-    // For now, let's just start a "Full Length" style quiz directly
-    // Or you can build a popup here later. 
-    // Let's make it start a 20 Question Mix for now.
     const mode = localStorage.getItem('upsc_quiz_mode') || 'test';
-    const config = {
-        paper: paper,
-        subject: 'Mix', 
-        mode: mode,
-        count: 20,
-        timeLimit: mode === 'test' ? 1200 : 0, // 20 mins
-        quickType: 'mock'
-    };
+    const config = { paper, subject: 'Mix', mode, count: 20, timeLimit: mode === 'test' ? 1200 : 0, quickType: 'mock' };
     saveQuizConfig(config);
     window.location.href = 'quiz_interface.html';
 }
 
-// 3. UI Toggles
 function selectMode(mode) {
     localStorage.setItem('upsc_quiz_mode', mode);
     setupModeToggle();
@@ -122,11 +99,14 @@ function setupModeToggle() {
     const btnTest = document.getElementById('mode-test');
     const btnLearn = document.getElementById('mode-learning');
 
-    if (currentMode === 'test') {
-        btnTest.className = "px-3 py-1 text-xs font-bold rounded-md bg-slate-800 text-white shadow-sm transition-all";
-        btnLearn.className = "px-3 py-1 text-xs font-bold rounded-md text-slate-500 hover:text-slate-700 transition-all";
-    } else {
-        btnLearn.className = "px-3 py-1 text-xs font-bold rounded-md bg-emerald-600 text-white shadow-sm transition-all";
-        btnTest.className = "px-3 py-1 text-xs font-bold rounded-md text-slate-500 hover:text-slate-700 transition-all";
+    if (btnTest && btnLearn) {
+        if (currentMode === 'test') {
+            btnTest.className = "px-3 py-1 text-xs font-bold rounded-md bg-slate-800 text-white shadow-sm transition-all";
+            btnLearn.className = "px-3 py-1 text-xs font-bold rounded-md text-slate-500 hover:text-slate-700 transition-all";
+        } else {
+            btnLearn.className = "px-3 py-1 text-xs font-bold rounded-md bg-emerald-600 text-white shadow-sm transition-all";
+            btnTest.className = "px-3 py-1 text-xs font-bold rounded-md text-slate-500 hover:text-slate-700 transition-all";
+        }
     }
 }
+
