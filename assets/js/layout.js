@@ -141,9 +141,10 @@ function checkDisclaimer() {
                     <audio id="disclaimer-audio" src="assets/audio/disclaimer.mp3"></audio>
                 </div>
 
-                <div class="text-sm text-slate-600 leading-relaxed max-h-32 overflow-y-auto pr-2">
-                    <p class="mb-2"><strong>1. Integrity:</strong> This app is designed for serious UPSC aspirants. Use the 'Test Mode' honestly.</p>
+                <div class="text-sm text-slate-600 leading-relaxed max-h-32 overflow-y-auto pr-2 space-y-2">
+                    <p><strong>1. Integrity:</strong> This app is designed for serious UPSC aspirants. Use the 'Test Mode' honestly.</p>
                     <p><strong>2. Consistency:</strong> Daily practice is key. We track your streaks.</p>
+                    <p><strong>3. Just Relax:</strong> Load mat lo kuch nahi dhara, ye disclaimer suno, kya bol rahe hain <strong>PRADEEP TRIPATHI</strong>.</p>
                 </div>
 
                 <button onclick="acceptDisclaimer()" class="w-full bg-slate-900 text-white font-bold py-3.5 rounded-xl shadow-lg hover:bg-slate-800 transition-colors">
@@ -181,4 +182,3 @@ window.acceptDisclaimer = function() {
         localStorage.setItem('upsc_disclaimer_accepted', 'true');
     }, 300);
 }
-
