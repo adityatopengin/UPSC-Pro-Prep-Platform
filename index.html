@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>UPSC Pro - Home</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script src="assets/js/firebase-config.js"></script>
+    <script src="assets/js/DataManager.js"></script>
+    <script src="assets/js/core.js"></script> <script src="assets/js/subjects.js"></script>
+    <script src="assets/js/ui-common.js"></script>
+</head>
+<body class="bg-slate-50 h-screen flex flex-col overflow-hidden text-slate-800">
+    
+    <div id="app-header"></div>
+
+    <main class="flex-1 overflow-y-auto pt-24 pb-32 px-4 space-y-6 scroll-smooth">
+        
+        <section class="animate-fade-up">
+            <div class="glass-card p-6 rounded-3xl relative overflow-hidden bg-white">
+                <div class="absolute top-0 right-0 w-40 h-40 bg-blue-500/5 rounded-full blur-3xl -mr-10 -mt-10"></div>
+                <div class="relative z-10">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block border border-blue-200 bg-blue-50 text-blue-700">Foundation Phase</span>
+                            <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight mt-2" id="syllabus-percent">0%</h2>
+                            <p class="text-xs text-slate-500 font-medium mt-1">Syllabus Covered</p>
+                        </div>
+                        <div class="bg-white/60 p-3 rounded-xl shadow-sm text-center min-w-[80px] backdrop-blur-sm border border-white/50">
+                            <div class="text-[10px] text-slate-400 font-bold uppercase">Total Qs</div>
+                            <div class="text-2xl font-black text-slate-800" id="total-attempts">0</div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex justify-between text-[10px] font-bold text-slate-400 mb-1">
+                            <span id="progress-fraction">0 / 0 Qs</span>
+                            <span>Target: CSE 2026</span>
+                        </div>
+                        <div class="h-3 w-full bg-slate-100/80 rounded-full overflow-hidden border border-slate-200">
+                            <div id="main-progress-bar" class="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animate-fade-up" style="animation-delay: 100ms;">
+            <div class="flex space-x-6 border-b border-slate-200/60 mb-4 px-2">
+                <button onclick="switchTab('gs1')" id="tab-gs1" class="pb-2 text-sm font-bold text-slate-900 border-b-2 border-blue-600 transition-colors">GS Paper 1</button>
+                <button onclick="switchTab('csat')" id="tab-csat" class="pb-2 text-sm text-slate-500 transition-colors hover:text-slate-700">CSAT Paper 2</button>
+            </div>
+            <div id="subject-grid" class="grid grid-cols-2 gap-3 pb-4">
+                </div>
+        </section>
+    </main>
+
+    <div id="app-nav"></div>
+
+    <script src="assets/js/layout.js"></script> <script src="assets/js/page-dashboard.js"></script>
+</body>
+</html>
+
