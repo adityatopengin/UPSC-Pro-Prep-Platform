@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,142 +25,160 @@
 
         <div class="grid grid-cols-2 gap-3 animate-fade-up" style="animation-delay: 0.1s;">
             
-            <div class="col-span-2 rounded-3xl p-6 relative overflow-hidden flex flex-col justify-end bg-gradient-to-r from-slate-900 to-blue-900 shadow-xl border border-white/10">
-                <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl -mr-10 -mt-10"></div>
+            <div class="col-span-2 rounded-3xl p-6 relative overflow-hidden flex flex-col justify-end bg-slate-900 shadow-xl border border-white/10 h-40">
+                <div class="absolute top-0 right-0 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl -mr-10 -mt-16"></div>
+                <div class="absolute top-4 right-4 text-white/10 text-6xl rotate-12"><i class="fa-regular fa-newspaper"></i></div>
+                
                 <div class="relative z-10">
-                    <span class="bg-blue-500/20 text-blue-200 border border-blue-500/30 text-[9px] font-bold px-2 py-1 rounded-md uppercase tracking-wide">Daily Updates</span>
-                    <h3 class="text-lg font-bold text-white mt-2 leading-tight">The Hindu & Express Editorial Summary</h3>
-                    <p class="text-xs text-blue-200/70 mt-1">Critical analysis for Mains 2026.</p>
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="bg-blue-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">Today's Brief</span>
+                        <span class="text-slate-400 text-[10px]"><i class="fa-regular fa-clock"></i> 7:00 AM</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white leading-tight">The Hindu & Express Editorial Summary</h3>
+                    <p class="text-xs text-slate-400 mt-1 line-clamp-1">Analysis of SC Judgement on Article 370 & Climate Finance.</p>
                 </div>
             </div>
 
-            <div onclick="openNoteModal('modal-psir')" class="glass-card row-span-2 h-auto rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between cursor-pointer hover:scale-[1.02] transition-transform shadow-lg border border-purple-100 bg-white group">
-                <div class="absolute -right-10 -top-10 w-32 h-32 bg-purple-100 rounded-full blur-2xl group-hover:bg-purple-200 transition-all duration-500"></div>
+            <div onclick="openModal('modal-psir')" class="glass-card row-span-2 h-auto rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between cursor-pointer hover:scale-[1.02] transition-transform shadow-lg border border-purple-100 bg-white group min-h-[220px]">
+                <div class="absolute -right-12 -top-12 w-40 h-40 bg-purple-100 rounded-full blur-2xl group-hover:bg-purple-200 transition-all duration-500"></div>
+                <div class="absolute bottom-10 right-2 text-purple-50 text-7xl -z-0 rotate-12 opacity-50"><i class="fa-solid fa-landmark-dome"></i></div>
+                
                 <div class="relative z-10">
                     <div class="w-12 h-12 rounded-2xl bg-purple-100 text-purple-600 flex items-center justify-center text-xl shadow-sm mb-3">
-                        <i class="fa-solid fa-landmark-dome"></i>
+                        <i class="fa-solid fa-book-open"></i>
                     </div>
-                    <span class="text-[9px] font-bold text-purple-700 uppercase tracking-wide bg-purple-50 px-2 py-1 rounded-full border border-purple-100">Premium</span>
+                    <span class="text-[9px] font-bold text-purple-700 uppercase tracking-wide bg-purple-50 px-2 py-1 rounded-full border border-purple-100">Premium Drive</span>
                 </div>
-                <div class="relative z-10">
-                    <h3 class="text-lg font-bold text-slate-900 leading-tight">PSIR Optional</h3>
-                    <p class="text-[10px] text-slate-500 mt-2 font-medium leading-relaxed">Latest Class Notes & Topper Copies.</p>
-                    <div class="mt-4 flex items-center gap-2 text-[10px] font-bold text-white bg-purple-600 w-max px-3 py-1.5 rounded-full shadow-md shadow-purple-200">
-                        <span>Open Drive</span> <i class="fa-solid fa-arrow-right"></i>
+                <div class="relative z-10 mt-4">
+                    <h3 class="text-xl font-black text-slate-800 leading-none">PSIR<br><span class="text-purple-600">Optional</span></h3>
+                    <ul class="mt-3 space-y-1 text-[10px] text-slate-500 font-medium">
+                        <li><i class="fa-solid fa-check text-purple-500"></i> Shubhra Ranjan Notes</li>
+                        <li><i class="fa-solid fa-check text-purple-500"></i> Model Answers (2024)</li>
+                        <li><i class="fa-solid fa-check text-purple-500"></i> Topic-wise Syllabus</li>
+                    </ul>
+                    <div class="mt-4 flex items-center gap-2 text-[10px] font-bold text-white bg-purple-600 w-full justify-center py-2.5 rounded-xl shadow-md shadow-purple-200">
+                        <span>Open Folder</span> <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
             </div>
 
-            <div onclick="openNoteModal('modal-toppers')" class="glass-card row-span-2 h-auto rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between cursor-pointer hover:scale-[1.02] transition-transform shadow-lg border border-blue-100 bg-white group">
-                 <div class="absolute -right-10 -top-10 w-32 h-32 bg-blue-100 rounded-full blur-2xl group-hover:bg-blue-200 transition-all duration-500"></div>
+            <div onclick="openModal('modal-toppers')" class="glass-card row-span-2 h-auto rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between cursor-pointer hover:scale-[1.02] transition-transform shadow-lg border border-blue-100 bg-white group min-h-[220px]">
+                 <div class="absolute -right-12 -top-12 w-40 h-40 bg-blue-100 rounded-full blur-2xl group-hover:bg-blue-200 transition-all duration-500"></div>
+                 <div class="absolute bottom-10 right-2 text-blue-50 text-7xl -z-0 -rotate-12 opacity-50"><i class="fa-solid fa-feather"></i></div>
+                 
                  <div class="relative z-10">
                     <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl shadow-sm mb-3">
                         <i class="fa-solid fa-pen-fancy"></i>
                     </div>
-                     <span class="text-[9px] font-bold text-blue-700 uppercase tracking-wide bg-blue-50 px-2 py-1 rounded-full border border-blue-100">Archive</span>
+                     <span class="text-[9px] font-bold text-blue-700 uppercase tracking-wide bg-blue-50 px-2 py-1 rounded-full border border-blue-100">Official Archive</span>
                  </div>
-                 <div class="relative z-10">
-                     <h3 class="text-lg font-bold text-slate-900 leading-tight">Topper Copies</h3>
-                     <p class="text-[10px] text-slate-500 mt-2 font-medium leading-relaxed">GS 1, 2, 3, 4 & Essay Archives.</p>
-                     <div class="mt-4 flex items-center gap-2 text-[10px] font-bold text-white bg-blue-600 w-max px-3 py-1.5 rounded-full shadow-md shadow-blue-200">
-                        <span>Access</span> <i class="fa-solid fa-arrow-right"></i>
+                 <div class="relative z-10 mt-4">
+                     <h3 class="text-xl font-black text-slate-800 leading-none">Topper<br><span class="text-blue-600">Copies</span></h3>
+                     <ul class="mt-3 space-y-1 text-[10px] text-slate-500 font-medium">
+                        <li><i class="fa-solid fa-trophy text-blue-500"></i> AIR 1-100 Copies</li>
+                        <li><i class="fa-solid fa-file-pen text-blue-500"></i> Essay Best Practices</li>
+                        <li><i class="fa-solid fa-building-columns text-blue-500"></i> Vision, Forum, Next</li>
+                    </ul>
+                     <div class="mt-4 flex items-center gap-2 text-[10px] font-bold text-white bg-blue-600 w-full justify-center py-2.5 rounded-xl shadow-md shadow-blue-200">
+                        <span>Access Now</span> <i class="fa-solid fa-arrow-right"></i>
                     </div>
                  </div>
             </div>
 
-            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-gradient-to-br from-amber-50 to-orange-50 border border-orange-100">
-                <div class="absolute top-2 right-2 text-orange-300 text-lg"><i class="fa-solid fa-lightbulb"></i></div>
-                <span class="text-[9px] font-black text-orange-400 uppercase tracking-widest">Fact</span>
+            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-[#FFF8E1] border border-amber-100">
+                <div class="absolute top-0 right-0 text-amber-500/10 text-8xl -mr-4 -mt-4"><i class="fa-solid fa-lightbulb"></i></div>
                 <div>
-                    <h3 class="text-xs font-bold text-slate-800 leading-tight">"Original Constitution was handwritten."</h3>
-                    <p class="text-[9px] text-slate-400 mt-1">Not typed.</p>
+                    <span class="text-[9px] font-black text-amber-600 uppercase tracking-widest border border-amber-200 px-1.5 py-0.5 rounded">Fact #24</span>
+                </div>
+                <div>
+                    <h3 class="text-xs font-bold text-slate-600 mb-1">Indian Constitution</h3>
+                    <p class="text-lg font-black text-slate-800 leading-tight">Originally Handwritten</p>
+                    <p class="text-[9px] text-slate-500 mt-1 italic">It was not typed or printed. Calligraphed by Prem Behari Narain.</p>
                 </div>
             </div>
 
             <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-gradient-to-br from-rose-50 to-pink-50 border border-rose-100">
-                <div class="absolute top-2 right-2 text-rose-300 text-lg"><i class="fa-solid fa-chess"></i></div>
-                <span class="text-[9px] font-black text-rose-400 uppercase tracking-widest">Tricks</span>
+                <div class="absolute -bottom-4 -right-4 text-rose-500/10 text-8xl"><i class="fa-solid fa-chess-knight"></i></div>
+                <span class="text-[9px] font-black text-rose-500 uppercase tracking-widest">Techniques</span>
                 <div>
-                    <h3 class="text-lg font-black text-slate-800 leading-none">Elimination Rule</h3>
-                    <p class="text-[9px] text-slate-400 mt-1">Prelims Hack</p>
-                </div>
-            </div>
-
-            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-[#FFFBF0] border border-yellow-100">
-                <div class="absolute top-2 right-2 text-yellow-600/30 text-lg"><i class="fa-solid fa-scroll"></i></div>
-                <span class="text-[9px] font-black text-yellow-600 uppercase tracking-widest">History</span>
-                <div>
-                    <h3 class="text-xl font-black text-yellow-800 leading-none">1857</h3>
-                    <p class="text-[9px] text-yellow-600 font-bold mt-1">Revolt Timeline</p>
-                </div>
-            </div>
-
-             <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100">
-                <div class="absolute top-2 right-2 text-indigo-300 text-lg"><i class="fa-solid fa-calculator"></i></div>
-                <span class="text-[9px] font-black text-indigo-400 uppercase tracking-widest">Math</span>
-                <div class="flex items-end">
-                    <h3 class="text-xl font-black text-slate-800 leading-none">S = D/T</h3>
-                </div>
-                <p class="text-[9px] text-slate-400">Speed Formula</p>
-            </div>
-
-            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-gradient-to-br from-emerald-50 to-green-50 border border-emerald-100">
-                <div class="absolute top-2 right-2 text-emerald-300 text-lg"><i class="fa-solid fa-earth-asia"></i></div>
-                <span class="text-[9px] font-black text-emerald-500 uppercase tracking-widest">Locate</span>
-                <div>
-                    <h3 class="text-sm font-bold text-slate-800 leading-tight">10° Channel</h3>
-                    <p class="text-[9px] text-slate-400 mt-1">Andaman & Nicobar</p>
-                </div>
-            </div>
-
-            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-gradient-to-br from-teal-50 to-cyan-50 border border-teal-100">
-                <div class="absolute top-2 right-2 text-teal-300 text-lg"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-                <span class="text-[9px] font-black text-teal-500 uppercase tracking-widest">Economy</span>
-                <div>
-                    <h3 class="text-lg font-black text-slate-800 leading-none">GDP vs GNP</h3>
-                    <p class="text-[9px] text-slate-400 mt-1">Key Concepts</p>
-                </div>
-            </div>
-
-            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-slate-100 border border-slate-200">
-                <div class="absolute top-2 right-2 text-slate-300 text-lg"><i class="fa-solid fa-gavel"></i></div>
-                <span class="text-[9px] font-black text-slate-500 uppercase tracking-widest">Polity</span>
-                <div>
-                    <h3 class="text-lg font-black text-slate-800 leading-none">Art. 32</h3>
-                    <p class="text-[9px] text-slate-500 mt-1">Heart & Soul</p>
-                </div>
-            </div>
-
-            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-[#F0FFF4] border border-green-100">
-                <div class="absolute top-2 right-2 text-green-300 text-lg"><i class="fa-solid fa-leaf"></i></div>
-                <span class="text-[9px] font-black text-green-600 uppercase tracking-widest">Species</span>
-                <div>
-                    <h3 class="text-sm font-bold text-green-900 leading-tight">Red List</h3>
-                    <p class="text-[9px] text-green-600 mt-1">Critically Endangered</p>
-                </div>
-            </div>
-            
-            <div class="col-span-2 rounded-3xl p-5 relative overflow-hidden flex items-center justify-between bg-gradient-to-r from-slate-100 to-gray-200 border border-white/60">
-                <div class="flex items-center gap-4">
-                    <div class="w-10 h-10 rounded-full bg-slate-800 text-white flex items-center justify-center text-lg shadow-md">
-                        <i class="fa-solid fa-quote-left"></i>
+                    <h3 class="text-sm font-black text-slate-800 mb-2">Elimination</h3>
+                    <div class="space-y-1">
+                        <div class="flex items-center gap-1.5 bg-white/60 p-1 rounded-md backdrop-blur-sm">
+                            <i class="fa-solid fa-xmark text-red-500 text-xs"></i>
+                            <span class="text-[9px] font-bold text-slate-600">Extreme Words</span>
+                        </div>
+                        <div class="flex items-center gap-1.5 bg-white/60 p-1 rounded-md backdrop-blur-sm">
+                            <i class="fa-solid fa-check text-green-500 text-xs"></i>
+                            <span class="text-[9px] font-bold text-slate-600">Science is broad</span>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="aspect-square rounded-3xl p-4 relative overflow-hidden bg-[#F5F5F5] border border-slate-200 flex flex-col">
+                <div class="absolute top-2 right-2 text-slate-300 text-lg"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest mb-3">Timeline</h3>
+                
+                <div class="flex-1 flex flex-col justify-between relative pl-3 border-l-2 border-slate-300 ml-1">
+                    <div class="relative">
+                        <div class="absolute -left-[17px] top-1.5 w-2 h-2 rounded-full bg-slate-400 border-2 border-white"></div>
+                        <span class="text-[10px] font-bold text-slate-500 block">1905</span>
+                        <span class="text-xs font-bold text-slate-800 block">Bengal Partition</span>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -left-[17px] top-1.5 w-2 h-2 rounded-full bg-slate-800 border-2 border-white"></div>
+                        <span class="text-[10px] font-bold text-slate-500 block">1911</span>
+                        <span class="text-xs font-bold text-slate-800 block">Delhi Durbar</span>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -left-[17px] top-1.5 w-2 h-2 rounded-full bg-slate-400 border-2 border-white"></div>
+                        <span class="text-[10px] font-bold text-slate-500 block">1919</span>
+                        <span class="text-xs font-bold text-slate-800 block">Jallianwala</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="aspect-square rounded-3xl p-4 relative overflow-hidden flex flex-col justify-between bg-indigo-50 border border-indigo-100 text-center">
+                <span class="text-[9px] font-black text-indigo-400 uppercase tracking-widest self-start">Formula</span>
+                
+                <div class="flex flex-col items-center justify-center h-full">
+                    <p class="text-[10px] text-slate-400 mb-1">Time & Work</p>
+                    <h3 class="text-3xl font-black text-indigo-900 leading-none">M<span class="text-lg align-top">1</span>D<span class="text-lg align-top">1</span></h3>
+                    <div class="w-full h-0.5 bg-indigo-200 my-1"></div>
+                    <h3 class="text-3xl font-black text-indigo-900 leading-none">W<span class="text-lg align-top">1</span></h3>
+                </div>
+                
+                <p class="text-[9px] text-indigo-500 font-bold">= Constant</p>
+            </div>
+
+            <div class="aspect-square rounded-3xl p-0 relative overflow-hidden bg-emerald-50 border border-emerald-100">
+                <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#059669 1px, transparent 1px); background-size: 10px 10px;"></div>
+                
+                <div class="p-4 h-full flex flex-col justify-between relative z-10">
+                    <div class="flex justify-between items-start">
+                        <span class="text-[9px] font-black text-emerald-600 uppercase bg-emerald-100 px-1.5 py-0.5 rounded">Locate</span>
+                        <i class="fa-solid fa-location-dot text-emerald-500 text-lg animate-bounce"></i>
+                    </div>
+                    
                     <div>
-                        <h3 class="text-sm font-bold text-slate-800">Essay Quote Bank</h3>
-                        <p class="text-[10px] text-slate-500 font-medium">Theme-wise collection for Mains.</p>
+                        <h3 class="text-lg font-black text-slate-800 leading-tight">Ten Degree<br>Channel</h3>
+                        <div class="mt-2 flex items-center gap-1 text-[9px] text-emerald-700 bg-emerald-100/50 p-1.5 rounded-lg border border-emerald-200">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <span>Separates Andaman & Nicobar</span>
+                        </div>
                     </div>
                 </div>
-                <i class="fa-solid fa-chevron-right text-slate-300"></i>
             </div>
 
-            <div class="col-span-2 rounded-3xl p-6 relative overflow-hidden flex items-center justify-between bg-slate-900 shadow-xl">
-                <div class="absolute inset-0 bg-gradient-to-r from-purple-900/50 to-transparent"></div>
-                <div class="relative z-10 max-w-[60%]">
-                    <span class="text-[9px] font-bold text-purple-300 uppercase tracking-widest">Analytics</span>
-                    <h3 class="text-base font-bold text-white mt-1">25 Years PYQ Analysis</h3>
-                </div>
-                <div class="relative z-10 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white border border-white/10">
-                    <i class="fa-solid fa-chart-pie"></i>
+            <div class="aspect-square rounded-3xl p-5 relative overflow-hidden flex flex-col justify-between bg-slate-800 text-white shadow-lg">
+                <div class="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-bl-full"></div>
+                <div class="absolute top-3 right-3 text-white/30 text-xl"><i class="fa-solid fa-scale-balanced"></i></div>
+                
+                <span class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Key Article</span>
+                <div>
+                    <h3 class="text-3xl font-black text-white leading-none mb-1">32</h3>
+                    <p class="text-xs font-medium text-slate-300">Right to Constitutional Remedies</p>
+                    <p class="text-[9px] text-slate-500 mt-2">"Heart & Soul of Constitution"</p>
                 </div>
             </div>
 
@@ -172,55 +190,51 @@
 
     </main>
 
-    <div id="modal-psir" class="fixed inset-0 z-[100] hidden bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
-        <div class="bg-white/95 backdrop-blur-2xl w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
+    <div id="modal-psir" class="fixed inset-0 z-[100] hidden bg-slate-900/80 backdrop-blur-md flex items-end sm:items-center justify-center p-4 transition-opacity duration-300" onclick="closeModal('modal-psir')">
+        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
             
             <div class="w-12 h-12 rounded-2xl bg-purple-100 text-purple-600 flex items-center justify-center text-xl mb-4 shadow-sm">
                 <i class="fa-solid fa-landmark-dome"></i>
             </div>
             
-            <h3 class="text-lg font-bold text-slate-800">Political Science & IR</h3>
+            <h3 class="text-xl font-bold text-slate-900">Political Science & IR</h3>
             <p class="text-xs font-bold text-purple-600 uppercase tracking-wide mt-1">Your all-in-one digital library</p>
             
-            <div class="mt-4 space-y-3 mb-6">
-                <div class="flex items-start gap-3 p-2">
-                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
-                    <h4 class="text-xs font-bold text-slate-700">Latest PSIR Class Notes</h4>
+            <div class="mt-5 space-y-3 mb-6">
+                <div class="flex items-start gap-3 p-3 rounded-xl bg-purple-50 border border-purple-100">
+                    <i class="fa-solid fa-folder-open text-purple-600 mt-0.5"></i>
+                    <div>
+                        <h4 class="text-sm font-bold text-slate-800">Class Notes & Materials</h4>
+                        <p class="text-[10px] text-slate-500">Handwritten notes, Syllabus, Micro-topics.</p>
+                    </div>
                 </div>
-                <div class="flex items-start gap-3 p-2">
-                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
-                    <h4 class="text-xs font-bold text-slate-700">Topic-wise PYQs (2013–2025)</h4>
-                </div>
-                 <div class="flex items-start gap-3 p-2">
-                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
-                    <h4 class="text-xs font-bold text-slate-700">Official Syllabus</h4>
-                </div>
-                 <div class="flex items-start gap-3 p-2">
-                    <i class="fa-solid fa-check text-purple-500 mt-0.5"></i>
-                    <h4 class="text-xs font-bold text-slate-700">Theme Templates</h4>
+                <div class="flex items-start gap-3 p-3 rounded-xl bg-purple-50 border border-purple-100">
+                    <i class="fa-solid fa-pen-nib text-purple-600 mt-0.5"></i>
+                    <div>
+                        <h4 class="text-sm font-bold text-slate-800">Answer Writing</h4>
+                        <p class="text-[10px] text-slate-500">PYQ Analysis (2013-2025) & Templates.</p>
+                    </div>
                 </div>
             </div>
 
-            <a href="https://drive.google.com/drive/folders/1-2kk78IRyyhx3TFV2_87cm_iGgdWMwQH" target="_blank" class="flex items-center justify-center gap-2 w-full bg-purple-600 text-white py-3 rounded-xl font-bold shadow-lg shadow-purple-200 hover:bg-purple-700 active:scale-95 transition-all mb-3">
+            <a href="https://drive.google.com/drive/folders/1-2kk78IRyyhx3TFV2_87cm_iGgdWMwQH" target="_blank" class="flex items-center justify-center gap-3 w-full bg-purple-600 text-white py-3.5 rounded-xl font-bold shadow-lg shadow-purple-200 hover:bg-purple-700 active:scale-95 transition-all mb-3">
                 <i class="fa-brands fa-google-drive"></i> Open Master Notes Drive
             </a>
 
-            <a href="https://drive.google.com/drive/folders/1ZNxTSm-DaEKgN-ACDj0y7w6QFKeY7YhO?usp=sharing" target="_blank" class="flex items-center justify-center gap-2 w-full bg-white text-purple-600 border-2 border-purple-100 py-3 rounded-xl font-bold hover:bg-purple-50 active:scale-95 transition-all">
+            <a href="https://drive.google.com/drive/folders/1ZNxTSm-DaEKgN-ACDj0y7w6QFKeY7YhO?usp=sharing" target="_blank" class="flex items-center justify-center gap-3 w-full bg-white text-purple-600 border-2 border-purple-100 py-3.5 rounded-xl font-bold hover:bg-purple-50 active:scale-95 transition-all">
                 <i class="fa-solid fa-pen-nib"></i> Open PSIR Topper Copies
             </a>
-
-            <button onclick="closeNoteModal('modal-psir')" class="w-full mt-4 py-2 text-xs font-bold text-slate-400 hover:text-slate-600">
-                Dismiss
-            </button>
+            
+            <button onclick="closeModal('modal-psir')" class="w-full mt-4 text-xs font-bold text-slate-400 hover:text-slate-600 py-2">Close</button>
         </div>
     </div>
 
-    <div id="modal-toppers" class="fixed inset-0 z-[100] hidden bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
-        <div class="bg-white/95 backdrop-blur-2xl w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
+    <div id="modal-toppers" class="fixed inset-0 z-[100] hidden bg-slate-900/80 backdrop-blur-md flex items-end sm:items-center justify-center p-4 transition-opacity duration-300" onclick="closeModal('modal-toppers')">
+        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up border border-white/50" onclick="event.stopPropagation()">
             
             <div class="flex justify-between items-start mb-4">
                 <div>
-                    <h3 class="text-lg font-bold text-slate-800">Topper Archives</h3>
+                    <h3 class="text-xl font-bold text-slate-900">Topper Archives</h3>
                     <p class="text-xs text-slate-500">Official repositories from top institutes.</p>
                 </div>
                 <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center text-lg">
@@ -228,48 +242,73 @@
                 </div>
             </div>
             
-            <div class="grid grid-cols-3 gap-4 mt-6">
-                
-                <a href="http://www.visionias.in/resources/toppers_answers.php" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-slate-900 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">V</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Vision</span>
+            <div class="grid grid-cols-3 gap-3 mt-6">
+                <a href="http://www.visionias.in/resources/toppers_answers.php" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-slate-900 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">V</div>
+                    <span class="text-[10px] font-bold text-slate-600">Vision</span>
                 </a>
-
-                <a href="https://blog.forumias.com/toppers-copies/" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-red-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">F</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Forum</span>
+                <a href="https://blog.forumias.com/toppers-copies/" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-red-600 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">F</div>
+                    <span class="text-[10px] font-bold text-slate-600">Forum</span>
                 </a>
-
-                <a href="https://www.insightsonindia.com/toppers-answer-scripts/" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-teal-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">I</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Insights</span>
+                <a href="https://www.insightsonindia.com/toppers-answer-scripts/" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-teal-600 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">I</div>
+                    <span class="text-[10px] font-bold text-slate-600">Insights</span>
                 </a>
-
-                <a href="https://www.nextias.com/toppers-copies" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">N</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Next IAS</span>
+                <a href="https://www.nextias.com/toppers-copies" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">N</div>
+                    <span class="text-[10px] font-bold text-slate-600">Next IAS</span>
                 </a>
-
-                <a href="https://www.drishtiias.com/toppers-interview" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">D</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Drishti</span>
+                <a href="https://www.drishtiias.com/toppers-interview" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">D</div>
+                    <span class="text-[10px] font-bold text-slate-600">Drishti</span>
                 </a>
-
-                <a href="https://vajiramandravi.com/upsc-toppers-answer-copies/" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-yellow-400 text-yellow-900 flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">VR</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Vajiram</span>
+                <a href="https://vajiramandravi.com/upsc-toppers-answer-copies/" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-yellow-400 text-yellow-900 flex items-center justify-center text-xl font-black shadow-md mb-2">VR</div>
+                    <span class="text-[10px] font-bold text-slate-600">Vajiram</span>
                 </a>
-
-                <a href="https://iasscore.in/toppers-copy" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">G</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">GS Score</span>
+                <a href="https://iasscore.in/toppers-copy" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">G</div>
+                    <span class="text-[10px] font-bold text-slate-600">GS Score</span>
                 </a>
-
-                <a href="https://sunyaias.com/toppers-copies" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-orange-500 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-110 transition-transform mb-2">S</div>
-                    <span class="text-[10px] font-bold text-slate-600 text-center">Sunya</span>
+                <a href="https://sunyaias.com/toppers-copies" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">S</div>
+                    <span class="text-[10px] font-bold text-slate-600">Sunya</span>
                 </a>
+                <a href="https://iasbaba.com/toppers-answer-copies/" target="_blank" class="flex flex-col items-center group p-2 rounded-xl hover:bg-slate-50 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center text-xl font-black shadow-md mb-2">B</div>
+                    <span class="text-[10px] font-bold text-slate-600">IAS Baba</span>
+                </a>
+            </div>
 
-                <a href="https://iasbaba.com/toppers-answer-copies/" target="_blank" class="flex flex-col items-center group">
-                    <div class="w-14 h-14 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-xl font-black shadow-md group-hover:scale-1
+            <button onclick="closeModal('modal-toppers')" class="w-full mt-6 text-xs font-bold text-slate-400 hover:text-slate-600 py-2">Close</button>
+        </div>
+    </div>
+
+    <div id="app-nav"></div>
+
+    <script>
+        // Modal Logic Embedded Directly to Prevent Linking Errors
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; // Lock Scroll
+            } else {
+                console.error("Modal not found:", modalId);
+                alert("Error: Popup ID not found. Check Console.");
+            }
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.add('hidden');
+                document.body.style.overflow = ''; // Unlock Scroll
+            }
+        }
+    </script>
+
+</body>
+</html>
 
