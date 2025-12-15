@@ -1,54 +1,65 @@
 /**
  * layout.js
  * UI Manager: Injects Header, Navigation, and Disclaimer
- * Implements the NEW Layout (Notes in Dock, Settings in Header)
  */
 
+// 1. Google Analytics Setup (Add your ID here)
+const GA_MEASUREMENT_ID = ""; // e.g., "G-XXXXXXXXXX"
+
 document.addEventListener('DOMContentLoaded', () => {
+    initAnalytics();
     injectHeader();
     injectNavigation();
     checkDisclaimer();
 });
 
+function initAnalytics() {
+    if (!GA_MEASUREMENT_ID) return;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    document.head.appendChild(script);
+    
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', GA_MEASUREMENT_ID);
+}
+
 /* =========================================
-   1. DYNAMIC HEADER INJECTION
+   1. HEADER INJECTION (Corrected Links)
    ========================================= */
 function injectHeader() {
     const headerPlaceholder = document.getElementById('app-header');
     if (!headerPlaceholder) return;
 
-    // determine active status
-    const isGuest = window.isOffline && window.isOffline();
-    const statusColor = isGuest ? 'bg-slate-400' : 'bg-emerald-500';
-    
-    // Logic: If on Home page, show Settings Icon. Else show standard layout.
     const isHome = window.location.pathname.includes('index.html') || window.location.pathname.endsWith('/');
     
+    // Logic: Gear Icon ONLY on Home Page.
     let rightContent = '';
-    
     if (isHome) {
-        // HOME PAGE: Show Settings Button on Top Right
         rightContent = `
-            <button onclick="window.location.href='settings.html'" class="w-9 h-9 rounded-full bg-slate-50 border border-slate-200 text-slate-500 flex items-center justify-center hover:bg-blue-50 hover:text-blue-600 transition-colors shadow-sm">
+            <button onclick="window.location.href='settings.html'" class="w-9 h-9 rounded-full bg-white/50 border border-white/60 text-slate-500 flex items-center justify-center hover:bg-blue-50 hover:text-blue-600 transition-colors shadow-sm backdrop-blur-md">
                 <i class="fa-solid fa-gear"></i>
             </button>
         `;
     } else {
-        // OTHER PAGES: Show Status Badge
+        // Status Badge for other pages
         rightContent = `
-            <div class="bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-full flex items-center gap-1.5">
-                <div class="w-1.5 h-1.5 rounded-full ${statusColor} animate-pulse"></div>
-                <span class="text-[9px] font-bold text-slate-500 uppercase">${isGuest ? 'Guest' : 'Active'}</span>
+            <div class="bg-white/50 border border-white/60 px-3 py-1.5 rounded-full flex items-center gap-1.5 backdrop-blur-md">
+                <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></div>
+                <span class="text-[9px] font-bold text-slate-500 uppercase">Active</span>
             </div>
         `;
     }
 
+    // Clicking Profile goes to HOME now (not Settings)
     headerPlaceholder.innerHTML = `
         <header class="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-md z-50 
                        bg-white/60 backdrop-blur-xl border border-white/50 shadow-lg shadow-blue-900/5 
                        rounded-full px-4 py-2 flex items-center justify-between transition-all duration-300">
             
-            <div class="flex items-center gap-3 cursor-pointer group" onclick="window.location.href='settings.html'">
+            <div class="flex items-center gap-3 cursor-pointer group" onclick="window.location.href='index.html'">
                 <div class="w-10 h-10 rounded-full p-0.5 border border-white/50 shadow-sm relative overflow-hidden group-hover:scale-105 transition-transform">
                     <img src="assets/images/Omg.jpg" alt="Profile" class="w-full h-full object-cover rounded-full">
                 </div>
@@ -64,7 +75,7 @@ function injectHeader() {
 }
 
 /* =========================================
-   2. DYNAMIC NAVIGATION INJECTION (The Dock)
+   2. NAVIGATION INJECTION
    ========================================= */
 function injectNavigation() {
     const navPlaceholder = document.getElementById('app-nav');
@@ -72,8 +83,6 @@ function injectNavigation() {
 
     const path = window.location.pathname;
     const p = (page) => path.includes(page);
-    
-    // Active states
     const active = "text-blue-600 scale-110";
     const inactive = "text-slate-400 hover:text-slate-600";
 
@@ -108,11 +117,17 @@ function injectNavigation() {
 }
 
 /* =========================================
-   3. DISCLAIMER POPUP (Audio + Image)
+   3. DISCLAIMER POPUP
    ========================================= */
 function checkDisclaimer() {
+    // Logic to show disclaimer (same as before)
     if (localStorage.getItem('upsc_disclaimer_accepted') === 'true') return;
+    
+    showDisclaimerModal();
+}
 
+// Exposed function to re-open via Settings
+function showDisclaimerModal() {
     const modal = document.createElement('div');
     modal.id = 'disclaimer-modal';
     modal.className = 'fixed inset-0 z-[1000] flex items-center justify-center p-4 bg-slate-900/80 backdrop-blur-sm animate-fade-in';
@@ -126,7 +141,6 @@ function checkDisclaimer() {
                     <p class="text-xs opacity-90">Please listen to the guidelines</p>
                 </div>
             </div>
-
             <div class="p-6 space-y-4">
                 <div class="bg-blue-50 rounded-xl p-4 flex items-center gap-4 border border-blue-100">
                     <button onclick="toggleAudio(this)" class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-lg active:scale-95 transition-transform">
@@ -140,46 +154,30 @@ function checkDisclaimer() {
                     </div>
                     <audio id="disclaimer-audio" src="assets/audio/disclaimer.mp3"></audio>
                 </div>
-
                 <div class="text-sm text-slate-600 leading-relaxed max-h-32 overflow-y-auto pr-2 space-y-2">
                     <p><strong>1. Integrity:</strong> This app is designed for serious UPSC aspirants. Use the 'Test Mode' honestly.</p>
                     <p><strong>2. Consistency:</strong> Daily practice is key.</p>
                     <p><strong>3. Just Relax:</strong> Load mat lo kuch nahi dhara, ye disclaimer suno, kya bol rahe hain <strong>PRADEEP TRIPATHI</strong>.</p>
                 </div>
-
                 <button onclick="acceptDisclaimer()" class="w-full bg-slate-900 text-white font-bold py-3.5 rounded-xl shadow-lg hover:bg-slate-800 transition-colors">
                     I Understand & Accept
                 </button>
             </div>
         </div>
     `;
-    
     document.body.appendChild(modal);
 }
 
-// Helper for Audio
 window.toggleAudio = function(btn) {
     const audio = document.getElementById('disclaimer-audio');
     const bar = document.getElementById('audio-bar');
-    
-    if (audio.paused) {
-        audio.play();
-        btn.innerHTML = '<i class="fa-solid fa-pause"></i>';
-        bar.style.width = '100%'; 
-    } else {
-        audio.pause();
-        btn.innerHTML = '<i class="fa-solid fa-play"></i>';
-        bar.style.width = '50%'; 
-    }
+    if (audio.paused) { audio.play(); btn.innerHTML = '<i class="fa-solid fa-pause"></i>'; bar.style.width = '100%'; } 
+    else { audio.pause(); btn.innerHTML = '<i class="fa-solid fa-play"></i>'; bar.style.width = '50%'; }
 }
 
-// Helper for Acceptance
 window.acceptDisclaimer = function() {
     const modal = document.getElementById('disclaimer-modal');
     modal.style.opacity = '0';
-    setTimeout(() => {
-        modal.remove();
-        localStorage.setItem('upsc_disclaimer_accepted', 'true');
-    }, 300);
+    setTimeout(() => { modal.remove(); localStorage.setItem('upsc_disclaimer_accepted', 'true'); }, 300);
 }
 
