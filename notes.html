@@ -287,27 +287,8 @@
 
     <div id="app-nav"></div>
 
-    <script>
-        // Modal Logic Embedded Directly to Prevent Linking Errors
-        function openModal(modalId) {
-            const modal = document.getElementById(modalId);
-            if (modal) {
-                modal.classList.remove('hidden');
-                document.body.style.overflow = 'hidden'; // Lock Scroll
-            } else {
-                console.error("Modal not found:", modalId);
-                alert("Error: Popup ID not found. Check Console.");
-            }
-        }
+     <script src="assets/js/page-notes.js"></script>
 
-        function closeModal(modalId) {
-            const modal = document.getElementById(modalId);
-            if (modal) {
-                modal.classList.add('hidden');
-                document.body.style.overflow = ''; // Unlock Scroll
-            }
-        }
-    </script>
 
 </body>
 </html>
