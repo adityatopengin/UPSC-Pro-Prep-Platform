@@ -3,96 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>UPSC Pro - Selection</title>
+    <title>UPSC Pro - Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    
     <script src="assets/js/firebase-config.js"></script>
     <script src="assets/js/DataManager.js"></script>
-    <script src="assets/js/core.js"></script>
     <script src="assets/js/subjects.js"></script>
+    <script src="assets/js/core.js"></script>
     <script src="assets/js/ui-common.js"></script>
 </head>
 <body class="bg-slate-50 h-screen flex flex-col overflow-hidden text-slate-800">
-    
+
     <div id="app-header"></div>
 
     <main class="flex-1 overflow-y-auto pt-24 pb-32 px-4 space-y-6 scroll-smooth">
         
-        <div class="flex justify-between items-center px-1">
-            <h2 class="text-lg font-bold text-slate-800">Select Paper</h2>
-            <div class="flex bg-white/50 backdrop-blur rounded-lg p-1 border border-white/60">
-                <button onclick="selectMode('test')" id="mode-test" class="px-3 py-1 text-xs font-bold rounded-md bg-slate-800 text-white shadow-sm transition-all">Test</button>
-                <button onclick="selectMode('learning')" id="mode-learning" class="px-3 py-1 text-xs font-bold rounded-md text-slate-500 hover:text-slate-700 transition-all">Learn</button>
-            </div>
-        </div>
-
-        <div class="glass-card p-5 rounded-2xl relative overflow-hidden">
-            <div class="flex justify-between items-start mb-4">
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-lg shadow-sm">
-                        <i class="fa-solid fa-landmark"></i>
-                    </div>
-                    <div>
-                        <h2 class="text-base font-bold text-slate-800">GS Paper 1</h2>
-                        <p class="text-[10px] text-slate-500 font-medium">History, Polity, Geo...</p>
-                    </div>
+        <section class="grid grid-cols-2 gap-3">
+            <div onclick="setMode('test')" id="card-test" class="glass-card p-4 rounded-2xl cursor-pointer border-2 border-transparent transition-all active:scale-95">
+                <div class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-stopwatch"></i>
                 </div>
+                <h3 class="text-sm font-bold text-slate-800">Test Mode</h3>
+                <p class="text-[10px] text-slate-500 leading-tight mt-1">Timer on. No instant answers. Real exam pressure.</p>
             </div>
 
-            <div class="grid grid-cols-3 gap-3">
-                <button onclick="openMockModal('gs1')" class="bg-white/60 hover:bg-white border border-white/50 rounded-xl p-2.5 flex flex-col items-center active:scale-95 transition-all">
-                    <i class="fa-solid fa-stopwatch text-base text-blue-600 mb-1"></i>
-                    <span class="text-[9px] font-bold text-slate-600">Mock Test</span>
-                </button>
-                <button onclick="startQuickQuiz('gs1', 'random')" class="bg-white/60 hover:bg-white border border-white/50 rounded-xl p-2.5 flex flex-col items-center active:scale-95 transition-all">
-                    <i class="fa-solid fa-bolt text-base text-amber-500 mb-1"></i>
-                    <span class="text-[9px] font-bold text-slate-600">Quick 10</span>
-                </button>
-                <button onclick="startQuickQuiz('gs1', 'mistakes')" class="bg-white/60 hover:bg-white border border-white/50 rounded-xl p-2.5 flex flex-col items-center active:scale-95 transition-all">
-                    <i class="fa-solid fa-triangle-exclamation text-base text-red-500 mb-1"></i>
-                    <span class="text-[9px] font-bold text-slate-600">Mistakes</span>
-                </button>
-            </div>
-        </div>
-
-        <div class="glass-card p-5 rounded-2xl relative overflow-hidden">
-            <div class="flex justify-between items-start mb-4">
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center text-lg shadow-sm">
-                        <i class="fa-solid fa-calculator"></i>
-                    </div>
-                    <div>
-                        <h2 class="text-base font-bold text-slate-800">CSAT Paper 2</h2>
-                        <p class="text-[10px] text-slate-500 font-medium">Math, Logic, Passages</p>
-                    </div>
+            <div onclick="setMode('learning')" id="card-learn" class="glass-card p-4 rounded-2xl cursor-pointer border-2 border-transparent transition-all active:scale-95">
+                <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-graduation-cap"></i>
                 </div>
+                <h3 class="text-sm font-bold text-slate-800">Learn Mode</h3>
+                <p class="text-[10px] text-slate-500 leading-tight mt-1">Instant explanations. No timer. Study at your pace.</p>
             </div>
+        </section>
 
-            <div class="grid grid-cols-3 gap-3">
-                <button onclick="openMockModal('csat')" class="bg-white/60 hover:bg-white border border-white/50 rounded-xl p-2.5 flex flex-col items-center active:scale-95 transition-all">
-                    <i class="fa-solid fa-stopwatch text-base text-purple-600 mb-1"></i>
-                    <span class="text-[9px] font-bold text-slate-600">Mock Test</span>
-                </button>
-                <button onclick="startQuickQuiz('csat', 'random')" class="bg-white/60 hover:bg-white border border-white/50 rounded-xl p-2.5 flex flex-col items-center active:scale-95 transition-all">
-                    <i class="fa-solid fa-bolt text-base text-amber-500 mb-1"></i>
-                    <span class="text-[9px] font-bold text-slate-600">Quick 10</span>
-                </button>
-                <button onclick="startQuickQuiz('csat', 'mistakes')" class="bg-white/60 hover:bg-white border border-white/50 rounded-xl p-2.5 flex flex-col items-center active:scale-95 transition-all">
-                    <i class="fa-solid fa-triangle-exclamation text-base text-red-500 mb-1"></i>
-                    <span class="text-[9px] font-bold text-slate-600">Mistakes</span>
-                </button>
+        <section class="bg-white/50 backdrop-blur p-1.5 rounded-xl flex gap-2 border border-white/60">
+            <button onclick="setPaper('gs1')" id="btn-gs1" class="flex-1 py-3 rounded-lg text-xs font-bold transition-all shadow-sm flex flex-col items-center gap-1">
+                <span class="text-xs">GS Paper 1</span>
+                <span class="text-[8px] opacity-70 font-normal uppercase tracking-wider">General Studies</span>
+            </button>
+            <button onclick="setPaper('csat')" id="btn-csat" class="flex-1 py-3 rounded-lg text-xs font-bold transition-all flex flex-col items-center gap-1">
+                <span class="text-xs">CSAT Paper 2</span>
+                <span class="text-[8px] opacity-70 font-normal uppercase tracking-wider">Aptitude</span>
+            </button>
+        </section>
+
+        <div id="dashboard-content" class="space-y-6 animate-fade-up">
             </div>
-        </div>
-
-        <div>
-            <h3 class="font-bold text-slate-800 text-sm mb-3 px-1 uppercase tracking-wide opacity-70">Browse Subjects</h3>
-            <div id="gs1-subjects" class="space-y-2">
-                </div>
-            <div id="csat-subjects" class="space-y-2 mt-2"></div>
-        </div>
 
     </main>
+
+    <div id="modal-mock" class="fixed inset-0 z-[100] hidden bg-black/40 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity">
+        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-slide-up" onclick="event.stopPropagation()">
+            <h3 class="text-lg font-bold text-slate-800 mb-2">Configure Mock Test</h3>
+            <p class="text-xs text-slate-500 mb-6">Select the length of your exam simulation.</p>
+            
+            <div class="space-y-3">
+                <button onclick="startMock('half')" class="w-full p-4 rounded-xl border border-slate-200 hover:border-blue-500 bg-slate-50 hover:bg-blue-50 flex items-center justify-between group transition-all">
+                    <div class="text-left">
+                        <span class="block text-sm font-bold text-slate-800">Half Length</span>
+                        <span class="text-[10px] text-slate-500">50 Questions • 60 Mins</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-slate-300 group-hover:text-blue-500"></i>
+                </button>
+
+                <button onclick="startMock('full')" class="w-full p-4 rounded-xl border border-slate-200 hover:border-blue-500 bg-slate-50 hover:bg-blue-50 flex items-center justify-between group transition-all">
+                    <div class="text-left">
+                        <span class="block text-sm font-bold text-slate-800">Full Length</span>
+                        <span class="text-[10px] text-slate-500">100 Questions • 120 Mins</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-slate-300 group-hover:text-blue-500"></i>
+                </button>
+            </div>
+            <button onclick="closeModal('modal-mock')" class="w-full mt-6 py-3 text-xs font-bold text-slate-400 hover:text-slate-600">Cancel</button>
+        </div>
+    </div>
+
+    <div id="modal-subject" class="fixed inset-0 z-[100] hidden bg-black/40 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity">
+        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-slide-up" onclick="event.stopPropagation()">
+            <div class="flex items-center gap-3 mb-6">
+                <div id="modal-sub-icon" class="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center"><i class="fa-solid fa-book"></i></div>
+                <div>
+                    <h3 id="modal-sub-title" class="text-lg font-bold text-slate-800">History</h3>
+                    <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wide">Customize Quiz</p>
+                </div>
+            </div>
+
+            <label class="block text-xs font-bold text-slate-600 mb-2">Select Topic</label>
+            <select id="modal-topic-select" class="w-full p-3 rounded-xl bg-slate-50 border border-slate-200 text-sm font-medium text-slate-700 outline-none focus:border-blue-500 mb-5">
+                <option value="All Topics">All Topics</option>
+                <option value="Part 1">Part 1 (Hypothetical)</option>
+            </select>
+
+            <label class="block text-xs font-bold text-slate-600 mb-3">Number of Questions</label>
+            <div class="grid grid-cols-4 gap-2 mb-6">
+                <button onclick="setQCount(10)" class="q-btn py-2 rounded-lg border border-slate-200 text-xs font-bold hover:bg-blue-50 hover:border-blue-500 transition-all bg-slate-800 text-white" data-val="10">10</button>
+                <button onclick="setQCount(20)" class="q-btn py-2 rounded-lg border border-slate-200 text-xs font-bold hover:bg-blue-50 hover:border-blue-500 transition-all text-slate-600" data-val="20">20</button>
+                <button onclick="setQCount(50)" class="q-btn py-2 rounded-lg border border-slate-200 text-xs font-bold hover:bg-blue-50 hover:border-blue-500 transition-all text-slate-600" data-val="50">50</button>
+                <button onclick="setQCount(100)" class="q-btn py-2 rounded-lg border border-slate-200 text-xs font-bold hover:bg-blue-50 hover:border-blue-500 transition-all text-slate-600" data-val="100">100</button>
+            </div>
+
+            <button onclick="launchSubjectQuiz()" class="w-full bg-blue-600 text-white py-3.5 rounded-xl font-bold shadow-lg shadow-blue-200 active:scale-95 transition-all">Start Quiz</button>
+            <button onclick="closeModal('modal-subject')" class="w-full mt-3 py-3 text-xs font-bold text-slate-400 hover:text-slate-600">Cancel</button>
+        </div>
+    </div>
 
     <div id="app-nav"></div>
     <script src="assets/js/layout.js"></script>
