@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================
+   1. GLOBAL THEME VARIABLES
+   ========================================= */
+:root {
+    --bg-body: #f8fafc;        /* slate-50 */
+    --text-primary: #1e293b;   /* slate-800 */
+    --text-secondary: #64748b; /* slate-500 */
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.5);
+    --card-bg: #ffffff;
+    --card-border: #e2e8f0;    /* slate-200 */
+    --accent-blue: #2563eb;
+    --nav-bg: rgba(255, 255, 255, 0.8);
+    --shadow-color: rgba(30, 41, 59, 0.05);
+}
+
+[data-theme="dark"] {
+    --bg-body: #0f172a;        /* slate-900 */
+    --text-primary: #f1f5f9;   /* slate-100 */
+    --text-secondary: #94a3b8; /* slate-400 */
+    --glass-bg: rgba(15, 23, 42, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --card-bg: #1e293b;        /* slate-800 */
+    --card-border: #334155;    /* slate-700 */
+    --accent-blue: #3b82f6;
+    --nav-bg: rgba(15, 23, 42, 0.8);
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* =========================================
+   2. BASE STYLES
+   ========================================= */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Scrollbar Hiding */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* Safe Area for iPhone X+ */
+.pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* =========================================
+   3. COMPONENTS (Dark Mode Adaptive)
+   ========================================= */
+
+/* The "Glass Card" used everywhere */
+.glass-card {
+    background: var(--card-bg); /* Fallback */
+    background: linear-gradient(135deg, var(--card-bg) 0%, var(--glass-bg) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 4px 6px -1px var(--shadow-color), 0 2px 4px -1px var(--shadow-color);
+    transition: all 0.3s ease;
+}
+
+/* Standard Card Overrides for Dark Mode */
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+    color: var(--text-primary);
+}
+
+/* Buttons in Dark Mode */
+[data-theme="dark"] .bg-white {
+    background-color: #1e293b !important; /* slate-800 */
+    color: #f1f5f9 !important;
+    border-color: #334155 !important;
+}
+
+[data-theme="dark"] .text-slate-700, 
+[data-theme="dark"] .text-slate-800, 
+[data-theme="dark"] .text-slate-900 {
+    color: #f1f5f9 !important;
+}
+
+[data-theme="dark"] .text-slate-500, 
+[data-theme="dark"] .text-slate-600 {
+    color: #94a3b8 !important;
+}
+
+[data-theme="dark"] .bg-slate-50, 
+[data-theme="dark"] .bg-slate-100 {
+    background-color: #0f172a !important; /* slate-900 */
+    border-color: #1e293b !important;
+}
+
+[data-theme="dark"] .border-slate-200 {
+    border-color: #334155 !important;
+}
+
+/* Navigation Dock Adaptation */
+[data-theme="dark"] nav {
+    background-color: rgba(30, 41, 59, 0.8) !important; /* slate-800 + opacity */
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-theme="dark"] header {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* =========================================
+   4. ANIMATIONS
+   ========================================= */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.animate-fade-up {
+    animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0; /* Starts hidden */
+}
+
+.animate-slide-up {
+    animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* =========================================
+   5. UTILITIES
+   ========================================= */
+/* Active Scale Effect */
+.active\:scale-95:active {
+    transform: scale(0.95);
+}
+
+/* Masonry Grid Fix for Notes Page */
+.masonry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-auto-rows: 10px;
+    gap: 0;
+}
+
