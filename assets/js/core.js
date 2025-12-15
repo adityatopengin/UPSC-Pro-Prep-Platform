@@ -1,95 +1,89 @@
 /**
  * core.js
- * Central Logic for Data Fetching, Storage, and Configuration
+ * Central Logic for Data Fetching, Storage, and Scoring
  */
 
-// Global State
 window.appData = {
-    
-    // FETCH: Load Questions from JSON file
     async fetchQuestions(filename) {
         try {
-            // Prevent caching issues by adding a timestamp
             const url = `data/${filename}?t=${new Date().getTime()}`;
             const response = await fetch(url);
-            
-            if (!response.ok) {
-                console.error(`Failed to load ${filename}: ${response.status}`);
-                return [];
-            }
-            
-            const data = await response.json();
-            return data;
+            if (!response.ok) return [];
+            return await response.json();
         } catch (error) {
             console.error(`Error fetching ${filename}:`, error);
             return [];
         }
     },
 
-    // SAVE: Store Quiz Result
     saveResult(resultData) {
-        // 1. Get existing history
         const history = JSON.parse(localStorage.getItem('upsc_history') || '[]');
-        
-        // 2. Add new result
-        history.unshift(resultData); // Add to top
-        
-        // 3. Limit history to last 50 attempts to save space
+        history.unshift(resultData);
         if (history.length > 50) history.pop();
-        
-        // 4. Save back
         localStorage.setItem('upsc_history', JSON.stringify(history));
-        
-        // 5. Update Streak (Simple logic)
-        const today = new Date().toDateString();
-        const lastDate = localStorage.getItem('upsc_last_active_date');
-        
-        if (lastDate !== today) {
-            let streak = parseInt(localStorage.getItem('upsc_streak') || '0');
-            // If yesterday was active, increment. Else reset.
-            // For simplicity, we just increment if it's a new day
-            streak++; 
-            localStorage.setItem('upsc_streak', streak.toString());
-            localStorage.setItem('upsc_last_active_date', today);
-        }
     }
 };
 
 /* =========================================
-   HELPER FUNCTIONS (Global)
+   SCORING LOGIC (Was Missing!)
    ========================================= */
+function calculateScore(quiz, answers, paper) {
+    let correct = 0;
+    let wrong = 0;
+    let attempted = 0;
+    
+    quiz.forEach((q, idx) => {
+        const userAns = answers[q.id];
+        if (userAns !== undefined) {
+            attempted++;
+            if (userAns === q.correct) {
+                correct++;
+            } else {
+                wrong++;
+            }
+        }
+    });
 
-// Save Quiz Settings (Paper, Subject, Mode)
+    // Scoring Rules
+    // GS1: +2 for correct, -0.66 for wrong
+    // CSAT: +2.5 for correct, -0.83 for wrong
+    let score = 0;
+    if (paper === 'csat') {
+        score = (correct * 2.5) - (wrong * 0.83);
+    } else {
+        score = (correct * 2) - (wrong * 0.66);
+    }
+
+    return {
+        score: parseFloat(score.toFixed(2)),
+        correct,
+        wrong,
+        attempted,
+        skipped: quiz.length - attempted
+    };
+}
+
+/* =========================================
+   HELPER FUNCTIONS
+   ========================================= */
 function saveQuizConfig(config) {
     localStorage.setItem('upsc_quiz_config', JSON.stringify(config));
 }
 
-// Load Quiz Settings
 function loadQuizConfig() {
     const data = localStorage.getItem('upsc_quiz_config');
     return data ? JSON.parse(data) : null;
 }
 
-// Save Mistakes for Review
 function saveMistakes(mistakeList) {
     let existing = JSON.parse(localStorage.getItem('upsc_mistakes') || '[]');
-    
-    // Add new mistakes, avoiding duplicates based on Question ID
     mistakeList.forEach(q => {
-        if (!existing.find(e => e.id === q.id)) {
-            existing.push(q);
-        }
+        if (!existing.find(e => e.id === q.id)) existing.push(q);
     });
-    
     localStorage.setItem('upsc_mistakes', JSON.stringify(existing));
 }
 
-// Check Offline Status
-window.isOffline = function() {
-    return !navigator.onLine;
-};
-
-// Format Seconds to MM:SS
+window.isOffline = function() { return !navigator.onLine; };
 window.formatTime = function(seconds) {
     const m = Math.floor(seconds / 60);
     const s = seconds % 60;
