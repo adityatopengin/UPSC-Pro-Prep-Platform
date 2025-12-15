@@ -20,7 +20,7 @@
 
     <main class="flex-1 overflow-y-auto pt-24 pb-32 px-4 space-y-6 scroll-smooth">
         
-        <section class="grid grid-cols-2 gap-3">
+        <section class="grid grid-cols-2 gap-3 animate-fade-up">
             <div onclick="setMode('test')" id="card-test" class="glass-card p-4 rounded-2xl cursor-pointer border-2 border-transparent transition-all active:scale-95">
                 <div class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center mb-2">
                     <i class="fa-solid fa-stopwatch"></i>
@@ -38,7 +38,7 @@
             </div>
         </section>
 
-        <section class="bg-white/50 backdrop-blur p-1.5 rounded-xl flex gap-2 border border-white/60">
+        <section class="bg-white/50 backdrop-blur p-1.5 rounded-xl flex gap-2 border border-white/60 animate-fade-up" style="animation-delay: 0.1s;">
             <button onclick="setPaper('gs1')" id="btn-gs1" class="flex-1 py-3 rounded-lg text-xs font-bold transition-all shadow-sm flex flex-col items-center gap-1">
                 <span class="text-xs">GS Paper 1</span>
                 <span class="text-[8px] opacity-70 font-normal uppercase tracking-wider">General Studies</span>
@@ -49,13 +49,13 @@
             </button>
         </section>
 
-        <div id="dashboard-content" class="space-y-6">
+        <div id="dashboard-content" class="space-y-6 animate-fade-up" style="animation-delay: 0.2s;">
             </div>
 
     </main>
 
-    <div id="modal-mock" class="fixed inset-0 z-[100] hidden bg-black/40 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity">
-        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl" onclick="event.stopPropagation()">
+    <div id="modal-mock" class="fixed inset-0 z-[100] hidden bg-black/40 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
+        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up" onclick="event.stopPropagation()">
             <h3 class="text-lg font-bold text-slate-800 mb-2">Configure Mock Test</h3>
             <p class="text-xs text-slate-500 mb-6">Select the length of your exam simulation.</p>
             
@@ -80,8 +80,8 @@
         </div>
     </div>
 
-    <div id="modal-subject" class="fixed inset-0 z-[100] hidden bg-black/40 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity">
-        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl" onclick="event.stopPropagation()">
+    <div id="modal-subject" class="fixed inset-0 z-[100] hidden bg-black/40 backdrop-blur-sm flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
+        <div class="bg-white w-full max-w-sm rounded-3xl p-6 shadow-2xl animate-fade-up" onclick="event.stopPropagation()">
             <div class="flex items-center gap-3 mb-6">
                 <div id="modal-sub-icon" class="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center"><i class="fa-solid fa-book"></i></div>
                 <div>
