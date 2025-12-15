@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>UPSC Pro - Stats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <script src="assets/js/firebase-config.js"></script>
+    <script src="assets/js/DataManager.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/layout.js"></script>
+</head>
+<body class="bg-slate-50 h-screen flex flex-col overflow-hidden text-slate-800">
+    
+    <div id="app-header"></div>
+
+    <main class="flex-1 overflow-y-auto pt-24 pb-32 px-4 space-y-6 scroll-smooth">
+        
+        <section class="animate-fade-up">
+            <div class="glass-card p-6 rounded-3xl relative overflow-hidden bg-white">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-full blur-3xl -mr-8 -mt-8 pointer-events-none"></div>
+                
+                <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Lifetime Statistics</h2>
+                
+                <div class="flex flex-col mb-6">
+                    <div class="flex items-end gap-2">
+                        <span class="text-5xl font-black text-slate-900" id="total-accuracy">0%</span>
+                        <span class="text-sm font-bold text-emerald-600 mb-2 flex items-center">
+                            <i class="fa-solid fa-arrow-trend-up mr-1"></i> Live
+                        </span>
+                    </div>
+                    <span class="text-xs font-bold text-slate-500 mt-1">Overall Accuracy</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                        <div class="text-2xl font-black text-slate-800" id="total-qs">0</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase">Questions Attempted</div>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                        <div class="text-2xl font-black text-blue-600" id="study-hours">0h 0m</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase">Study Time</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animate-fade-up" style="animation-delay: 100ms;">
+            <h3 class="font-bold text-slate-800 mb-3 px-1 text-sm uppercase tracking-wide">Areas of Focus</h3>
+            <div class="space-y-3">
+                <div class="bg-white p-4 rounded-xl border border-emerald-100 shadow-sm flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center flex-none text-lg">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-sm text-slate-800">Strengths (> 65%)</h4>
+                        <p class="text-xs text-slate-500 mt-1" id="list-strength">No data yet</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center flex-none text-lg">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-sm text-slate-800">Moderate (40-65%)</h4>
+                        <p class="text-xs text-slate-500 mt-1" id="list-moderate">No data yet</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-full bg-red-50 text-red-600 flex items-center justify-center flex-none text-lg">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-sm text-slate-800">Weaknesses (< 40%)</h4>
+                        <p class="text-xs text-slate-500 mt-1" id="list-weak">No data yet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animate-fade-up" style="animation-delay: 200ms;">
+            <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="font-bold text-slate-800 text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-chart-line text-blue-500"></i> Consistency Trend
+                    </h3>
+                    <div class="text-[10px] font-bold bg-slate-100 text-slate-500 px-2 py-1 rounded">Last 10 Quizzes</div>
+                </div>
+                <div class="h-48 w-full relative">
+                    <canvas id="trendChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="animate-fade-up" style="animation-delay: 300ms;">
+            <h3 class="font-bold text-slate-800 mb-3 px-1 text-sm uppercase tracking-wide">Subject Performance</h3>
+            <div class="space-y-3" id="subject-list"></div>
+        </section>
+
+    </main>
+
+    <div id="app-nav"></div>
+    <script src="assets/js/page-stats.js"></script>
+</body>
+</html>
+
