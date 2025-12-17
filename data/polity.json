@@ -1674,7 +1674,549 @@
     "tags": ["article_23", "article_24", "fundamental_rights", "child_labour"],
     "notes": "Tests knowledge of Right Against Exploitation provisions",
     "linked_concepts": ["Article 23", "Article 24", "Child Labour", "Forced Labour"]
+  },
+  
+  {
+    "id": "POLITY_2016_011",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Supreme Court Jurisdiction",
+    "subtopic": "PIL and Rights",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which one of the following can be best described as a 'Public Interest Litigation' (PIL)?",
+    "options": [
+      "A litigation filed by a person to promote public interest",
+      "A litigation filed by an organization registered under any law",
+      "A litigation initiated by the court to promote public interest",
+      "A litigation filed by a judicial officer to promote public interest"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Public Interest Litigation (PIL) can be initiated either by an individual or by the court itself (suo moto) to promote public interest. In India, PIL became prominent through Supreme Court's liberal approach in the 1980s under Chief Justice P.N. Bhagwati and Y.V. Chandrachud. A PIL is specifically characterized by the court's proactive role in identifying and addressing matters affecting public welfare, not just by who files it. The court can take suo moto cognizance of matters affecting fundamental rights and public interest.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["pil", "judicial_activism", "public_interest", "supreme_court"],
+    "notes": "Tests understanding of PIL concept and court's role in public interest matters",
+    "linked_concepts": ["Public Interest Litigation", "Suo Moto", "Judicial Activism", "Fundamental Rights"]
+  },
+  {
+    "id": "POLITY_2016_012",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Electoral System",
+    "subtopic": "Delimitation Commission",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The Delimitation Commission in India is constituted to:",
+    "options": [
+      "Determine electoral boundaries of constituencies",
+      "Conduct free and fair elections",
+      "Prevent malpractices in elections",
+      "Decide qualification of voters"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "The Delimitation Commission is constituted periodically to redraw the boundaries of Lok Sabha and State Assembly constituencies based on the latest census data. The process of delimitation ensures that constituencies have approximately equal population. The last delimitation was done in 2008, and the government announced a new delimitation commission in 2017. The delimitation process is critical to ensure equitable representation.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["delimitation", "electoral_system", "constituencies", "representation"],
+    "notes": "Tests knowledge of electoral machinery and delimitation process",
+    "linked_concepts": ["Delimitation Commission", "Election Commission", "Electoral Boundaries"]
+  },
+  {
+    "id": "POLITY_2016_013",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Parliament Procedures",
+    "subtopic": "Private Member's Bills",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following about Private Member's Bills: 1. They are introduced by members who are not ministers. 2. Very few private member's bills are passed in India. 3. They are given sufficient time in parliamentary calendar.",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is correct: A private member's bill is any bill introduced by a member of Parliament who is not a minister. Statement 2 is correct: Very few private member's bills are passed - only about 14-15 have been passed since independence due to limited time allocation and government focus on official business. Statement 3 is incorrect: Private member's bills are NOT given sufficient time in the parliamentary calendar; they typically get minimal time slots, usually on Friday mornings, and many don't even get discussed. Statements 1 and 2 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["private_member_bill", "parliament", "legislation", "parliamentary_procedure"],
+    "notes": "Tests knowledge of private member's bills and their status in Indian Parliament",
+    "linked_concepts": ["Parliamentary Procedure", "Legislation Process", "Parliament of India"]
+  },
+  {
+    "id": "POLITY_2016_014",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Rights and Freedoms",
+    "subtopic": "Right to Vote Classification",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The right to vote and the right to be elected in India is classified as a:",
+    "options": [
+      "Fundamental Right",
+      "Natural Right",
+      "Constitutional Right",
+      "Legal Right"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "The right to vote and right to be elected in India are classified as Legal Rights (also called statutory rights) derived from the Representation of the People Act, not Fundamental Rights. While fundamental rights are enforceable against the state under Article 32, voting rights are governed by electoral laws. However, recent SC judgments (PUCL case 2015) have given voting rights constitutional significance. The right to vote is a statutory creation of law, not naturally inherent or fundamental, making it a legal right.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["right_to_vote", "electoral_right", "legal_right", "classification"],
+    "notes": "Tests understanding of classification of rights and electoral provisions",
+    "linked_concepts": ["Electoral Rights", "Legal Rights", "Representation of the People Act"]
+  },
+  {
+    "id": "POLITY_2016_015",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Executive Powers",
+    "subtopic": "President's Rule Consequences",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following is/are not necessarily a consequence of the proclamation of President's rule in a State? 1. Dissolution of the State Legislative Assembly. 2. Removal of the Council of Ministers. 3. Dissolution of local bodies.",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "When President's rule is imposed under Article 356: (1) Dissolution of Assembly - NOT automatic: The Assembly may be kept under suspended animation or later dissolved. The President may even reconstitute it. (2) Removal of Council of Ministers - THIS IS automatic: When Governor's report is accepted and President's rule is imposed, the Council of Ministers is automatically dismissed. (3) Dissolution of local bodies - NOT automatic: Local bodies (Panchayats and Municipalities) are not necessarily dissolved when President's rule is imposed. Statements 1 and 3 are not necessarily consequences.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["article_356", "presidents_rule", "state_emergency", "consequences"],
+    "notes": "Tests understanding of what automatically follows President's rule declaration",
+    "linked_concepts": ["Article 356", "Emergency Provisions", "Federal Structure"]
+  },
+  {
+    "id": "POLITY_2016_016",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Federalism",
+    "subtopic": "Features of Indian Federalism",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following is NOT a feature of Indian federalism?",
+    "options": [
+      "There is an independent judiciary in India",
+      "Powers have been clearly divided between Centre and States",
+      "Federating units have unequal representation in Rajya Sabha",
+      "It is the result of an agreement among federating units"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Indian federalism is NOT based on a federal agreement or compact like the USA. India is a "Union of States" formed through a unilateral constitutional act by the Constituent Assembly. The states don't have the constitutional right to secede, unlike in a true federation formed by agreement. Indian federalism was created by constitutional enactment, not by an agreement among pre-existing units. The other features are correct: independent judiciary, division of powers, and unequal RS representation.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["federalism", "union_of_states", "constitutional_structure"],
+    "notes": "Tests understanding of unique nature of Indian federalism",
+    "linked_concepts": ["Federalism", "Federal Structure", "Constitutional Framework", "Rajya Sabha"]
+  },
+  {
+    "id": "POLITY_2016_017",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Judicial Review",
+    "subtopic": "Nature and Scope",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Judicial Review in India implies:",
+    "options": [
+      "Power of judiciary to pronounce on constitutionality of laws and executive orders",
+      "Power of judiciary to question the wisdom of laws enacted by legislatures",
+      "Power of judiciary to review laws before presidential assent",
+      "Power of judiciary to review its own judgements in similar cases"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Judicial Review is the power of the Supreme Court and High Courts to examine the constitutionality of any law, ordinance, regulation, or executive action and to strike it down if found to be violative of the Constitution. This is a core power of the Indian judiciary. The other options describe different judicial functions: questioning wisdom is beyond judicial review, courts cannot pre-review before assent, and reviewing own judgments is about writs of reconsideration.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["judicial_review", "constitutionality", "judiciary_power"],
+    "notes": "Tests understanding of judicial review concept in Indian constitution",
+    "linked_concepts": ["Article 13", "Judicial Review", "Supreme Court Power"]
+  },
+  {
+    "id": "POLITY_2016_018",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Parliamentary Control Mechanisms",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Parliament exercises control over the functions of the Council of Ministers through: 1. Adjournment motion. 2. Question hour. 3. Supplementary questions.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "All three are mechanisms through which Parliament exercises control and scrutiny over the Council of Ministers: (1) Adjournment Motion - allows MPs to raise matters of urgent public importance, forcing government to respond and explain. (2) Question Hour - the first hour of each parliamentary day where MPs ask questions to ministers about government policies and actions. (3) Supplementary Questions - follow-up questions asked during question hour to seek clarification or additional information. All three mechanisms are tools for parliamentary accountability.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["parliamentary_control", "scrutiny", "council_of_ministers", "accountability"],
+    "notes": "Tests knowledge of mechanisms of parliamentary oversight",
+    "linked_concepts": ["Parliamentary Procedure", "Question Hour", "No-Confidence Motion", "Adjournment Motion"]
+  },
+  {
+    "id": "POLITY_2016_019",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Parliamentary System",
+    "subtopic": "Characteristics of Cabinet Government",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Which of the following best explains the principle underlying the Cabinet form of government?",
+    "options": [
+      "Minimizing criticism against government with complex responsibilities",
+      "Speeding up government activities amid increasing responsibilities",
+      "Ensuring collective responsibility of government to parliament and people",
+      "Strengthening the head of government"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The Cabinet form of government (parliamentary system) is fundamentally based on the principle of collective responsibility. All ministers are individually and collectively responsible to Parliament (specifically the lower house/Lok Sabha), which in turn is responsible to the people. This means if the cabinet loses the confidence of Parliament, it must resign collectively. This system ensures democratic accountability and responsiveness to the legislature and people.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["cabinet_government", "collective_responsibility", "parliamentary_system"],
+    "notes": "Tests understanding of defining principle of parliamentary democracy",
+    "linked_concepts": ["Collective Responsibility", "Parliamentary Democracy", "Article 75"]
+  },
+  {
+    "id": "POLITY_2016_020",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Local Governance",
+    "subtopic": "Panchayat System",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Local self-government can be best explained as an exercise in:",
+    "options": [
+      "Federalism",
+      "Democratic decentralization",
+      "Administrative delegation",
+      "Direct democracy"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Local self-government, established through the 73rd Amendment (Panchayats) and 74th Amendment (Municipalities), is best understood as democratic decentralization. It involves the devolution of power to elected representatives at the grassroots level, empowering local communities to participate in decision-making and governance. It is not federal (states are federal units), not merely administrative delegation (as elected bodies have political powers), and not direct democracy (decisions are made through elected representatives).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["local_governance", "panchayati_raj", "democratic_decentralization"],
+    "notes": "Tests understanding of the philosophy underlying local government system",
+    "linked_concepts": ["73rd Amendment", "74th Amendment", "Decentralization", "Panchayat Raj"]
+  },
+  {
+    "id": "POLITY_2017_001",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Rights and Duties",
+    "subtopic": "Nature of Rights",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following statements is correct regarding rights?",
+    "options": [
+      "Rights are claims of the state against citizens",
+      "Rights are privileges incorporated in the constitution",
+      "Rights are claims of citizens against the state",
+      "Rights are privileges of few citizens against many"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Rights are claims of citizens against the state - this is the fundamental understanding of rights in constitutional democracies. Rights protect individuals from arbitrary state action and represent the minimum standards that a state must respect. They are not privileges (which are special concessions), not claims of state against citizens (which would be duties), and not exclusive to few (they are universal). Rights are enforceable legal entitlements that citizens can demand from the state.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["rights", "citizenship", "fundamental_rights", "state_and_individual"],
+    "notes": "Tests basic understanding of concept of rights in constitutional framework",
+    "linked_concepts": ["Fundamental Rights", "Rights and Duties", "Constitutional Protection"]
+  },
+  {
+    "id": "POLITY_2017_002",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Preamble",
+    "subtopic": "Constitutional Objectives",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following objectives is NOT embodied in the Preamble to the Constitution of India?",
+    "options": [
+      "Liberty of thought",
+      "Economic liberty",
+      "Liberty of expression",
+      "Liberty of belief"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The Preamble states: "We, the people of India...to secure to all its citizens Justice, social, economic and political; Liberty of thought, expression, belief, faith and worship..." The Preamble explicitly mentions 'social and economic justice' and 'liberty of thought, expression, belief, faith and worship' but does NOT mention 'economic liberty' as a standalone liberty. It mentions liberty of thought, expression, belief but not economic liberty specifically.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["preamble", "constitutional_objectives", "liberty"],
+    "notes": "Tests careful reading of Preamble text and its specific language",
+    "linked_concepts": ["Preamble", "Liberty", "Constitutional Objectives"]
+  },
+  {
+    "id": "POLITY_2017_003",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Constitutional Philosophy",
+    "subtopic": "Constituent Assembly Intent",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The mind of the makers of the Constitution of India is reflected in which of the following?",
+    "options": [
+      "The Preamble",
+      "The Fundamental Rights",
+      "The Directive Principles of State Policy",
+      "The Fundamental Duties"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "The Preamble is the most authentic expression of the philosophy, objectives, and vision of the Constituent Assembly. As noted by Sir Alladi Krishnaswami Iyer, a member of the Constituent Assembly: "The Preamble to our Constitution expresses what we had thought or dreamt so long." The Preamble encapsulates the core values and aspirations that guided the creation of the Constitution. While other parts reflect specific provisions, the Preamble best represents the collective mind and intent of the Constitution makers.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["preamble", "constituent_assembly", "constitutional_philosophy"],
+    "notes": "Tests understanding of Preamble's significance in constitutional interpretation",
+    "linked_concepts": ["Preamble", "Constitutional Intent", "Constituent Assembly"]
+  },
+  {
+    "id": "POLITY_2017_004",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right Against Exploitation",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following are envisaged by the Right Against Exploitation in the Constitution? 1. Prohibition of traffic in human beings and forced labour. 2. Abolition of untouchability. 3. Protection of interests of minorities. 4. Prohibition of employment of children in factories and mines.",
+    "options": [
+      "1, 2 and 4 only",
+      "2, 3 and 4 only",
+      "1 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Right Against Exploitation (Articles 23-24): (1) Article 23: Prohibition of traffic in human beings and begar or forced labour - Correct. (2) Article 24: Prohibition of employment of children in factories, mines, or hazardous occupations - Correct. (3) Abolition of untouchability (Article 17) is under 'Right to Equality', not Right Against Exploitation. (4) Protection of minorities (Articles 29-30) is under 'Cultural and Educational Rights', not Right Against Exploitation. Statements 1 and 4 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["right_against_exploitation", "article_23", "article_24", "fundamental_rights"],
+    "notes": "Tests knowledge of classification and scope of fundamental rights",
+    "linked_concepts": ["Article 23", "Article 24", "Article 17", "Articles 29-30"]
+  },
+  {
+    "id": "POLITY_2017_005",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Fundamental Duties",
+    "subtopic": "Nature and Enforceability",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following statements is/are true regarding Fundamental Duties? 1. A legislative process has been provided to enforce these duties. 2. They are correlative to legal duties.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: The Fundamental Duties (Part IVA) are NOT directly enforceable through a specific legislative process prescribed in the Constitution. While Parliament may pass laws related to duties (like respecting environment), there is no explicit constitutional mechanism to directly enforce duties. Statement 2 is correct: Fundamental Duties ARE correlative to legal duties in the sense that they align with and reinforce legal obligations - what is a legal duty also reflects what is a moral/fundamental duty of citizens. Rights and duties are correlative and interdependent. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["fundamental_duties", "article_51a", "enforceability", "legal_duties"],
+    "notes": "Tests understanding of Fundamental Duties and their non-enforceability",
+    "linked_concepts": ["Article 51A", "Fundamental Duties", "42nd Amendment"]
+  },
+  {
+    "id": "POLITY_2017_006",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedure",
+    "subtopic": "Private Member's Bills",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to Parliament of India, consider: 1. A private member's bill is a bill presented by a member who is not elected but only nominated. 2. A private member's bill has been passed in Parliament for the first time recently.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: A private member's bill is one introduced by any member of Parliament who is NOT a Minister (whether elected or nominated). It is about the position of the member (not being a minister), not about whether they are elected or nominated. Statement 2 is incorrect: Since independence in 1947, around 14-15 private member's bills have been passed. The first private member's bill to be passed was the Destruction of Vermin Bill, 1956. So private member's bills have been passed before, not 'for the first time recently'. Both statements are incorrect.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["private_member_bill", "parliament", "legislative_procedure"],
+    "notes": "Tests knowledge of parliamentary procedures regarding bills",
+    "linked_concepts": ["Parliamentary Procedure", "Types of Bills", "Parliament of India"]
+  },
+  {
+    "id": "POLITY_2017_007",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Directive Principles",
+    "subtopic": "42nd Amendment Additions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Which principle was added to the Directive Principles of State Policy by the 42nd Amendment?",
+    "options": [
+      "Equal pay for equal work for men and women",
+      "Participation of workers in management of industries",
+      "Right to work, education and public assistance",
+      "Securing living wage and human conditions of work"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The 42nd Constitutional Amendment (1976) added three new Directive Principles: Article 39A (equal justice and free legal aid), Article 43A (participation of workers in management of industries), and Article 48A (protection and improvement of environment). Among the given options, Article 43A concerning 'Participation of workers in the management of industries' was specifically added by the 42nd Amendment. This principle reflects the post-1973 recognition of the need for worker participation in industrial governance.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["42nd_amendment", "directive_principles", "article_43a"],
+    "notes": "Tests knowledge of specific amendments to DPSP",
+    "linked_concepts": ["42nd Amendment", "Directive Principles", "Article 39A", "Article 48A"]
+  },
+  {
+    "id": "POLITY_2017_008",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Democracy",
+    "subtopic": "Philosophical Foundation",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Democracy's superior virtue lies in the fact that it calls into activity:",
+    "options": [
+      "The intelligence and character of ordinary men and women",
+      "The methods for strengthening executive leadership",
+      "A superior individual with dynamism and vision",
+      "A band of dedicated party workers"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Democracy is fundamentally based on the idea of consent and participation of the people. Democratic systems require decision-making by ordinary citizens through voting and participation. This process engages the intelligence, judgment, and character of common people in governance. Unlike autocratic or authoritarian systems that rely on a single leader or elite group, democracy mobilizes the collective wisdom and moral agency of the entire citizenry. This is democracy's distinctive virtue.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["democracy", "political_philosophy", "citizenship", "participation"],
+    "notes": "Tests understanding of democratic philosophy and its distinguishing features",
+    "linked_concepts": ["Democratic Values", "Citizen Participation", "Democratic Philosophy"]
+  },
+  {
+    "id": "POLITY_2017_009",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Election Commission",
+    "subtopic": "Composition and Functions",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following: 1. The Election Commission of India is a five-member body. 2. The Union Ministry of Home Affairs decides the election schedule. 3. The Election Commission resolves disputes relating to splits/mergers of political parties.",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "2 and 3 only",
+      "3 only"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: The Election Commission of India currently has 3 members - one Chief Election Commissioner and two Election Commissioners. Previously it was larger, but has been reduced to 3. Statement 2 is incorrect: The Election Commission of India itself decides the election schedule for both general elections and by-elections, not the Ministry of Home Affairs. The EC has this constitutional power to determine when elections should be held. Statement 3 is correct: The ECI resolves disputes related to splits and mergers of recognized political parties, determining which faction gets the original party symbol. Only statement 3 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["election_commission", "composition", "functions", "party_symbols"],
+    "notes": "Tests knowledge of Election Commission's structure and powers",
+    "linked_concepts": ["Election Commission of India", "Electoral Process", "Party Registration"]
+  },
+  {
+    "id": "POLITY_2017_010",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Right to Vote",
+    "subtopic": "Electoral Rights Classification",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "In India, the right to vote and the right to be elected is classified as a:",
+    "options": [
+      "Fundamental Right",
+      "Natural Right",
+      "Constitutional Right",
+      "Legal Right"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The right to vote and right to be elected are classified as Constitutional Rights in India. They are not Fundamental Rights (not enforceable under Article 32), not Natural Rights (not inherent by nature), but are Constitutional Rights as they are explicitly provided in the Constitution and governed by the Representation of the People Act. While these are legal rights derived from legislation, the more accurate classification is Constitutional Rights since they are enshrined in the Constitution and are fundamental to democratic processes. Recent SC judgments have recognized the constitutional significance of voting rights.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["voting_rights", "electoral_rights", "constitutional_rights"],
+    "notes": "Tests understanding of classification and constitutional status of voting rights",
+    "linked_concepts": ["Representation of the People Act", "Electoral Rights", "Constitutional Provisions"]
   }
-  ]
+   ]
+  
   
  
