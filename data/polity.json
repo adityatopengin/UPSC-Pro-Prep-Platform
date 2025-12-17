@@ -4544,6 +4544,466 @@
     "tags": ["prorogation", "dissolution", "parliamentary_procedure", "presidential_powers"],
     "notes": "Tests knowledge of prorogation vs dissolution and presidential authority",
     "linked_concepts": ["Prorogation", "Dissolution", "Article 85", "Presidential Discretion"]
+  },
+  
+  {
+    "id": "POLITY_2024_016",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Prorogation and Dissolution",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Parliament of India, consider the following statements: 1. Prorogation of a House by the President of India does not require the advice of the Council of Ministers. 2. Prorogation of a House is generally done after the House is adjourned sine die but there is no bar to the President of India proroguing the House which is in session. 3. Dissolution of the Lok Sabha is done by the President of India, who, save in exceptional circumstances, does so on the advice of the Council of Ministers. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2",
+      "2 and 3",
+      "3 only"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is incorrect: Prorogation requires advice of Council of Ministers (not purely discretionary). Statement 2 is correct: Prorogation usually follows sine die adjournment but can occur while House is in session. Statement 3 is correct: President dissolves LS on PM's advice except in exceptional circumstances where President may exercise discretion.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["prorogation", "dissolution", "parliament", "presidential_powers", "article_85"],
+    "notes": "Tests knowledge of distinction between prorogation and dissolution procedures",
+    "linked_concepts": ["Prorogation", "Dissolution", "Parliamentary Procedure", "Article 85"]
+  },
+  {
+    "id": "POLITY_2025_001",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Government Administration",
+    "subtopic": "Directorates and Enforcement Agencies",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "With reference to the Government of India, consider the following information regarding directorates: 1. Directorate of Enforcement - Enforcement of the Fugitive Economic Offenders Act, 2018 - Internal Security Division-1, Ministry of Home Affairs 2. Directorate of Revenue Intelligence - Enforces the Provisions of the Customs Act, 1962 - Department of Revenue, Ministry of Finance 3. Directorate General of Systems and Data Management - Carrying out big data analytics to assist tax officers for better policy and nabbing tax evaders - Department of Revenue, Ministry of Finance. In how many of the above rows is the information correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Row 1 is incorrect: Directorate of Enforcement (ED) is under Department of Revenue, Ministry of Finance (not Ministry of Home Affairs). Rows 2 and 3 are correctly matched: Both DRI and DGSDM are under Department of Revenue, Ministry of Finance with correct functions.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["directorate_of_enforcement", "revenue_intelligence", "government_agencies", "ministry_organization", "finance_ministry"],
+    "notes": "Tests knowledge of government administrative structure and agency classification under different ministries",
+    "linked_concepts": ["Ministry of Finance", "Enforcement Agencies", "Government Organization", "Department of Revenue"]
+  },
+  {
+    "id": "POLITY_2025_002",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Panchayati Raj",
+    "subtopic": "Panchayat Structure and Eligibility",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements about Panchayats: I. Panchayats at the intermediate level exist in all States. II. To be eligible to be a Member of a Panchayat at the intermediate level, a person should attain the age of thirty years. III. The Chief Minister of a State constitutes a commission to review the financial position of Panchayats at the intermediate levels. Which of the statements given above are NOT correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement I is incorrect: Article 243C(2) states intermediate panchayats may NOT be constituted in States with population not exceeding 20 lakhs. Statement II is incorrect: Article 243F requires minimum age of 21 years (not 30) for panchayat membership. Statement III is incorrect: Article 243I mandates the Governor (not CM) constitutes Finance Commission to review financial position of panchayats.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["panchayat_structure", "article_243", "panchayat_eligibility", "finance_commission", "73rd_amendment"],
+    "notes": "Tests detailed knowledge of panchayat constitutional provisions and structural requirements",
+    "linked_concepts": ["Article 243C", "Article 243F", "Article 243I", "Panchayati Raj System", "73rd Amendment"]
+  },
+  {
+    "id": "POLITY_2025_003",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Constitutional Awards",
+    "subtopic": "Gandhi Peace Prize and Award Jury",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Who amongst the following are members of the Jury to select the recipient of Gandhi Peace Prize? I. The President of India II. The Prime Minister of India III. The Chief Justice of India IV. The Leader of Opposition in the Lok Sabha. Select the correct answer using the code given below.",
+    "options": [
+      "II and IV only",
+      "I, II and III",
+      "II, III and IV",
+      "I and III only"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "As per Code of Procedure Chapter VI for Gandhi Peace Prize, the Jury comprises: Prime Minister (Chairman), Chief Justice of India, and Leader of Opposition in Lok Sabha (or leader of largest opposition party if no formal LoP). President of India is NOT a member of the jury. Thus correct members are II, III and IV.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["gandhi_peace_prize", "jury_composition", "constitutional_awards", "government_bodies", "ministry_external_affairs"],
+    "notes": "Tests knowledge of Gandhi Peace Prize jury composition and selection procedure",
+    "linked_concepts": ["Gandhi Peace Prize", "Constitutional Awards", "Award Jury", "Ministry of External Affairs"]
+  },
+  {
+    "id": "POLITY_2025_004",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Anti-Corruption Bodies",
+    "subtopic": "Lokpal Powers and Composition",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements about Lokpal: I. The power of Lokpal applies to public servants of India, but not to the Indian public servants posted outside India. II. The Chairperson or a Member shall not be a Member of the Parliament or a Member of the legislature of any State or Union Territory and only the Chief Justice of India, whether incumbent or retired, has to be its Chairperson. III. The Chairperson or a Member shall not be a person of less than forty-five years of age on the date of assuming office as the Chairperson or Member, as the case may be. IV. Lokpal cannot inquire into the allegations of corruption against a sitting Prime Minister of India. Which of the statements given above is/are correct?",
+    "options": [
+      "III only",
+      "II and III",
+      "I and IV",
+      "None of the above"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement I incorrect: Lokpal Act 2013 Section 14 applies to ALL Group A/B/C/D officers serving anywhere including outside India. Statement II incorrect: CJI (incumbent or retired) OR retired HC Chief Justice can be Chairperson; MPs can be members. Statement III correct: Minimum 45 years age prescribed by Act. Statement IV incorrect: Lokpal CAN inquire against sitting PM except on matters of international relations, security.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["lokpal", "lokpal_act_2013", "anti_corruption", "public_servants", "section_14"],
+    "notes": "Tests nuanced understanding of Lokpal Act provisions and constitutional safeguards",
+    "linked_concepts": ["Lokpal Act 2013", "Anti-Corruption Bodies", "Section 14", "Lokpal Composition", "PM Immunity"]
+  },
+  {
+    "id": "POLITY_2025_005",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Executive Powers",
+    "subtopic": "Presidential Pardoning Power",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements with regard to pardoning power of the President of India: I. The exercise of this power by the President can be subjected to limited judicial review. II. The President can exercise this power without the advice of the Central Government. Which of the statements given above is/are correct?",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement I is correct: Supreme Court has held in multiple judgments that presidential exercise of pardoning power under Article 72 is subject to limited judicial review. Statement II is incorrect: Article 74(1) of Constitution requires that President exercises all executive powers on advice of Council of Ministers (except discretionary matters explicitly mentioned in Constitution).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_72", "pardoning_power", "presidential_power", "judicial_review", "article_74"],
+    "notes": "Tests knowledge of presidential powers and constitutional limitations on executive action",
+    "linked_concepts": ["Article 72", "Pardoning Power", "Article 74", "Judicial Review", "Executive Powers"]
+  },
+  {
+    "id": "POLITY_2025_006",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Speaker's Office and Removal",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: I. On the dissolution of the House of the People, the Speaker shall not vacate his/her office until immediately before the first meeting of the House of the People after the dissolution. II. According to the provisions of the Constitution of India, a Member of the House of the People on being elected as Speaker shall resign from his/her political party immediately. III. The Speaker of the House of the People may be removed from his/her office by a resolution of the House of the People passed by a majority of all the then Members of the House, provided that no resolution shall be moved unless at least fourteen days' notice has been given. Which of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement I is correct: Article 93 states Speaker continues in office till first meeting of new House post-dissolution. Statement II is incorrect: Constitution does not mandate resignation from party upon election as Speaker; Speaker remains member but stays politically neutral by convention. Statement III is correct: Article 94 requires 14 days notice and removal by majority of all members.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_93", "article_94", "speaker_removal", "parliamentary_procedure", "lok_sabha"],
+    "notes": "Tests constitutional provisions regarding Speaker's tenure, removal, and parliamentary ethics",
+    "linked_concepts": ["Article 93", "Article 94", "Speaker", "Parliamentary Procedures", "Lok Sabha"]
+  },
+  {
+    "id": "POLITY_2025_007",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Disqualification",
+    "subtopic": "10th Schedule and Disqualification",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: I. If any question arises as to whether a Member of the House of the People has become subject to disqualification under the 10th Schedule, the President's decision in accordance with the opinion of the Council of Union Ministers shall be final. II. There is no mention of the word 'political party' in the Constitution of India. Which of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement I is incorrect: Article 103 specifies that the Speaker (NOT President) decides questions of disqualification under 10th Schedule, and the Speaker's decision is final (subject to judicial review). Statement II is incorrect: The term 'political party' appears approximately 39 times in the Constitution of India, particularly in the 10th Schedule (Anti-Defection Law).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_103", "10th_schedule", "disqualification", "anti_defection", "political_party"],
+    "notes": "Tests knowledge of anti-defection law and constitutional terminology",
+    "linked_concepts": ["Article 103", "10th Schedule", "Anti-Defection", "Speaker's Authority", "Disqualification"]
+  },
+  {
+    "id": "POLITY_2025_008",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Mineral Resources",
+    "subtopic": "Minor Minerals Regulation",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements regarding mineral resources in India: Statement I: In India, State Governments have no power for making rules for grant of concessions in respect of extraction of minor minerals even though such minerals are located in their territories. Statement II: In India, the Central Government has the power to notify minor minerals under the relevant law. Which one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct, and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct, but Statement II does not explain Statement I",
+      "Statement I is correct, but Statement II is not correct",
+      "Statement I is not correct but Statement II is correct"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement I is incorrect: Under Mines and Minerals (Development and Regulation) Act 1957, State Governments DO have power to make rules for grant of concessions for minor minerals (Entry 23, State List of 7th Schedule). Statement II is correct: Central Government has power to notify what constitutes minor minerals under the Act.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["minor_minerals", "mmdr_act", "state_list", "natural_resources", "center_state_relations"],
+    "notes": "Tests knowledge of federalism and mineral regulation under Indian law",
+    "linked_concepts": ["MMDR Act 1957", "State List Entry 23", "Minor Minerals", "Centre-State Relations", "7th Schedule"]
+  },
+  {
+    "id": "POLITY_2025_009",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Executive Powers",
+    "subtopic": "Presidential Ordinance",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Indian polity, consider the following statements: I. An Ordinance can amend any Central Act. II. An Ordinance can abridge a Fundamental Right. III. An Ordinance can come into effect from a back date. Which of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement I is correct: An Ordinance can modify or repeal Central Acts (within Presidential competence) but cannot amend the Constitution. Statement II is incorrect: An Ordinance cannot abridge, suspend, or violate Fundamental Rights as fundamental rights constrain executive ordinance-making power. Statement III is correct: An Ordinance can be retrospective in nature and come into effect from a back date.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_123", "ordinance_power", "presidential_ordinance", "fundamental_rights", "executive_power"],
+    "notes": "Tests understanding of constitutional limitations on ordinance-making power",
+    "linked_concepts": ["Article 123", "Ordinance", "Constitutional Limitations", "Fundamental Rights", "Presidential Powers"]
+  },
+  {
+    "id": "POLITY_2025_010",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Constitutional History",
+    "subtopic": "North Eastern States",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following pairs regarding North Eastern States: I. Arunachal Pradesh: The capital is named after a fort, and the State has two National Parks II. Nagaland: The State came into existence on the basis of a Constitutional Amendment Act III. Tripura: Initially a Part 'C' State, it became a centrally administered territory in 1956 and later attained full statehood. How many of the above pairs are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "I: Correct - Itanagar (capital) is named after brick fort; State has two National Parks - Mouling NP and Namdapha NP. II: Correct - Nagaland created by 13th Constitutional Amendment Act 1962. III: Correct - Tripura merged as Part C State in 1950, became Union Territory in 1956, and attained full statehood on 21 January 1972 via North Eastern Areas (Reorganization) Act 1971.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["north_eastern_states", "constitutional_amendments", "state_formation", "administrative_history", "arunachal_pradesh"],
+    "notes": "Tests knowledge of North Eastern states history and constitutional status changes",
+    "linked_concepts": ["Constitutional Amendment", "State Formation", "NE States", "Administrative Reorganization", "13th Amendment"]
+  },
+  {
+    "id": "POLITY_2025_011",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Constitutional Bodies",
+    "subtopic": "Inter-State Council and Others",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "With reference to India, consider the following bodies: I. The Inter-State Council II. The National Security Council III. The Zonal Councils. How many of the above were established as per the provisions of the Constitution of India?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Only the Inter-State Council (I) is established as per constitutional provisions - Article 263 empowers President to establish it. National Security Council (II) is an executive body formed by executive order, NOT mentioned in Constitution. Zonal Councils (III) are statutory bodies established under Part III of States Reorganisation Act 1956, NOT constitutional provisions.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["inter_state_council", "article_263", "constitutional_bodies", "center_state_relations", "zonal_councils"],
+    "notes": "Tests distinction between constitutional bodies and statutory/executive bodies",
+    "linked_concepts": ["Article 263", "Inter-State Council", "Constitutional Bodies", "States Reorganisation Act", "Executive Bodies"]
+  },
+  {
+    "id": "POLITY_2025_012",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Executive Power",
+    "subtopic": "Governor's Discretion and Presidential Authority",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements regarding constitutional provisions in India: I. The Constitution of India explicitly mentions situations where the Governor of a State can act in his/her discretion. II. The President of India can, on his/her own, reserve a Bill passed by a State Legislature for consideration, even without it being forwarded by the Governor of the concerned State. Which of the above statements is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement I is correct: Article 163(1) explicitly mentions that Governor exercises certain functions in discretion (e.g., in appointment matters, selection of PM during constitutional crises). Statement II is incorrect: Article 200 requires Governor to forward bills to President; President cannot suo moto reserve bills from State legislatures without Governor's forwarding action.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_163", "article_200", "governor_discretion", "presidential_authority", "state_bills"],
+    "notes": "Tests knowledge of executive powers of Governor and President in federal setup",
+    "linked_concepts": ["Article 163", "Article 200", "Governor", "Presidential Powers", "Bill Assent"]
+  },
+  {
+    "id": "POLITY_2025_013",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Constitutional Framework",
+    "subtopic": "Fundamental Rights, DPSP, and Duties",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following pairs regarding Constitutional provisions: I. Separation of Judiciary from the Executive in the public services of the State : Directive Principles of State Policy II. Valuing and preserving the rich heritage of our composite culture : Fundamental Duties III. Prohibition of employment of children below the age of 14 years in factories : Fundamental Rights. How many of the above pairs are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "I: Correct - Article 50 comes under DPSP (Part IV) regarding separation of judiciary from executive. II: Correct - Article 51A(f) comes under Fundamental Duties (Part IV-A) about preserving composite culture. III: Correct - Article 24 comes under Part III (Fundamental Rights) Section 2 prohibiting child labor in factories.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_50", "article_51a", "article_24", "constitutional_framework", "classification"],
+    "notes": "Tests ability to classify constitutional provisions into correct categories",
+    "linked_concepts": ["Fundamental Rights", "DPSP", "Fundamental Duties", "Constitutional Classification", "Parts of Constitution"]
+  },
+  {
+    "id": "POLITY_2025_014",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Scheduled Areas",
+    "subtopic": "Fifth Schedule Administration",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements regarding Scheduled Areas under the Fifth Schedule of the Indian Constitution: I. If an area in a State is declared as a Scheduled Area under the Fifth Schedule, the State Government loses its executive power, and a local body assumes total administration of such areas. II. The Union Government can take over total administration of such areas under certain circumstances on the recommendation of the Governor. Which of the above statements is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement I is incorrect: Fifth Schedule explicitly states executive power of State extends to Scheduled Areas therein; there is no automatic loss of state executive power. Statement II is incorrect: Union Government does not take over total administration; it issues directions to State on matters concerning tribal interests. Governor administers under Union directions, not Union takeover.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["5th_schedule", "scheduled_areas", "tribal_administration", "center_state_relations", "governor"],
+    "notes": "Tests understanding of Fifth Schedule provisions and centre-state relations in scheduled areas",
+    "linked_concepts": ["Fifth Schedule", "Scheduled Areas", "Governor", "Union Directions", "Tribal Rights"]
+  },
+  {
+    "id": "POLITY_2025_015",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Regulatory Bodies",
+    "subtopic": "Boards and Commissions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "With reference to India, consider the following pairs: I. The National Automotive Board : Ministry of Commerce and Industry II. The Coir Board : Ministry of Heavy Industries III. The National Centre for Trade Information : Ministry of Micro, Small and Medium Enterprises (MSME). How many of the above pairs are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "I: Incorrect - National Automotive Board is under Ministry of Heavy Industries (not Ministry of Commerce & Industry). II: Incorrect - Coir Board is under Ministry of MSME (not Ministry of Heavy Industries). III: Incorrect - National Centre for Trade Information is under Ministry of Commerce & Industry (not Ministry of MSME).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["regulatory_bodies", "ministry_organization", "statutory_bodies", "government_structure", "board_commissions"],
+    "notes": "Tests knowledge of various regulatory bodies and their parent ministries",
+    "linked_concepts": ["Regulatory Bodies", "Ministry Organization", "Statutory Bodies", "Government Structure", "Cabinet Ministries"]
+  },
+  {
+    "id": "POLITY_2025_016",
+    "year": 2025,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "subtopic": "Amendment Ratification Process",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Consider the following subjects under the Constitution of India: I. List I – Union List, in the Seventh Schedule II. Extent of the executive power of a State III. Conditions of the Governor's office. For a constitutional amendment with respect to which of the above, ratification by the legislatures of not less than one-half of the States is required before the Bill is presented to the President for assent?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Article 368(2) requires State ratification for amendments affecting: (1) Distribution of legislative powers between Union and States (includes Union List - I). (2) Extent of executive power of Union and States (II). Conditions of Governor's office (III) do NOT require State ratification as it doesn't affect power distribution. Hence only I and II require state ratification.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2025
+    },
+    "tags": ["article_368", "constitutional_amendment", "state_ratification", "7th_schedule", "amendment_process"],
+    "notes": "Tests knowledge of special amendment procedures requiring State ratification under Article 368(2)",
+    "linked_concepts": ["Article 368", "Amendment Process", "State Ratification", "Seventh Schedule", "Federal Structure"]
   }
   ]
   
