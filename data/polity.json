@@ -1160,6 +1160,521 @@
     "tags": ["rajya_sabha", "money_bill", "financial_statement", "demands_for_grants"],
     "notes": "Tests understanding of Rajya Sabha's limited financial powers",
     "linked_concepts": ["Article 109", "Money Bill", "Article 110", "Financial Legislation"]
+  },
+  
+  {
+    "id": "POLITY_2015_005",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedure",
+    "subtopic": "Joint Sitting of Parliament",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "When a bill is referred to a joint sitting of both the Houses of the Parliament, it has to be passed by:",
+    "options": [
+      "a simple majority of members present and voting",
+      "three-fourths majority of members present and voting",
+      "two-thirds majority of the total strength",
+      "absolute majority of the House"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "When a bill is referred to a joint sitting of both Houses of Parliament (under Article 110 for Money Bill or other deadlock situations), it requires passage by a simple majority of the members present and voting in the joint sitting. A joint sitting is convened to resolve deadlocks between the two Houses, and a simple majority suffices to pass the bill at the joint sitting.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["joint_sitting", "parliament", "bills", "procedural"],
+    "notes": "Tests knowledge of parliamentary procedures during deadlock situations",
+    "linked_concepts": ["Article 110", "Joint Sitting", "Legislative Procedure"]
+  },
+  {
+    "id": "POLITY_2015_006",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Executive Authority",
+    "subtopic": "Prime Minister and Civil Services",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Executive Power of the Union of India is vested in the Prime Minister. 2. The Prime Minister is the ex officio Chairman of the Civil Services Board.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: The Executive Power of the Union is vested in the President of India, not the Prime Minister. Article 53 provides that the executive power of the Union shall be vested in the President. The PM exercises executive authority on behalf and in the name of the President. Statement 2 is incorrect: The Chairman of the Civil Services Board is the Cabinet Secretary, not the PM. While the PM heads the government, the Cabinet Secretary is the ex officio head of the civil services and chairman of various boards.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["executive_power", "president", "prime_minister", "civil_services"],
+    "notes": "Tests understanding of executive authority distribution and civil service hierarchy",
+    "linked_concepts": ["Article 53", "Cabinet Secretary", "Executive Power"]
+  },
+  {
+    "id": "POLITY_2015_007",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Scheduled Areas",
+    "subtopic": "Fifth and Sixth Schedules",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "The provisions in the Fifth Schedule and Sixth Schedule in the Constitution of India are made in order to:",
+    "options": [
+      "protect the interests of Scheduled Tribes",
+      "determine the boundaries between states",
+      "determine the powers, authorities, and responsibilities of Panchayats",
+      "protect the interests of all the border States"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Both the Fifth Schedule and Sixth Schedule are designed to protect the interests of Scheduled Tribes (and Scheduled Castes in some contexts). The Fifth Schedule provides for administration and control of Scheduled Areas in mainland India. The Sixth Schedule provides special administrative provisions for tribal areas in northeastern states like Assam, Meghalaya, Tripura, and Mizoram. These schedules ensure protection of tribal land, culture, and rights.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["fifth_schedule", "sixth_schedule", "scheduled_tribes", "tribal_areas"],
+    "notes": "Tests knowledge of special constitutional provisions for tribal protection",
+    "linked_concepts": ["Article 244", "Scheduled Areas", "Tribal Rights"]
+  },
+  {
+    "id": "POLITY_2015_008",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Budget and Finance",
+    "subtopic": "Union Budget Preparation and Fund Withdrawal",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Union Government, consider the following statements: 1. The Department of Revenue is responsible for the preparation of Union Budget that is presented to the Parliament. 2. No amount can be withdrawn from the Consolidated Fund of India without the authorization of the Parliament of India. 3. All the disbursements made from the Public Account also need the authorization from the Parliament of India.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is incorrect: The Department of Economic Affairs (under the Ministry of Finance), not the Department of Revenue, is responsible for preparing the Union Budget. Statement 2 is correct: Article 266 mandates that no money can be withdrawn from the Consolidated Fund without parliamentary authorization. The Consolidated Fund contains all revenues and borrowings of the government. Statement 3 is incorrect: The Public Account contains deposits and temporary holdings (like Provident Fund contributions, remittances). Disbursements from the Public Account do not require parliamentary authorization as they are operational transactions, not government expenditure. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["budget_preparation", "consolidated_fund", "public_account", "parliament"],
+    "notes": "Tests distinction between Consolidated Fund and Public Account, and budget authority",
+    "linked_concepts": ["Article 266", "Budget Process", "Fund Classification"]
+  },
+  {
+    "id": "POLITY_2015_009",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Constitutional Guardianship",
+    "subtopic": "Guardian of the Constitution",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Who/Which of the following is the Custodian of the Constitution of India?",
+    "options": [
+      "The President of India",
+      "The Prime Minister of India",
+      "The Lok Sabha Secretariat",
+      "The Supreme Court of India"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "The Supreme Court of India is recognized as the Custodian and ultimate interpreter of the Constitution. It has the power to interpret constitutional provisions, strike down unconstitutional laws, and protect constitutional rights. The Supreme Court, through its judicial review power and constitutional interpretation, safeguards the Constitution and ensures its implementation. This principle has been established through various landmark judgments.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["supreme_court", "constitutional_custodian", "judicial_review"],
+    "notes": "Tests understanding of Supreme Court's role as guardian of Constitution",
+    "linked_concepts": ["Judicial Review", "Constitutional Interpretation", "Supreme Court Powers"]
+  },
+  {
+    "id": "POLITY_2015_010",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Fundamental Duties",
+    "subtopic": "Constitutional Obligations",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": ""To uphold and protect the Sovereignty, Unity and Integrity of India" is a provision made in the:",
+    "options": [
+      "Preamble of the Constitution",
+      "Directive Principles of State Policy",
+      "Fundamental Rights",
+      "Fundamental Duties"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Article 51A(c) of the Fundamental Duties prescribes that it shall be the duty of every citizen of India to uphold and protect the sovereignty, unity, and integrity of India. Fundamental Duties (Part IVA, Articles 51A-51AK) are obligations imposed on Indian citizens. This particular duty emphasizes national integration and patriotic responsibility. The Fundamental Duties were added through the 42nd Constitutional Amendment in 1976.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["fundamental_duties", "article_51a", "national_integrity"],
+    "notes": "Tests knowledge of Fundamental Duties and constitutional provisions",
+    "linked_concepts": ["Article 51A", "Fundamental Duties", "42nd Amendment"]
+  },
+  {
+    "id": "POLITY_2015_011",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Panchayati Raj",
+    "subtopic": "Objectives of Panchayat System",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "The fundamental object of Panchayati Raj system is to ensure which among the following? 1. People's participation in development. 2. Political accountability. 3. Democratic decentralization. 4. Financial mobilization.",
+    "options": [
+      "1, 2 and 3 only",
+      "2 and 4 only",
+      "1 and 3 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The fundamental objectives of the Panchayati Raj system are: (1) People's participation in development - Correct: Panchayats ensure grassroots participation in planning and implementation of development. (2) Political accountability - Not a primary objective though it may result from it. Accountability is more about public administration than the fundamental objective. (3) Democratic decentralization - Correct: Panchayats embody the principle of decentralized governance and local democracy. (4) Financial mobilization - Not a fundamental objective; it may be a mechanism but not the primary aim. The primary objectives are people's participation and democratic decentralization.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["panchayati_raj", "decentralization", "local_governance"],
+    "notes": "Tests understanding of Panchayati Raj philosophy and objectives",
+    "linked_concepts": ["73rd Amendment", "Local Governance", "Democratic Decentralization"]
+  },
+  {
+    "id": "POLITY_2015_012",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Welfare State",
+    "subtopic": "Constitutional Provisions for Welfare",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "The ideal of "Welfare State" in the Indian Constitution is enshrined in its:",
+    "options": [
+      "Preamble",
+      "Directive Principles of State Policy",
+      "Fundamental Rights",
+      "Seventh Schedule"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The ideal of a Welfare State is embedded in the Directive Principles of State Policy (Part IV, Articles 36-51). The Directive Principles provide guidelines for achieving socio-economic justice, securing conditions for just and humane work, living wage, access to education, healthcare, and social security. While the Preamble mentions "social and economic justice," the detailed welfare provisions are found in the Directive Principles. They form the constitutional backbone of India's welfare state ideology.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["directive_principles", "welfare_state", "socio_economic_justice"],
+    "notes": "Tests understanding of where welfare state principles are constitutionally enshrined",
+    "linked_concepts": ["DPSP", "Article 39", "Article 42", "Socio-Economic Rights"]
+  },
+  {
+    "id": "POLITY_2015_013",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Parliamentary System",
+    "subtopic": "Defining Characteristic of Parliamentary Government",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "There is a Parliamentary System of Government in India because the:",
+    "options": [
+      "Lok Sabha is elected directly by the people",
+      "Parliament can amend the constitution",
+      "Rajya Sabha cannot be dissolved",
+      "Council of Ministers is responsible to the Lok Sabha"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "The defining characteristic of a parliamentary system of government is that the Council of Ministers is collectively responsible to the Lok Sabha (the lower house). This principle is enshrined in Article 75(3) which states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha). This means the government remains in office only as long as it enjoys the confidence of the Lok Sabha and can be removed through a no-confidence vote. This collective responsibility distinguishes parliamentary from presidential systems.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["parliamentary_system", "collective_responsibility", "council_of_ministers"],
+    "notes": "Tests understanding of fundamental principle of parliamentary democracy",
+    "linked_concepts": ["Article 75", "Parliamentary System", "Ministerial Responsibility"]
+  },
+  {
+    "id": "POLITY_2016_001",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedure",
+    "subtopic": "Bill Lapsing and Prorogation",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following statements is/are correct? 1. A bill pending in the Lok Sabha lapses on its prorogation. 2. A bill pending in the Rajya Sabha, which has not been passed by the Lok Sabha, shall not lapse on dissolution of the Lok Sabha.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Bills do not lapse on prorogation of a session. Prorogation merely ends a session, but bills remain pending and can be taken up in the next session. This is why bills like GST Bill could survive multiple prorogations. Statement 2 is correct: A bill pending in Rajya Sabha that has not been passed by Lok Sabha does not lapse on dissolution of Lok Sabha. The bill continues to remain with the Rajya Sabha and can be taken up when a new Lok Sabha is constituted. Bills only lapse on dissolution of the house where they originate or in certain specific circumstances, not simply on prorogation.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["bill_procedure", "prorogation", "dissolution", "parliament"],
+    "notes": "Tests understanding of parliamentary procedures regarding bill continuity",
+    "linked_concepts": ["Rules of Procedure", "Parliamentary Sessions", "Bill Progress"]
+  },
+  {
+    "id": "POLITY_2016_002",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Civil Service Administration",
+    "subtopic": "Chief Secretary Appointment and Tenure",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Chief Secretary in a State is appointed by the Governor of that State. 2. The Chief Secretary in a State has a fixed tenure.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: The Chief Secretary of a State is appointed by the State Government (Chief Minister), not by the Governor directly. While the Governor's assent is involved formally, the appointment is made by the State Government/Chief Minister. The confusion arose in cases like the Chief Secretary controversy in Delhi between CM Arvind Kejriwal and Lt. Governor. Statement 2 is incorrect: At the state level, there is no fixed tenure for the Chief Secretary, though there have been demands to fix it. At the central level, certain secretaries (Cabinet Secretary, Home Secretary, Defence Secretary, Foreign Secretary, RAW Chief, IB Chief) have an assured tenure of 2 years. But states don't have this provision.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["chief_secretary", "state_administration", "civil_service"],
+    "notes": "Tests knowledge of state civil service hierarchy and appointment procedures",
+    "linked_concepts": ["Chief Secretary Role", "State Administration", "Civil Service"]
+  },
+  {
+    "id": "POLITY_2016_003",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Gram Nyayalaya Act",
+    "subtopic": "Village Courts and Dispute Resolution",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the 'Gram Nyayalaya Act', which of the following statements is/are correct? 1. As per the Act, Gram Nyayalayas can hear only civil cases and not criminal cases. 2. The Act allows local social activists as mediators/reconciliators.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Gram Nyayalayas under the Gram Nyayalaya Act can hear both civil and criminal cases within their jurisdiction. They have jurisdiction over criminal offences and civil disputes up to certain monetary limits. Statement 2 is correct: The Act specifically provides for the involvement of local social activists, village elders, and community members as mediators and reconciliators. This promotes community participation in dispute resolution and follows the principle of alternative dispute resolution (ADR) at the grassroots level. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["gram_nyayalaya", "alternative_dispute_resolution", "village_courts"],
+    "notes": "Tests knowledge of Gram Nyayalaya Act provisions and functions",
+    "linked_concepts": ["Gram Nyayalaya Act 2008", "ADR", "Local Justice"]
+  },
+  {
+    "id": "POLITY_2016_004",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Parliament and State List",
+    "subtopic": "Parliament's Legislative Power on State Subjects",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The Parliament of India acquires the power to legislate on any item in the State List in the national interest if a resolution to that effect is passed by the:",
+    "options": [
+      "Lok Sabha by a simple majority of its total membership",
+      "Lok Sabha by a majority of not less than two-thirds of its total membership",
+      "Rajya Sabha by a simple majority of its total membership",
+      "Rajya Sabha by a majority of not less than two-thirds of its members present and voting"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Under Article 249 of the Constitution, the Rajya Sabha can pass a resolution by a two-thirds majority of its members present and voting (not just simple majority), declaring that it is necessary in the national interest for Parliament to legislate on a matter in the State List. Once such a resolution is passed, Parliament can legislate on that subject. This power is unique to the Rajya Sabha and reflects the principle that matters of national importance override the normal federal distribution of powers. The two-thirds majority requirement ensures that such power is exercised only in exceptional circumstances.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["article_249", "national_interest", "state_list", "rajya_sabha"],
+    "notes": "Tests knowledge of special powers of Rajya Sabha in federal matters",
+    "linked_concepts": ["Article 249", "State List", "Federal Structure", "Parliamentary Powers"]
+  },
+  {
+    "id": "POLITY_2016_005",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Panchayat System",
+    "subtopic": "Panchayat Member Eligibility and Tenure",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The minimum age prescribed for any person to be a member of Panchayat is 25 years. 2. A Panchayat reconstituted after premature dissolution continues only for the remainder period.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: The minimum age for a person to be eligible for membership of a Panchayat is 21 years, not 25 years. This is specified in Article 243D of the Constitution (73rd Amendment). Statement 2 is correct: When a Panchayat is reconstituted after premature dissolution, it continues only for the remainder of the original 5-year term. A newly constituted Panchayat does not get a full fresh 5-year term; it serves out the remaining period of the tenure that would have been completed by the original Panchayat.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["panchayat_eligibility", "article_243d", "panchayat_tenure"],
+    "notes": "Tests knowledge of Panchayat composition and tenure provisions",
+    "linked_concepts": ["Article 243D", "73rd Amendment", "Panchayat Tenure"]
+  },
+  {
+    "id": "POLITY_2016_006",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Constitutional Structure",
+    "subtopic": "Parliament's Comprehensive Powers",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements about the Parliament of India: 1. Parliament has the power to legislate on any matter not in the State List or Concurrent List. 2. Parliament can amend any portion of the Constitution. 3. The President acts on the advice of the Council of Ministers for legislation.",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is correct: Parliament has exclusive power to legislate on subjects in the Union List (List I) and on residuary matters. Statement 2 is correct: Parliament can amend any part of the Constitution by special majority (both Houses with 2/3 majority) or in certain cases, like amendments affecting federal character, by 2/3 majority plus half of state legislatures' ratification. Statement 3 is incorrect: While the President assents to legislation, this is a formal role. Legislation is initiated and passed by Parliament; the President does not act on advice of Council of Ministers for legislation. Statements 1 and 2 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["parliament_powers", "constitutional_amendment", "article_368"],
+    "notes": "Tests understanding of Parliament's legislative and amendment powers",
+    "linked_concepts": ["Article 368", "Union List", "Constitutional Amendment"]
+  },
+  {
+    "id": "POLITY_2016_007",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Local Governance",
+    "subtopic": "Nagar Palikas and Municipal Corporations",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "In the context of Indian local governance, which of the following is correct regarding Municipal Corporations?",
+    "options": [
+      "They are established only in states with population above 10 million",
+      "They have the widest jurisdiction among municipal bodies in a state",
+      "They are directly under state government with no intermediate administrative tier",
+      "Their jurisdiction is limited to only metropolitan areas"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Municipal Corporations typically have the widest territorial jurisdiction among municipal bodies in a state. The hierarchy generally goes from Municipal Corporations (largest cities) to Municipal Councils/Councils (medium cities) to Nagar Panchayats (smaller towns). Municipal Corporations are established in major cities based on population and administrative importance, not limited to states above 10 million population or strictly metropolitan areas. They exercise substantial autonomy delegated by the state government through the 74th Constitutional Amendment.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["municipal_corporations", "urban_governance", "74th_amendment"],
+    "notes": "Tests knowledge of local governance structures under 74th Amendment",
+    "linked_concepts": ["74th Amendment", "Municipal Bodies", "Urban Local Government"]
+  },
+  {
+    "id": "POLITY_2016_008",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Constitutional Rights",
+    "subtopic": "Right to Information and Transparency",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "The Right to Information Act, 2005 is applicable to:",
+    "options": [
+      "Only central government departments",
+      "Only state government departments",
+      "All public authorities funded by government money",
+      "Only institutions recognized by the government"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The Right to Information Act, 2005 is applicable to all public authorities which include constitutional bodies, statutory bodies, government departments (both central and state level), and any body substantially financed by government. The Act has a broad scope to ensure transparency and accountability across all levels of government and public institutions that expend public funds.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["right_to_information", "rti_act", "transparency", "public_authority"],
+    "notes": "Tests knowledge of RTI Act's scope and applicability",
+    "linked_concepts": ["RTI Act 2005", "Transparency", "Public Authority", "Governance"]
+  },
+  {
+    "id": "POLITY_2016_009",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Constitutional Amendments",
+    "subtopic": "Amendment Procedure and Federal Structure",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following about constitutional amendments in India: 1. All amendments to the Constitution require ratification by at least half the state legislatures. 2. Amendments affecting the federal structure require special majority in both Houses and ratification by half the states. 3. The President's assent is required for all constitutional amendments.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "2 only"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Not all amendments require state ratification. Only amendments affecting the representation of states in Parliament, the executive powers of the state, or federal character require state ratification (Article 368). Statement 2 is correct: Amendments affecting the federal structure do require a special majority in both Houses plus ratification by half the state legislatures. Statement 3 is correct: Article 368 provides that the President's assent is required for all constitutional amendments. Statements 2 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["constitutional_amendment", "article_368", "federal_structure"],
+    "notes": "Tests understanding of amendment procedure and federal protections",
+    "linked_concepts": ["Article 368", "Constitutional Amendment", "Federal Protection"]
+  },
+  {
+    "id": "POLITY_2016_010",
+    "year": 2016,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right Against Exploitation",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which of the following articles is concerned with protection against exploitation through child labour and forced labour?",
+    "options": [
+      "Article 23",
+      "Article 24",
+      "Article 25",
+      "Article 23 and 24 both"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Articles 23 and 24 together protect citizens against different forms of exploitation. Article 23 prohibits traffic in human beings, begar (forced labour without compensation), and other forms of forced labour. It is aimed at preventing economic exploitation. Article 24 prohibits employment of children in factories, mines, or other hazardous occupations. Child labour is prohibited under Article 24 as it involves exploitation of vulnerable groups. Both articles are concerned with protection against exploitation, though in different contexts.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2016
+    },
+    "tags": ["article_23", "article_24", "fundamental_rights", "child_labour"],
+    "notes": "Tests knowledge of Right Against Exploitation provisions",
+    "linked_concepts": ["Article 23", "Article 24", "Child Labour", "Forced Labour"]
   }
   ]
+  
  
