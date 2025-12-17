@@ -3461,6 +3461,277 @@
     "tags": ["aadhaar", "metadata", "section_57", "consolidated_fund"],
     "notes": "Tests knowledge of Aadhaar Act provisions as clarified by Supreme Court",
     "linked_concepts": ["Aadhaar Act 2016", "Supreme Court Ruling", "Data Storage", "Mandatory Requirements"]
+  },
+  
+  {
+    "id": "POLITY_2021_011",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Directive Principles",
+    "subtopic": "Prohibition of Concentration of Wealth",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. In India, the concentration of wealth violates the Directive Principles of State Policy. 2. In India, the concentration of wealth violates the Right to Equality.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Article 39 of DPSP provides that state shall direct its policy towards securing that ownership and control of material resources are distributed to subserve common good and concentration of wealth is prevented. Statement 2 is incorrect: While Right to Equality (Article 14) is about equal protection under law, prohibition of wealth concentration is specifically addressed in DPSP, not as a violation of Right to Equality per se. The prohibition stems from socio-economic justice principles in DPSP.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["directive_principles", "article_39", "concentration_of_wealth", "economic_justice"],
+    "notes": "Tests understanding of wealth concentration prohibition in DPSP",
+    "linked_concepts": ["Article 39", "DPSP", "Economic Justice", "Socio-economic Rights"]
+  },
+  {
+    "id": "POLITY_2021_012",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Preamble",
+    "subtopic": "Original Constitutional Status",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "What was the exact constitutional status of India on 26th January 1950 as announced in the Preamble?",
+    "options": [
+      "A Democratic Republic",
+      "A Sovereign Democratic Republic",
+      "A Sovereign Secular Democratic Republic",
+      "A Sovereign Socialist Secular Democratic Republic"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "On 26th January 1950, the original Preamble stated: 'WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN DEMOCRATIC REPUBLIC.' The words 'Secular' and 'Socialist' were added through the 42nd Constitutional Amendment Act of 1976. The original Constitution established India as a Sovereign Democratic Republic, with the other qualifiers added later.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["preamble", "constitutional_status", "42nd_amendment", "1950"],
+    "notes": "Tests knowledge of original constitutional provisions before amendments",
+    "linked_concepts": ["Preamble", "42nd Amendment Act", "Constitutional History", "Republic"]
+  },
+  {
+    "id": "POLITY_2021_013",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Seventh Schedule",
+    "subtopic": "Division of Governmental Powers",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Union List in the Seventh Schedule of the Indian Constitution includes 'Land and Land Revenue' as a subject for legislation by the Union. 2. The State List in the Seventh Schedule of the Indian Constitution includes 'Food, Public Health and Sanitation; Hospitals and Dispensaries' as subjects for legislation by the States.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: 'Land and Land Revenue' is in the State List (Item 45), not Union List. This is a matter within state jurisdiction as it relates to land administration within each state. Statement 2 is correct: 'Food, public health and sanitation; hospitals and dispensaries' appears in the State List (Item 6) as a state subject. Public health and sanitation are primarily state responsibilities with Union support.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["seventh_schedule", "union_list", "state_list", "division_of_powers"],
+    "notes": "Tests knowledge of specific subjects in Seventh Schedule lists",
+    "linked_concepts": ["Seventh Schedule", "Union List", "State List", "Concurrent List"]
+  },
+  {
+    "id": "POLITY_2021_014",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Scheduled Tribes",
+    "subtopic": "Definitions and Constitutional Provisions",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following is the correct definition of 'Scheduled Castes and Scheduled Tribes'?",
+    "options": [
+      "Communities that are economically deprived",
+      "Communities that lack literacy",
+      "Communities designated by the President",
+      "Communities that are socially and educationally backward"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Scheduled Castes and Scheduled Tribes are designations made by the President under Articles 341 and 342 respectively. These are not defined by economic status or literacy levels, but by official constitutional designation. Once designated, these communities receive constitutional protections including reservations, remedies for disabilities, and special provisions. The designation is formal and constitutionally significant.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["scheduled_castes", "scheduled_tribes", "article_341", "article_342"],
+    "notes": "Tests understanding of constitutional definition of SC/ST designation",
+    "linked_concepts": ["Article 341", "Article 342", "SC/ST Status", "Constitutional Designation"]
+  },
+  {
+    "id": "POLITY_2021_015",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Awards",
+    "subtopic": "Bharat Ratna and Padma Awards",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements in respect of Bharat Ratna and Padma Awards: 1. Bharat Ratna awardee must be an Indian citizen. 2. Padma Shri awardee must be an Indian citizen. 3. Bharat Ratna is conferred by the President on recommendation of a Committee. 4. Padma awards are conferred by the President on the basis of the recommendations made by an advisory committee constituted by the government.",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "All statements are correct: (1) Bharat Ratna (highest civilian award) requires Indian citizenship. (2) Padma awards (Padma Vibhushan, Padma Bhushan, Padma Shri) require Indian citizenship. (3) Bharat Ratna is conferred by President on recommendation of a Prime Minister-headed Committee. (4) Padma awards are conferred by President based on advisory committee recommendations. However, there was a recent change (2021) allowing NRIs for Padma awards while Bharat Ratna remains for citizens only.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["bharat_ratna", "padma_awards", "civilian_awards", "citizenship"],
+    "notes": "Tests knowledge of eligibility criteria and conferment process for major awards",
+    "linked_concepts": ["Bharat Ratna", "Padma Awards", "Civilian Honours", "Presidential Powers"]
+  },
+  {
+    "id": "POLITY_2021_016",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Prisons",
+    "subtopic": "Remission and Premature Release",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements in respect of remission of sentences and premature release of prisoners in India: 1. Remission of sentences and premature release of prisoners are Union responsibilities. 2. State governments have executive powers to grant remission and parole to prisoners.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Prisons and persons detained therein are State Subjects (Item 4, State List). Therefore, remission and premature release are state responsibilities, not union. Statement 2 is correct: State governments have executive powers to grant remission based on good conduct, parole, furlough etc. through rules framed under the Prison Act. This reflects the constitutional division of powers.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["prisons", "remission", "parole", "state_list", "executive_power"],
+    "notes": "Tests understanding of state power over prisons and prisoner release",
+    "linked_concepts": ["State List Item 4", "Prisons", "Executive Powers", "Remission and Parole"]
+  },
+  {
+    "id": "POLITY_2021_017",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "subtopic": "Parliamentary Procedures and Orders",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the functioning of Parliament, consider the following statements: 1. Members of Parliament may resign their membership by submitting the letter to the Speaker. 2. The resignation of a Member is accepted when the Speaker is satisfied that the resignation is voluntary and not to cause governmental instability.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Under Article 101 and Rules of Procedure, MPs can resign by submitting resignation letters to the Speaker (for LS) or Chairman (for RS). Statement 2 is incorrect: While the Speaker verifies voluntariness, the criterion is not about 'governmental instability'. The Speaker accepts resignation when satisfied it's voluntary and given in prescribed form. The reason or political implications (stability or instability) don't determine acceptance.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["parliament", "resignation", "article_101", "speaker", "rules_of_procedure"],
+    "notes": "Tests knowledge of parliamentary procedures regarding member resignation",
+    "linked_concepts": ["Article 101", "Rules of Procedure", "Speaker's Powers", "Parliamentary Procedure"]
+  },
+  {
+    "id": "POLITY_2021_018",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Protection Against Discrimination",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following are constitutionally protected grounds against discrimination? 1. Religion. 2. Caste. 3. Race. 4. Profession. 5. Place of birth.",
+    "options": [
+      "1, 2 and 5 only",
+      "2, 3 and 4 only",
+      "1, 3, 4 and 5 only",
+      "1, 2, 3, 4 and 5"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Article 15 prohibits discrimination on grounds of 'religion, race, caste, sex or place of birth'. From the given options: (1) Religion - Protected (Article 15(1)). (2) Caste - Protected (Article 15(1)). (3) Race - Protected (Article 15(1)). (4) Profession - NOT explicitly protected under Article 15 but covered by other provisions. (5) Place of birth - Protected (Article 15(1)). Statements 1, 3, 4, and 5 are protected grounds. Caste is also protected specifically under Article 17 (abolition of untouchability).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["article_15", "discrimination", "fundamental_rights", "protected_grounds"],
+    "notes": "Tests knowledge of discrimination grounds under Constitution",
+    "linked_concepts": ["Article 15", "Article 17", "Right to Equality", "Protected Grounds"]
+  },
+  {
+    "id": "POLITY_2021_019",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Constitutional Provisions",
+    "subtopic": "Economic Liberty in Preamble",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following is NOT mentioned in the Preamble to the Constitution of India?",
+    "options": [
+      "Liberty of thought",
+      "Economic liberty",
+      "Liberty of expression",
+      "Liberty of belief"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The Preamble mentions: 'Liberty of thought, expression, belief, faith and worship' but does NOT mention 'Economic liberty' specifically. While economic and social justice are mentioned, economic liberty as a standalone concept is not in the Preamble. The DPSP addresses economic rights. Therefore, Economic liberty is the only one NOT mentioned.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["preamble", "liberty", "economic_justice", "constitutional_objectives"],
+    "notes": "Tests careful reading of exact Preamble language",
+    "linked_concepts": ["Preamble", "Liberty", "Constitutional Objectives", "DPSP"]
+  },
+  {
+    "id": "POLITY_2021_020",
+    "year": 2021,
+    "subject": "Polity",
+    "topic": "Parliamentary Democracy",
+    "subtopic": "Government Responsibility and Confidence",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "In the parliamentary system of government, the executive is responsible to",
+    "options": [
+      "The President",
+      "The Judiciary",
+      "The Legislature",
+      "The People directly"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "In parliamentary democracy, the executive (Council of Ministers) is responsible to the Legislature. Article 75(3) states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha). This principle of collective responsibility is fundamental to parliamentary government. The executive must retain confidence of the legislature and can be removed through no-confidence motion.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2021
+    },
+    "tags": ["parliamentary_democracy", "collective_responsibility", "executive_legislature", "article_75"],
+    "notes": "Tests understanding of parliamentary system's core principle",
+    "linked_concepts": ["Article 75", "Collective Responsibility", "Parliamentary Democracy", "Cabinet System"]
   }
   ]
   
