@@ -3732,8 +3732,822 @@
     "tags": ["parliamentary_democracy", "collective_responsibility", "executive_legislature", "article_75"],
     "notes": "Tests understanding of parliamentary system's core principle",
     "linked_concepts": ["Article 75", "Collective Responsibility", "Parliamentary Democracy", "Cabinet System"]
+  },
+  
+  {
+    "id": "POLITY_2022_001",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Contempt of Courts",
+    "subtopic": "Contempt Act and Constitutional Powers",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. Pursuant to the report of H.N. Sanyal Committee, the Contempt of Courts Act, 1971 was passed. 2. The Constitution of India empowers the Supreme Court and the High Courts to punish for contempt of themselves. 3. The Constitution of India defines Civil Contempt and Criminal Contempt. 4. In India, the Parliament is vested with the powers to make laws on Contempt of Court.",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 4 only",
+      "3 and 4 only",
+      "3 only"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is correct: H.N. Sanyal Committee (1961) recommended Contempt of Courts Act 1971. Statement 2 is correct: Articles 129 & 215 empower SC & HC to punish for contempt. Statement 3 is incorrect: Constitution does not define civil and criminal contempt - these definitions are in the Contempt of Courts Act 1971. Statement 4 is correct: Entry 77 List I and Entry 14 List III of Seventh Schedule vest Parliament with powers to make laws on contempt. Therefore, statements 1, 2 and 4 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["contempt_of_court", "h_n_sanyal_committee", "article_129", "article_215"],
+    "notes": "Tests knowledge of Contempt of Courts Act and constitutional authorities",
+    "linked_concepts": ["Contempt of Courts Act 1971", "H.N. Sanyal Committee", "Articles 129 & 215", "Parliament Power"]
+  },
+  {
+    "id": "POLITY_2022_002",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Legal Profession",
+    "subtopic": "Advocates and Bar Council Recognition",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to India, consider the following statements: 1. Government law officers and legal firms are recognized as advocates, but corporate lawyers and patent attorneys are excluded from recognition as advocates. 2. Bar Councils have the power to lay down the rules relating to legal education and recognition of law colleges.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Legal firms are NOT recognized as advocates. Patent attorneys CAN be recognized as advocates. Government law officers and corporate lawyers are excluded. Statement 2 is correct: Bar Council of India, established under Advocates Act 1961, has power to lay down rules for legal education and recognize law colleges. Bar Councils set standards and grant recognition to Universities whose law degrees serve as qualification for enrollment as advocates.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["advocates_act", "bar_council", "legal_profession", "law_colleges"],
+    "notes": "Tests knowledge of advocacy profession recognition and Bar Council powers",
+    "linked_concepts": ["Advocates Act 1961", "Bar Council of India", "Legal Education", "Law College Recognition"]
+  },
+  {
+    "id": "POLITY_2022_003",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "subtopic": "Amendment Procedure and Presidential Role",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. A bill amending the Constitution requires a prior recommendation of the President of India. 2. When a Constitution Amendment Bill is presented to the President of India, it is obligatory for the President of India to give his/her assent. 3. A Constitution Amendment Bill must be passed by both the Houses by a special majority and there is no provision for joint sitting.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Constitution Amendment Bill does not require prior Presidential recommendation - this requirement only applies to Money Bills. Statement 2 is correct: Article 368(2) mandates that President SHALL give assent - no discretion. Statement 3 is correct: Special majority required in both Houses separately per Article 368, no joint sitting provision exists for constitutional amendments. Therefore, statements 2 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["article_368", "constitutional_amendment", "presidential_assent", "special_majority"],
+    "notes": "Tests understanding of constitutional amendment procedure",
+    "linked_concepts": ["Article 368", "Amendment Procedure", "Presidential Powers", "Joint Sitting"]
+  },
+  {
+    "id": "POLITY_2022_004",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Council of Ministers",
+    "subtopic": "Classification and Size of Cabinet",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Constitution of India classifies the ministers into four ranks viz. Cabinet Minister, Minister of State with Independent Charge, Minister of State and Deputy Minister. 2. The total number of ministers in the Union Government, including the Prime Minister, shall not exceed 15 percent of the total number of members in the Lok Sabha.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Constitution does not classify ministers - this classification into three tiers (Cabinet, Minister of State, Deputy Minister) is based on parliamentary convention and Rules of Procedure. Statement 2 is correct: 91st Constitutional Amendment Act 2003 added Article 75(1A) limiting total ministers to 15% of Lok Sabha total strength. This is a binding constitutional provision.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["article_75", "91st_amendment", "council_of_ministers", "minister_limit"],
+    "notes": "Tests knowledge of cabinet structure and constitutional limits on ministerial numbers",
+    "linked_concepts": ["Article 75", "91st Amendment", "Cabinet Composition", "Minister Numbers"]
+  },
+  {
+    "id": "POLITY_2022_005",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Parliamentary Powers",
+    "subtopic": "Exclusive Powers of Lok Sabha",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following is/are the exclusive power(s) of Lok Sabha? 1. To ratify the declaration of Emergency. 2. To pass a motion of no-confidence against the Council of Ministers. 3. To impeach the President of India.",
+    "options": [
+      "1 and 2",
+      "2 only",
+      "1 and 3",
+      "3 only"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Both Houses must approve Emergency declaration within one month per Article 352(4). Statement 2 is correct: No-confidence motion is exclusive to Lok Sabha under Rules of Procedure Rule 198. Statement 3 is incorrect: Impeachment of President requires initiation in either House per Article 61; both Houses have equal power. Therefore, only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["lok_sabha_powers", "no_confidence", "article_352", "article_61"],
+    "notes": "Tests understanding of Lok Sabha's exclusive vs shared parliamentary powers",
+    "linked_concepts": ["No-Confidence Motion", "Article 352", "Article 61", "Emergency Declaration"]
+  },
+  {
+    "id": "POLITY_2022_006",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Anti-Defection Law",
+    "subtopic": "Nominated Members and Presiding Officer Powers",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to anti-defection law in India, consider the following statements: 1. The law specifies that a nominated legislator cannot join any political party within six months of being appointed to the House. 2. The law does not provide any time-frame within which the presiding officer has to decide a defection case.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Per Tenth Schedule, nominated member can join any party BEFORE expiry of 6 months. After 6 months, joining a party leads to disqualification. Statement 2 is correct: Tenth Schedule does not provide time-frame for Presiding Officer's decision on defection cases. The Presiding Officer has absolute discretion regarding timing.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["tenth_schedule", "anti_defection_law", "nominated_members", "presiding_officer"],
+    "notes": "Tests knowledge of Tenth Schedule provisions on nominated member defection",
+    "linked_concepts": ["Tenth Schedule", "Nominated Members", "Anti-Defection Law", "Presiding Officer Powers"]
+  },
+  {
+    "id": "POLITY_2022_007",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Constitutional Officers",
+    "subtopic": "Attorney General Participation and Tenure",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India. 2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: Article 88 gives Attorney General right to speak in Parliament, but Solicitor General has no such explicit right. Also, other officers can participate too. Statement 2 is incorrect: Article 76(4) states Attorney General holds office during President's pleasure - conventionally resigns when government resigns, but this is NOT mandated by Constitution. Both statements are incorrect.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["article_76", "article_88", "attorney_general", "solicitor_general"],
+    "notes": "Tests knowledge of Attorney General's constitutional role and tenure",
+    "linked_concepts": ["Article 76", "Article 88", "Parliamentary Participation", "Constitutional Officers"]
+  },
+  {
+    "id": "POLITY_2022_008",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Constitutional Remedies",
+    "subtopic": "Writs - Mandamus and Quo Warranto",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the writs issued by the Courts in India, consider the following statements: 1. Mandamus will not lie against a private organization unless it is entrusted with a public duty. 2. Mandamus will not lie against a Company even though it may be a Government Company. 3. Any public minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: Mandamus lies against private bodies only if entrusted with public duty - per Supreme Court in Binny Ltd. case. Statement 2 is incorrect: Mandamus CAN lie against Government Company if it's discharging public function. Statement 3 is correct: Quo Warranto can be moved by any interested/public-minded person, not just aggrieved party. Therefore, statements 1 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["mandamus", "quo_warranto", "writs", "article_32", "article_226"],
+    "notes": "Tests knowledge of writ jurisdiction and conditions for issuance",
+    "linked_concepts": ["Mandamus", "Quo Warranto", "Article 32", "Article 226", "Binny Ltd. Case"]
+  },
+  {
+    "id": "POLITY_2022_009",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedure",
+    "subtopic": "Deputy Speaker Election and Powers",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to Deputy Speaker of Lok Sabha, consider the following statements: 1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix. 2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party. 3. The Deputy Speaker has the same power as the Speaker when presiding over the sitting of the House and no appeal lies against his rulings. 4. The well-established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker and duly seconded by the Prime Minister.",
+    "options": [
+      "1 and 3 only",
+      "1, 2 and 3",
+      "3 and 4 only",
+      "2 and 4 only"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Rules of Procedure Section 8 allows Speaker to fix election date. Statement 2 is incorrect: No mandatory provision - convention since 11th LS is Speaker from ruling party, Deputy Speaker from opposition, but not constitutionally mandatory. Statement 3 is correct: Deputy Speaker has same powers as Speaker when presiding; per Article 95(1), no appeal lies against his rulings. Statement 4 is incorrect: Motion moved by Parliamentary Affairs Minister, not Speaker. Therefore, statements 1 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["deputy_speaker", "rules_of_procedure", "article_95", "parliamentary_practice"],
+    "notes": "Tests knowledge of Deputy Speaker election procedure and parliamentary conventions",
+    "linked_concepts": ["Article 95", "Rules of Procedure", "Speaker Election", "Parliamentary Convention"]
+  },
+  {
+    "id": "POLITY_2022_010",
+    "year": 2022,
+    "subject": "Polity",
+    "topic": "Scheduled Areas",
+    "subtopic": "Fifth Schedule Provisions",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "If a particular area is brought under the Fifth Schedule of the Constitution of India, which one of the following statements best reflects the consequence of it?",
+    "options": [
+      "This would prevent the transfer of land of tribal people to non-tribal people",
+      "This would create a local self-governing body in that area",
+      "This would convert that area into a Union Territory",
+      "The State having such areas would be declared a Special Category State"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Under Fifth Schedule, Paragraph 5(2)(a), Governor can make regulations prohibiting or restricting transfer of land by/among Scheduled Tribes members. Most states have enacted legislation restricting tribal land transfer to non-tribals in Scheduled Areas. This is key protection mechanism. Fifth Schedule does not create local self-govt (Sixth Schedule does), does not convert to UT, or declare Special Category State.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2022
+    },
+    "tags": ["fifth_schedule", "scheduled_areas", "tribal_land", "land_transfer_protection"],
+    "notes": "Tests knowledge of Fifth Schedule provisions for tribal protection",
+    "linked_concepts": ["Fifth Schedule", "Scheduled Areas", "Tribal Rights", "Land Transfer Restrictions"]
+  },
+  
+  {
+    "id": "POLITY_2023_011",
+    "year": 2023,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "subtopic": "1st Amendment and Fundamental Rights",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "In India, which one of the following Constitutional Amendments was widely believed to be enacted to overcome the judicial interpretations of the Fundamental Rights?",
+    "options": [
+      "1st Amendment",
+      "42nd Amendment",
+      "44th Amendment",
+      "86th Amendment"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "The 1st Constitutional Amendment (1951) was specifically enacted to overcome difficulties arising from judicial interpretations of Fundamental Rights. The Constituent Assembly and government passed it to clarify certain provisions, particularly regarding Article 19 (freedom of speech) and Article 31 (property rights), after court decisions had created complications. The Ninth Schedule was also added through this amendment to protect agrarian reform laws.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2023
+    },
+    "tags": ["1st_amendment", "fundamental_rights", "judicial_interpretation", "agrarian_reform"],
+    "notes": "Tests knowledge of earliest constitutional amendments and their purpose",
+    "linked_concepts": ["1st Amendment 1951", "Fundamental Rights", "Ninth Schedule", "Judicial Review"]
+  },
+  {
+    "id": "POLITY_2023_012",
+    "year": 2023,
+    "subject": "Polity",
+    "topic": "Constitutional Bodies",
+    "subtopic": "Constitutional vs Non-Constitutional Bodies",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following organizations/bodies in India: 1. The National Commission for Backward Classes 2. The National Human Rights Commission 3. The National Law Commission 4. The National Consumer Disputes Redressal Commission. How many of the above are constitutional bodies?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Only the National Commission for Backward Classes (NCBC) is a constitutional body, established under Article 338B (inserted by 102nd Amendment, 2018). NHRC is statutory (established under Protection of Human Rights Act 1993), Law Commission is non-statutory (executive notification), and NCDRC is statutory (Consumer Protection Act 1986).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2023
+    },
+    "tags": ["constitutional_bodies", "ncbc", "article_338b", "statutory_bodies"],
+    "notes": "Tests distinction between constitutional and non-constitutional bodies",
+    "linked_concepts": ["Article 338B", "NCBC", "Statutory Bodies", "Constitutional Status"]
+  },
+  {
+    "id": "POLITY_2023_013",
+    "year": 2023,
+    "subject": "Polity",
+    "topic": "Finance Bills",
+    "subtopic": "Money Bills and Finance Bills Procedure",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Finance Bill and Money Bill in the Indian Parliament, consider the following statements: 1. When the Lok Sabha transmits Finance bill to the Rajya Sabha, it can amend or reject the Bill. 2. When the Lok Sabha transmits Money Bill to the Rajya Sabha, it cannot amend or reject the Bill; it can only make recommendations. 3. In case of disagreement between the Lok Sabha and the Rajya Sabha, there is no joint sitting for Money Bill, but a joint sitting becomes necessary for Finance Bill. How many of the above statements are correct?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Finance Bill is a Money Bill, so Rajya Sabha can only recommend, not reject/amend. Statement 2 is correct: Rajya Sabha cannot reject Money Bills, only recommend amendments. Statement 3 is partially correct as per UPSC - for Category-A Financial Bills (which are Money Bills), no joint sitting exists; for Category-B Financial Bills, joint sitting applies. Statements 2 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2023
+    },
+    "tags": ["money_bill", "finance_bill", "article_110", "article_117", "joint_sitting"],
+    "notes": "Tests understanding of Money Bill vs Finance Bill procedures",
+    "linked_concepts": ["Article 110", "Article 117", "Money Bill Procedure", "Joint Sitting"]
+  },
+  {
+    "id": "POLITY_2023_014",
+    "year": 2023,
+    "subject": "Polity",
+    "topic": "President of India",
+    "subtopic": "Presidential Election Procedures",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements in respect of election to the President of India: 1. The members nominated to either House of the Parliament or the Legislative Assemblies of States are also eligible to be included in the Electoral College. 2. Higher the number of elective Assembly seats, higher is the value of vote of each MLA of that State. 3. The value of vote of each MLA of Madhya Pradesh is greater than that of Kerala. 4. The value of vote of each MLA of Puducherry is higher than that of Arunachal Pradesh because the ratio of total population to total number of elective seats in Puducherry is greater as compared to Arunachal Pradesh. How many of the above statements are correct?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is incorrect: Only elected members are in electoral college, not nominated members. Statement 2 is incorrect: MLA vote value = State Population / Number of Elected MLAs × 1000 - more seats means lower individual value. Statement 3 is incorrect: Need to calculate based on 1971 census data. Statement 4 is incorrect: Puducherry actually has lower MLA vote value than Arunachal Pradesh. Only statement 3 appears possibly correct based on actual data.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2023
+    },
+    "tags": ["presidential_election", "electoral_college", "vote_value", "article_54"],
+    "notes": "Tests understanding of presidential electoral college composition and vote calculation",
+    "linked_concepts": ["Article 54", "Article 55", "Presidential Election", "Electoral College"]
+  },
+  {
+    "id": "POLITY_2023_015",
+    "year": 2023,
+    "subject": "Polity",
+    "topic": "Constitutional History",
+    "subtopic": "Constitution Day and Constituent Assembly",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements in respect of the Constitution Day: Statement I: The Constitution Day is celebrated on 26th November every year to promote constitutional values among citizens. Statement II: On 26th November 1949, the Constituent Assembly of India set up a Drafting Committee under the Chairmanship of Dr. B.R. Ambedkar to prepare a Draft Constitution of India. Which one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct, and Statement II is the correct explanation for Statement I",
+      "Both Statement I and Statement II are correct, and Statement II is not the correct explanation for Statement I",
+      "Statement I is correct, but Statement II is incorrect",
+      "Statement I is incorrect, but Statement II is correct"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement I is correct: Constitution Day is celebrated on 26th November to commemorate adoption of the Constitution and promote constitutional values. Statement II is incorrect: On 26th November 1949, the Constituent Assembly ADOPTED (not set up committee to prepare) the Constitution. The Drafting Committee under Ambedkar was set up earlier during Constitution-making process. Constitution came into effect on 26th January 1950.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2023
+    },
+    "tags": ["constitution_day", "constituent_assembly", "26_november", "ambedkar"],
+    "notes": "Tests knowledge of constitutional history and dates",
+    "linked_concepts": ["Constitution Day", "Constituent Assembly", "Drafting Committee", "Constitutional Dates"]
+  },
+  {
+    "id": "POLITY_2024_001",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "subtopic": "Amendment Process Methods",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "As per Article 368 of the Constitution of India, the Parliament may amend any provision of the Constitution by way of: 1. Addition 2. Variation 3. Repeal. Select the correct answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Article 368(1) explicitly states Parliament may amend the Constitution 'by way of addition, variation or repeal' of any provision. All three methods are constitutionally available for amending the Constitution, subject to the constraints of the basic structure doctrine.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["article_368", "constitutional_amendment", "addition_variation_repeal"],
+    "notes": "Tests knowledge of Article 368 amendment methods",
+    "linked_concepts": ["Article 368", "Amendment Procedure", "Basic Structure Doctrine"]
+  },
+  {
+    "id": "POLITY_2024_002",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Money Bills",
+    "subtopic": "Money Bill Procedures and Rajya Sabha Powers",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following statements are correct in respect of a Money Bill in the Parliament? 1. Article 109 mentions a special procedure in respect of Money Bills. 2. A Money Bill shall not be introduced in the Council of States. 3. The Rajya Sabha can either approve the Bill or suggest changes but cannot reject it. 4. Amendments to a Money Bill suggested by the Rajya Sabha have to be accepted by the Lok Sabha. Select the answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3",
+      "1, 3 and 4"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statements 1, 2, and 3 are correct. Article 109 does provide special procedure. Money Bills cannot be introduced in Rajya Sabha. Rajya Sabha can recommend amendments but cannot reject Money Bills. Statement 4 is incorrect: Lok Sabha can accept or reject Rajya Sabha recommendations - it's not mandatory to accept them.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["article_109", "money_bill", "rajya_sabha_powers"],
+    "notes": "Tests understanding of Money Bill procedure and Rajya Sabha's limited powers",
+    "linked_concepts": ["Article 109", "Article 110", "Money Bill Definition", "Rajya Sabha Restrictions"]
+  },
+  {
+    "id": "POLITY_2024_003",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Statutory Bodies",
+    "subtopic": "North Eastern Council",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "The North Eastern Council (NEC) was established by the North Eastern Council Act 1971. Subsequent to the amendment of the NEC Act in 2002, the Council comprises which of the following members? 1. Governor of the Constituent State 2. Chief Minister of the Constituent State 3. Three Members to be nominated by the President of India 4. The Home Minister of India. Select the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "After 2002 amendment, NEC comprises: (1) Governors of 8 constituent states, (2) Chief Ministers of those states, (3) Three members nominated by President. The Home Minister is NOT an automatic member. NEC comprises these members only - Home Ministry provides administrative support.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["north_eastern_council", "nec_act_2002", "statutory_bodies"],
+    "notes": "Tests knowledge of NEC composition after amendments",
+    "linked_concepts": ["NEC Act 1971", "NEC Amendment 2002", "North Eastern States", "Statutory Bodies"]
+  },
+  {
+    "id": "POLITY_2024_004",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Delimitation Commission",
+    "subtopic": "Electoral Boundary Delimitation",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "How many Delimitation Commissions have been constituted by the Government of India till December 2023?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Four Delimitation Commissions have been constituted: (1) 1952 under Delimitation Commission Act 1952, (2) 1963 under Delimitation Commission Act 1962, (3) 1973 under Delimitation Act 1972, (4) 2002 under Delimitation Act 2002. These redraw constituency boundaries based on census data.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["delimitation_commission", "electoral_boundaries", "delimitation_acts"],
+    "notes": "Tests knowledge of delimitation history and frequency",
+    "linked_concepts": ["Delimitation Commission", "Electoral Boundaries", "Constituency Redrawing"]
+  },
+  {
+    "id": "POLITY_2024_005",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Eighth Schedule",
+    "subtopic": "Official Languages of India",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "The Constitution (71st Amendment) Act 1992 amends the Eighth Schedule to the Constitution to include which of the following languages? 1. Konkani 2. Manipuri 3. Nepali 4. Maithili. Select the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "1, 2 and 4",
+      "1, 3 and 4",
+      "2, 3 and 4"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "71st Amendment (1992) added Konkani, Manipuri, and Nepali to Eighth Schedule. Maithili was added later through 92nd Amendment in 2003 along with Bodo, Dogri, and Santhali, raising total to 22 languages.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["71st_amendment", "eighth_schedule", "official_languages"],
+    "notes": "Tests knowledge of constitutional amendments adding languages",
+    "linked_concepts": ["71st Amendment 1992", "92nd Amendment 2003", "Eighth Schedule", "Official Languages"]
+  },
+  {
+    "id": "POLITY_2024_006",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Constitutional Parts",
+    "subtopic": "Structure of Constitution",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following statements are correct about the Constitution of India? 1. Powers of the Municipalities are given in Part IX A of the Constitution. 2. Emergency provisions are given in Part XVIII of the Constitution. 3. Provisions related to the amendment of the Constitution are given in Part XX of the Constitution. Select the answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "All three statements are correct: Part IX-A (Articles 243-P to 243-ZG) covers Municipalities; Part XVIII (Articles 352-360) covers Emergency Provisions; Part XX (Article 368) covers Constitutional Amendment.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["constitution_parts", "municipal_governance", "emergency_provisions"],
+    "notes": "Tests knowledge of constitutional structure and part numbering",
+    "linked_concepts": ["Part IX-A", "Part XVIII", "Part XX", "Constitutional Organization"]
+  },
+  {
+    "id": "POLITY_2024_007",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Union and State Lists",
+    "subtopic": "Division of Powers - Seventh Schedule",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following statements is correct as per the Constitution of India?",
+    "options": [
+      "Interstate trade and commerce is a State subject under the State List",
+      "Interstate migration is a State subject under the State List",
+      "Inter-State quarantine is a Union subject under the Union List",
+      "Corporation tax is a State subject under the State List"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Inter-State quarantine is a Union subject under Entry 81 of Union List. Interstate trade and commerce is Union subject (Entry 42), Interstate migration is Union subject (Entry 81), Corporation tax is Union subject (Entry 85). Only option C is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["seventh_schedule", "union_list", "state_list", "division_of_powers"],
+    "notes": "Tests knowledge of specific entries in Seventh Schedule lists",
+    "linked_concepts": ["Seventh Schedule", "Union List", "State List", "Distribution of Powers"]
+  },
+  {
+    "id": "POLITY_2024_008",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right to Privacy",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Under which of the following Articles of the Constitution of India has the Supreme Court of India placed the Right to Privacy?",
+    "options": [
+      "Article 15",
+      "Article 16",
+      "Article 19",
+      "Article 21"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Supreme Court in K.S. Puttaswamy v. Union of India (2017) held that Right to Privacy is protected under Article 21, which guarantees right to life and personal liberty. Privacy is an intrinsic part of personal liberty.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["article_21", "right_to_privacy", "puttaswamy_judgment", "fundamental_rights"],
+    "notes": "Tests knowledge of landmark SC judgment on right to privacy",
+    "linked_concepts": ["Article 21", "K.S. Puttaswamy Case 2017", "Personal Liberty", "Fundamental Rights"]
+  },
+  {
+    "id": "POLITY_2024_009",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Parliamentary Committees",
+    "subtopic": "Ethics Committee",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following statements about the Ethics Committee in the Lok Sabha are correct? 1. Initially, it was an ad-hoc Committee. 2. Only a Member of the Lok Sabha can make a complaint relating to the unethical conduct of a member of the Lok Sabha. 3. This Committee cannot take up any matter which is sub-judice. Select the answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: Ethics Committee was initially constituted as ad-hoc committee in 2000 by Speaker G.M.C. Balayogi. Statement 2 is incorrect: Any person/non-member can also make complaints. Statement 3 is correct: Committee follows principle that it cannot take sub-judice matters. Statements 1 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["ethics_committee", "lok_sabha", "ad_hoc_committee", "parliamentary_procedures"],
+    "notes": "Tests knowledge of Ethics Committee establishment and functions",
+    "linked_concepts": ["Ethics Committee", "Parliamentary Standards", "Ad-hoc Committee", "Ethical Conduct"]
+  },
+  {
+    "id": "POLITY_2024_010",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Constitutional History",
+    "subtopic": "Constituent Assembly Officers",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Who was the Provisional President of the Constituent Assembly before Dr. Rajendra Prasad took over?",
+    "options": [
+      "C. Rajagopalachari",
+      "Dr. B.R. Ambedkar",
+      "T.T. Krishnamachari",
+      "Dr. Sachchidananda Sinha"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Dr. Sachchidananda Sinha was the Provisional President of the Constituent Assembly from 9 December 1946 to 11 December 1946. Dr. Rajendra Prasad became President of the Constituent Assembly on 11 December 1946 and held the position until Constitution adoption on 26 November 1949.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["constituent_assembly", "provisional_president", "constitutional_history"],
+    "notes": "Tests knowledge of early Constituent Assembly leadership",
+    "linked_concepts": ["Constituent Assembly", "Dr. Sachchidananda Sinha", "Dr. Rajendra Prasad", "Constitutional History"]
+  },
+  {
+    "id": "POLITY_2024_011",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Scheduled Tribes",
+    "subtopic": "Designation and Recognition Process",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. It is the Governor of the State who recognises and declares any community of that State as a Scheduled Tribe. 2. A community declared as a Scheduled Tribe in a State need not be so in another State. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Article 342 states PRESIDENT (after consulting Governor) recognizes SC/ST, not the Governor alone. Statement 2 is correct: SC/ST designation is State-specific per Article 342(1) - a community can be ST in one state but not in another.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["article_342", "scheduled_tribes", "state_specific_designation"],
+    "notes": "Tests knowledge of SC/ST designation procedures",
+    "linked_concepts": ["Article 342", "Scheduled Tribes", "Presidential Powers", "State-Specific Recognition"]
+  },
+  {
+    "id": "POLITY_2024_012",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Union Budget",
+    "subtopic": "Budget Procedure and Presidential Role",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Union Budget, consider the following statements: 1. The Union Finance Minister on behalf of the Prime Minister lays the Annual Financial Statement before both the Houses of Parliament. 2. At the Union level, no demand for a grant can be made except on the recommendation of the President of India. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Both statements are correct. Article 112 requires President to cause Annual Financial Statement to be laid before Parliament. Finance Minister, as PM's agent, presents it. Article 113 requires all Demands for Grants to be made on President's recommendation.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["article_112", "article_113", "annual_financial_statement", "demands_for_grants"],
+    "notes": "Tests knowledge of budget procedure and presidential authority",
+    "linked_concepts": ["Article 112", "Article 113", "Union Budget", "Presidential Recommendation"]
+  },
+  {
+    "id": "POLITY_2024_013",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Speaker Removal Procedures",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Speaker of the Lok Sabha, consider the following statements: While any resolution for the removal of the Speaker of the Lok Sabha is under consideration: 1. He/she shall not preside. 2. He/she shall not have the right to speak. 3. He/she shall not be entitled to vote on the resolution in the first instance. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Only statement 1 is correct: Speaker cannot preside during removal proceedings. Statements 2 and 3 are incorrect: Speaker DOES have right to speak and IS entitled to vote on the removal resolution in the first instance (though not in case of tie).",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["speaker_removal", "parliamentary_procedure", "rules_of_procedure"],
+    "notes": "Tests knowledge of Speaker removal procedure in Lok Sabha",
+    "linked_concepts": ["Speaker Removal", "Rules of Procedure", "Parliamentary Privilege", "Resolution"]
+  },
+  {
+    "id": "POLITY_2024_014",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Bill Procedures",
+    "subtopic": "Lapsing of Bills",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Indian Parliament, consider the following statements: 1. A bill pending in the Lok Sabha lapses on its dissolution. 2. A bill passed by the Lok Sabha and pending in the Rajya Sabha lapses on the dissolution of the Lok Sabha. 3. A bill in regard to which the President of India notified his/her intention to summon the Houses to a joint sitting lapse on the dissolution of the Lok Sabha. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2",
+      "2 and 3",
+      "3 only"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statements 1 and 2 are correct. All bills pending in Lok Sabha lapse on dissolution. Bills passed by Lok Sabha but pending in Rajya Sabha also lapse on LS dissolution. Statement 3 is incorrect: Bills for which President notified joint sitting intention do NOT lapse - they can proceed at joint sitting.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["bill_lapsing", "dissolution", "joint_sitting", "article_107"],
+    "notes": "Tests knowledge of bill status during parliamentary dissolution",
+    "linked_concepts": ["Article 107", "Bill Lapsing", "Dissolution of House", "Joint Sitting"]
+  },
+  {
+    "id": "POLITY_2024_015",
+    "year": 2024,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Prorogation and Dissolution",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Parliament of India, consider the following statements: 1. Prorogation of a House by the President of India does not require the advice of the Council of Ministers. 2. Prorogation of a House is generally done after the House is adjourned sine die but there is no bar to the President of India proroguing the House which is in session. 3. Dissolution of the Lok Sabha is done by the President of India, who, save in exceptional circumstances, does so on the advice of the Council of Ministers. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2",
+      "2 and 3",
+      "3 only"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is incorrect: Prorogation requires PM's advice (which may be from Cabinet). Statement 2 is correct: Prorogation usually follows sine die adjournment but can occur while House is in session. Statement 3 is correct: President dissolves LS on PM's advice, except in exceptional circumstances where President may exercise discretion.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2024
+    },
+    "tags": ["prorogation", "dissolution", "parliamentary_procedure", "presidential_powers"],
+    "notes": "Tests knowledge of prorogation vs dissolution and presidential authority",
+    "linked_concepts": ["Prorogation", "Dissolution", "Article 85", "Presidential Discretion"]
   }
   ]
+  
+  
   
   
   
