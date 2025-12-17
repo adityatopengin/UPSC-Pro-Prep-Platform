@@ -3190,8 +3190,280 @@
     "tags": ["aadhaar", "uidai", "citizenship", "domicile"],
     "notes": "Tests understanding of Aadhaar scheme's legal status and limitations",
     "linked_concepts": ["Aadhaar Scheme", "UIDAI", "Citizenship", "Biometric Data"]
+  },
+  
+  {
+    "id": "POLITY_2020_011",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Money Bills and Financial Authority",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. Rajya Sabha has equal powers with Lok Sabha in the matter of creating new All India Services. 2. Rajya Sabha can reject Money Bills. 3. Rajya Sabha has no power to pass a vote of no-confidence in the Council of Ministers.",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: Under the Constitution, Parliament can create All India Services if the Rajya Sabha declares (by 2/3 majority) that it is in national interest. Both Houses have equal power in this regard. Statement 2 is incorrect: The Rajya Sabha cannot reject Money Bills. It can only make recommendations which the Lok Sabha is free to accept or reject. Statement 3 is correct: The Rajya Sabha has no power to pass a vote of no-confidence in the Council of Ministers - this exclusive power belongs to the Lok Sabha. Statements 1 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["rajya_sabha", "money_bill", "all_india_services", "no_confidence"],
+    "notes": "Tests understanding of Rajya Sabha's limited financial powers vs other legislative powers",
+    "linked_concepts": ["Article 249", "Money Bill", "All India Services", "No-Confidence Motion"]
+  },
+  {
+    "id": "POLITY_2020_012",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Parliamentary Schemes",
+    "subtopic": "MPLADS Fund Usage",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the funds under the Members of Parliament Local Area Development Scheme (MPLADS), which of the following statements are correct? 1. MPLADS funds must be used to create durable assets like physical infrastructure for health, education, etc. 2. A specified portion of each MP's fund must benefit SC/ST populations. 3. MPLADS funds are sanctioned on yearly basis and the unused funds cannot be carried forward to the next year. 4. The district authority must inspect at least 10% of all works under implementation every year.",
+    "options": [
+      "1 and 2 only",
+      "3 and 4 only",
+      "1, 2 and 3 only",
+      "1, 2 and 4 only"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is correct: MPLADS funds are used for creation of durable community assets in areas like drinking water, education, health, sanitation, roads etc. Statement 2 is correct: Every MP must allocate at least 15% for SC-inhabited areas and 7.5% for ST-inhabited areas. Statement 3 is incorrect: MPLADS funds are non-lapsable - unused balances can be carried forward and are utilized in subsequent years. Statement 4 is correct: District Authority must inspect at least 10% of works under implementation every year. Statements 1, 2, and 4 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["mplads", "parliamentary_development", "mp_local_area", "sc_st_allocation"],
+    "notes": "Tests knowledge of MPLADS provisions and fund management",
+    "linked_concepts": ["MPLADS Scheme", "Development Funds", "SC/ST Reservations"]
+  },
+  {
+    "id": "POLITY_2020_013",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right to Equality",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following categories of Fundamental Rights incorporates protection against untouchability as a form of discrimination?",
+    "options": [
+      "Right against Exploitation",
+      "Right to Freedom",
+      "Right to Constitutional Remedies",
+      "Right to Equality"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Article 17 of the Constitution abolishes untouchability as a form of discrimination. This provision falls under the 'Right to Equality' (Articles 14-18 in Part III). Article 17 specifically abolishes untouchability and forbids its practice in any form. The Right to Equality forms the foundation for this protection against untouchability.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["right_to_equality", "untouchability", "article_17", "fundamental_rights"],
+    "notes": "Tests knowledge of classification of fundamental rights and untouchability abolition",
+    "linked_concepts": ["Article 17", "Right to Equality", "Untouchability", "Discrimination"]
+  },
+  {
+    "id": "POLITY_2020_014",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Directive Principles",
+    "subtopic": "Separation of Judiciary",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "In India, the separation of the judiciary from the executive is enjoined by",
+    "options": [
+      "The Preamble of the Constitution",
+      "Directive Principle of State Policy",
+      "the Seventh Schedule",
+      "the conventional practice"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Article 50 of Part IV (Directive Principles of State Policy) provides for the separation of judiciary from the executive. This principle is one of the key DPSP provisions stating: 'The State shall take steps to separate the judiciary from the executive in the public services of the State.' This reflects Montesquieu's doctrine of separation of powers.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["article_50", "directive_principles", "separation_of_powers", "judiciary"],
+    "notes": "Tests knowledge of DPSP provisions on judicial independence",
+    "linked_concepts": ["Article 50", "DPSP", "Separation of Powers", "Judicial Independence"]
+  },
+  {
+    "id": "POLITY_2020_015",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Budget Procedures",
+    "subtopic": "Macro Economic Framework",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Along with the Budget, the Finance Minister also places other documents before the Parliament which includes 'The Macro Economic Framework Statement'. The aforesaid document is presented because this is mandated by",
+    "options": [
+      "Long-standing parliamentary convention",
+      "Article 112 and Article 110 (1) of the Constitution of India",
+      "Article 113 of the Constitution of India",
+      "Provisions of the Fiscal Responsibility and Budget Management Act, 2003"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "The Fiscal Responsibility and Budget Management Act (FRBMA), 2003 mandates three policy statements to be presented with the Budget: the Medium-term Fiscal Policy Statement, Fiscal Policy Strategy Statement, and Macro-Economic Framework Statement. These are required by law to assess economic prospects and fiscal policies.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["frbma_2003", "budget", "macro_economic_framework", "fiscal_policy"],
+    "notes": "Tests knowledge of budget procedures and FRBMA requirements",
+    "linked_concepts": ["Fiscal Responsibility and Budget Management Act 2003", "Budget Process", "Fiscal Policy"]
+  },
+  {
+    "id": "POLITY_2020_016",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Political Philosophy",
+    "subtopic": "Constitutional Government",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "A constitutional government by definition is a",
+    "options": [
+      "government by legislature",
+      "popular government",
+      "multi-party government",
+      "limited government"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Constitutional government by definition is limited government. A constitution confers powers on government organs but also seeks to restrain those powers. Constitutionalism connotes limited government as opposed to arbitrary powers. A constitutional government operates within the constraints defined by the constitution.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["constitutionalism", "limited_government", "political_philosophy"],
+    "notes": "Tests understanding of constitutional government concept",
+    "linked_concepts": ["Constitutionalism", "Limited Government", "Constitutional Limitations"]
+  },
+  {
+    "id": "POLITY_2020_017",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Human Rights",
+    "subtopic": "UDHR and Constitution",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Other than the Fundamental Rights, which of the following parts of the Constitution of India reflect the principles and provisions of the Universal Declaration of Human Rights (1948)? 1. Preamble. 2. Directive Principles of State Policy. 3. Fundamental Duties.",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "All three parts reflect UDHR principles: (1) Preamble - states objectives of justice, liberty, equality and fraternity similar to UDHR. (2) DPSP - provides social, economic, cultural rights similar to UDHR. (3) Fundamental Duties (added 1976) - includes duties to promote harmony, respect for women's dignity, and safeguard public property, aligned with UDHR. The Constitution was heavily influenced by the UDHR adopted in 1948.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["udhr", "universal_declaration", "human_rights", "constitutional_principles"],
+    "notes": "Tests knowledge of constitutional alignment with international human rights",
+    "linked_concepts": ["UDHR 1948", "Preamble", "DPSP", "Fundamental Duties", "Human Rights"]
+  },
+  {
+    "id": "POLITY_2020_018",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Bureaucracy",
+    "subtopic": "Role and Function",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "In the context of India, which one of the following is the characteristic appropriate for bureaucracy?",
+    "options": [
+      "An agency for widening the scope of parliamentary democracy",
+      "An agency for strengthening the structure of federalism",
+      "An agency for facilitating political stability and economic growth",
+      "An agency for the implementation of public policy"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "The primary and defining characteristic of bureaucracy is that it is an agency for implementing public policy. Bureaucratic agencies execute government policies and laws decided by political leadership, deliver public services, maintain order, and implement developmental schemes. While it may indirectly contribute to democracy, federalism, and economic growth, its core function is policy implementation.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["bureaucracy", "public_policy", "administrative_agencies", "governance"],
+    "notes": "Tests understanding of bureaucracy's primary role in governance",
+    "linked_concepts": ["Public Administration", "Policy Implementation", "Bureaucracy"]
+  },
+  {
+    "id": "POLITY_2020_019",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Parliamentary Sessions",
+    "subtopic": "Presidential Powers and Mandatory Provisions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The President of India can summon a session of the Parliament at such place as he/she thinks fit. 2. The Constitution of India provides for three sessions of the Parliament in a year, but it is not mandatory to conduct all three sessions. 3. There is no minimum number of days that the Parliament is required to meet in a year.",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: Article 85(1) empowers the President to summon Parliament at such time and place as he thinks fit, with the condition that six months shall not intervene between sessions. Statement 2 is incorrect: The Constitution does not provide for exactly three sessions - these are matters of convention. Statement 3 is correct: The Constitution does not prescribe a minimum number of days Parliament must meet annually. This is left to convention and practice.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["article_85", "parliamentary_sessions", "presidential_powers", "convention"],
+    "notes": "Tests knowledge of parliamentary session procedures and constitutional provisions",
+    "linked_concepts": ["Article 85", "Presidential Powers", "Parliamentary Convention"]
+  },
+  {
+    "id": "POLITY_2020_020",
+    "year": 2020,
+    "subject": "Polity",
+    "topic": "Aadhar and Identification",
+    "subtopic": "Aadhar Metadata and Insurance",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements regarding Aadhaar: 1. Aadhaar metadata cannot be stored for more than three months. 2. State cannot enter into any contract with private corporations for sharing of Aadhaar data. 3. Aadhaar is mandatory for obtaining insurance products. 4. Aadhaar is mandatory for getting benefits funded out of the Consolidated Fund of India.",
+    "options": [
+      "1 and 2 only",
+      "2 and 4 only",
+      "1 and 4 only",
+      "2 and 3 only"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: SC ruled that metadata can be stored for 6 months, not 3 months. Statement 2 is correct: The SC struck down Section 57 of Aadhaar Act preventing private corporations from mandating Aadhaar. Statement 3 is incorrect: Aadhaar is not mandatory for insurance products - it's only for government benefits. Statement 4 is correct: Section 7 of Aadhaar Act allows mandatory requirement for benefits funded from Consolidated Fund. Statements 2 and 4 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2020
+    },
+    "tags": ["aadhaar", "metadata", "section_57", "consolidated_fund"],
+    "notes": "Tests knowledge of Aadhaar Act provisions as clarified by Supreme Court",
+    "linked_concepts": ["Aadhaar Act 2016", "Supreme Court Ruling", "Data Storage", "Mandatory Requirements"]
   }
   ]
+  
   
   
   
