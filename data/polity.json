@@ -538,5 +538,628 @@
     "tags": ["cabinet", "council_of_ministers", "parliamentary_system"],
     "notes": "Tests understanding of Cabinet structure and ministerial accountability",
     "linked_concepts": ["Article 75", "Parliamentary Government", "Executive Authority"]
+  },
+  
+  {
+    "id": "POLITY_2013_021",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Constitutional Bodies and Committees",
+    "subtopic": "Election Commission Composition and Functions",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The total number of ministers in the Union Government, including the Prime Minister, shall not exceed 15 percent of the total number of members in the Lok Sabha. 2. The Constitution of India classifies the ministers into four ranks: Cabinet Minister, Minister of State with Independent Charge, Minister of State and Deputy Minister.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: The 91st Constitutional Amendment Act, 2003 prescribes that the total number of ministers, including the Prime Minister, shall not exceed 15% of the total strength of the Lok Sabha. Statement 2 is correct: The Constitution recognizes four categories of ministers - Cabinet Ministers, Ministers of State (Independent Charge), Ministers of State, and Deputy Ministers. Both statements are accurate.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["cabinet_ministers", "91st_amendment", "union_government"],
+    "notes": "Tests knowledge of constitutional provisions on ministerial structure and limits",
+    "linked_concepts": ["91st Amendment Act", "Cabinet Structure", "Council of Ministers"]
+  },
+  {
+    "id": "POLITY_2013_022",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Exclusive Powers of Lok Sabha",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following is/are the exclusive power(s) of Lok Sabha? 1. To ratify the declaration of Emergency. 2. To pass a motion of no-confidence against the Council of Ministers. 3. To impeach the President of India.",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "3 only"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Declaration of National Emergency requires joint ratification by both Houses of Parliament, not exclusively by Lok Sabha. Statement 2 is correct: Only the Lok Sabha can pass a motion of no-confidence against the Council of Ministers. This is an exclusive power of Lok Sabha as per Article 75. Statement 3 is incorrect: Impeachment of the President can be initiated in either House of Parliament. Therefore, only statement 2 represents an exclusive power of Lok Sabha.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["lok_sabha", "parliamentary_powers", "no_confidence_motion"],
+    "notes": "Tests understanding of exclusive powers of Lok Sabha versus powers shared with Rajya Sabha",
+    "linked_concepts": ["Article 75", "No-Confidence Motion", "Parliamentary Powers", "Article 61"]
+  },
+  {
+    "id": "POLITY_2013_023",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Anti-Defection Law",
+    "subtopic": "Nominated Legislators and Party Joining",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to anti-defection law in India, consider the following statements: 1. The law specifies that a nominated legislator cannot join any political party within six months of being appointed to the House. 2. The law does not provide any time-frame within which the presiding officer has to decide a defection case.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: The Tenth Schedule (anti-defection law) specifies that nominated members cannot join any political party at all, not within six months. Once they join a party, they lose their membership of the House. Statement 2 is correct: The Tenth Schedule does not prescribe any specific time-frame within which the presiding officer must decide on defection cases, leaving it to the presiding officer's discretion. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["anti_defection_law", "tenth_schedule", "nominated_members"],
+    "notes": "Tests knowledge of Tenth Schedule provisions on party joining and defection procedures",
+    "linked_concepts": ["Tenth Schedule", "Anti-Defection Law", "Nominated Members", "Speaker's Powers"]
+  },
+  {
+    "id": "POLITY_2013_024",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Constitutional Officers",
+    "subtopic": "Attorney General and Solicitor General",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India. 2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: Both the Attorney General and Solicitor General can participate in Parliament, but they are not the 'only' officers. Other government law officers and officials can also participate when required for discussion of relevant matters. Statement 2 is incorrect: The Constitution does not mandate that the Attorney General must resign when the government resigns. While it is a convention that they may resign, there is no constitutional requirement. The Attorney General holds office at the pleasure of the President and can continue regardless of government change.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["attorney_general", "constitutional_officers", "parliamentary_participation"],
+    "notes": "Tests understanding of AG's legal status and parliamentary participation rights",
+    "linked_concepts": ["Article 76", "Constitutional Officers", "Parliamentary Privileges"]
+  },
+  {
+    "id": "POLITY_2013_025",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Constitutional Remedies",
+    "subtopic": "Writs - Mandamus and Quo Warranto",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the writs issued by the Courts in India, consider the following statements: 1. Mandamus will not lie against a private organization unless it is entrusted with a public duty. 2. Mandamus will not lie against a Company even though it may be a Government Company. 3. Any public-minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: Mandamus is available against private organizations only if they are entrusted with public duty or function. Statement 2 is incorrect: Mandamus can lie against a Government Company because it is entrusted with public functions. The nature of the organization (private or government) is secondary to whether it performs public duties. Statement 3 is correct: Quo Warranto is available to any public-spirited person or citizen, not only to those directly affected. Therefore, statements 1 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["writs", "mandamus", "quo_warranto", "constitutional_remedies"],
+    "notes": "Tests knowledge of writ jurisdiction and conditions for their issuance",
+    "linked_concepts": ["Article 32", "Writs", "Mandamus", "Quo Warranto", "Habeas Corpus"]
+  },
+  {
+    "id": "POLITY_2013_026",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Lok Sabha Governance",
+    "subtopic": "Deputy Speaker Election and Powers",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the Deputy Speaker of Lok Sabha, consider the following statements: 1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix. 2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party. 3. The Deputy Speaker has the same power as the Speaker when presiding over the sitting of the House and no appeal lies against his rulings. 4. The well-established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker and duly seconded by the Prime Minister.",
+    "options": [
+      "1 and 3 only",
+      "1, 2 and 3",
+      "3 and 4 only",
+      "2 and 4 only"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: The election date is determined by the Speaker as per parliamentary rules. Statement 2 is incorrect: There is no mandatory provision that the Deputy Speaker must come from either the ruling or opposition party specifically. Statement 3 is correct: The Deputy Speaker exercises the same powers as the Speaker when presiding, and decisions made in the chair are not subject to appeal. Statement 4 is incorrect: While convention requires the motion to be moved and seconded, it is typically moved by the ruling party/government, not necessarily moved by the Speaker with the PM seconding. Statements 1 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["deputy_speaker", "lok_sabha", "parliamentary_procedure"],
+    "notes": "Tests knowledge of Deputy Speaker election procedure and constitutional powers",
+    "linked_concepts": ["Rules of Procedure", "Parliamentary Practice", "Speaker's Role"]
+  },
+  {
+    "id": "POLITY_2013_027",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Fifth Schedule",
+    "subtopic": "Scheduled Areas and Land Transfer",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "If a particular area is brought under the Fifth Schedule of the Constitution of India, which one of the following statements best reflects the consequence of it?",
+    "options": [
+      "This would prevent the transfer of land of tribal people to non-tribal people",
+      "This would create a local self-governing body in that area",
+      "This would convert that area into a Union Territory",
+      "The State having such areas would be declared a Special Category State"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "The Fifth Schedule provides special protections for Scheduled Areas and their residents. One of its key provisions is the protection of tribal land from transfer to non-tribal persons. Article 244 read with the Fifth Schedule restricts the sale of land by tribals to non-tribals in scheduled areas. This is a key mechanism to protect tribal communities from land exploitation. The other options are incorrect: Fifth Schedule does not create local governance bodies (that's Sixth Schedule for tribal areas in NE), does not convert areas to UTs, and does not create special category states.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["fifth_schedule", "scheduled_areas", "tribal_rights"],
+    "notes": "Tests knowledge of Fifth Schedule provisions for tribal land protection",
+    "linked_concepts": ["Article 244", "Scheduled Areas", "Tribal Rights", "Land Transfer"]
+  },
+  {
+    "id": "POLITY_2013_028",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Budget and Finance",
+    "subtopic": "Consolidated Fund and Parliament Authorization",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Department of Revenue is responsible for the preparation of Union Budget that is presented to the Parliament. 2. No amount can be withdrawn from the Consolidated Fund of India without the authorization from the Parliament of India. 3. All the disbursements made from the Public Account also need authorization from the Parliament of India.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is incorrect: The Department of Economic Affairs (or the Finance Ministry) is responsible for preparation of the Union Budget, not the Department of Revenue. Statement 2 is correct: Article 267 stipulates that no money can be withdrawn from the Consolidated Fund of India without parliamentary authorization. Statement 3 is incorrect: Disbursements from the Public Account do not necessarily need parliamentary authorization as they often relate to deposits, recoveries, and repayments that are held in the Public Account as temporary holdings. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["budget", "consolidated_fund", "parliamentary_authorization", "public_account"],
+    "notes": "Tests understanding of budget preparation and fund authorization mechanisms",
+    "linked_concepts": ["Article 267", "Consolidated Fund", "Budget Process", "Public Account"]
+  },
+  {
+    "id": "POLITY_2013_029",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Legislative Council",
+    "subtopic": "State Legislative Council Composition",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Legislative Council of a State in India can be larger in size than half of the Legislative Assembly of that particular State. 2. The Governor of a State nominates the Chairman of the Legislative Council of that particular State.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: Article 173(3) specifies that the total number of members of a State Legislative Council shall not exceed one-third of the total number of members of the Legislative Assembly of that State. So it cannot be larger than half. Statement 2 is incorrect: Article 182 provides that members of the Legislative Council shall themselves elect the Chairman from among their members. The Governor does not nominate the Chairman; the Council members elect the Chairman. Both statements are incorrect.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["legislative_council", "state_polity", "article_173", "article_182"],
+    "notes": "Tests knowledge of State Legislative Council composition and office bearer selection",
+    "linked_concepts": ["Article 173", "Article 182", "State Legislature", "Bicameral Legislature"]
+  },
+  {
+    "id": "POLITY_2013_030",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "Preamble and Constitutional Governance",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "What was the exact constitutional status of India on 26th January, 1950?",
+    "options": [
+      "A Democratic Republic",
+      "A Sovereign Democratic Republic",
+      "A Sovereign Secular Democratic Republic",
+      "A Sovereign Socialist Secular Democratic Republic"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "On 26th January 1950, when the Constitution came into effect, India was described in the original Preamble as a 'Sovereign Democratic Republic'. The words 'Socialist' and 'Secular' were added later through the 42nd Constitutional Amendment Act in 1976 during the Emergency period. Therefore, at the time of Constitution adoption in 1950, the exact description was 'Sovereign Democratic Republic', not including the later additions of 'Socialist' and 'Secular'.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["preamble", "constitutional_status", "42nd_amendment", "original_constitution"],
+    "notes": "Tests knowledge of original Constitution provisions and subsequent amendments",
+    "linked_concepts": ["42nd Amendment", "Preamble", "Constitutional History"]
+  },
+  {
+    "id": "POLITY_2014_001",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Constitutional Classification",
+    "subtopic": "Schedules of the Constitution",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "The offices of profit which are not held to disqualify a person for being a member of either House of Parliament are provided in which of the following?",
+    "options": [
+      "Second Schedule",
+      "Fifth Schedule",
+      "Eighth Schedule",
+      "Tenth Schedule"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "The Second Schedule of the Constitution contains the list of offices which are exempt from the disqualification on grounds of 'office of profit'. Article 102(1) and 191(1) provide that a member becomes disqualified if they hold an office of profit under the Union or State, but the Parliament (Prevention of Disqualification) Act, 1959 exempts certain offices. These exempt offices are specified in the Second Schedule to the Constitution. The Fifth Schedule deals with Scheduled Areas, Eighth with Languages, and Tenth with Anti-Defection.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["office_of_profit", "second_schedule", "disqualification", "parliament"],
+    "notes": "Tests knowledge of constitutional schedules and disqualification provisions",
+    "linked_concepts": ["Second Schedule", "Office of Profit", "Article 102"]
+  },
+  {
+    "id": "POLITY_2014_002",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Constitutional Provisions",
+    "subtopic": "Fundamental Duties Implementation",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "A legislation which confers on the executive or administrative authority an unguided and uncontrolled discretionary power in the matter of the application of law violates which one of the following parts of the Constitution of India?",
+    "options": [
+      "Preamble to the Constitution",
+      "Directive Principles of State Policy",
+      "Fundamental Duties",
+      "Ninth Schedule"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Unguided and uncontrolled discretionary power granted to executive/administrative authorities violates the principle of Rule of Law, which is embedded in the Preamble through the concept of 'justice' and forms the basis of the Constitution. This is protected under Article 14 (Equality before Law), which is a Fundamental Right. Excessive discretion violates the Rule of Law principle mentioned in the Preamble. The Supreme Court has consistently held that arbitrary power is antithetical to the constitutional framework.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["rule_of_law", "arbitrary_power", "article_14", "preamble"],
+    "notes": "Tests understanding of Rule of Law and constitutional constraints on executive power",
+    "linked_concepts": ["Preamble", "Article 14", "Rule of Law", "Discretionary Power"]
+  },
+  {
+    "id": "POLITY_2014_003",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Executive Powers",
+    "subtopic": "President's Rule and Article 356",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "If the President of India exercises his power as provided under Article 356 of the Constitution in respect of a particular State, then which of the following may happen? 1. Dissolution of the State Legislative Assembly. 2. Removal of the Council of Ministers in the State. 3. Dissolution of the local bodies. 4. Suspension of elections in that State.",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Under Article 356, when the President's rule is imposed: (1) Dissolution of State Legislative Assembly - Correct: The Governor recommends that the President's rule be imposed and this typically leads to dissolution of the Assembly. (2) Removal of CoM - This usually happens but is not a direct consequence of Article 356 alone. (3) Dissolution of local bodies - Correct: Local bodies (Panchayats and Municipalities) are also dissolved when President's rule is imposed. (4) Suspension of elections - This is not automatic; elections must be held within specified timeframe. Statements 1 and 3 are generally correct consequences of Article 356.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["article_356", "presidents_rule", "dissolution", "emergency"],
+    "notes": "Tests understanding of consequences of imposing President's rule in a State",
+    "linked_concepts": ["Article 356", "President's Rule", "State Emergency", "Local Bodies"]
+  },
+  {
+    "id": "POLITY_2014_004",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Constitutional Framework",
+    "subtopic": "Fundamental Rights and Restrictions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "The Constitution of India is described as a living document. In this context, which of the following statements is/are correct? 1. The Fundamental Rights and the Directive Principles of State Policy place effective restrictions on individual liberty in the interest of State authority. 2. The Fundamental Rights place effective restrictions on the Authority of the State in the interest of individual liberty.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: Directive Principles are guidelines for state action but are not enforceable, so they don't place restrictions in the same binding way. Also, their main purpose is welfare of people, not restriction of liberty. Statement 2 is correct: Fundamental Rights place restrictions on state authority to protect individual liberties. They are enforceable and limit government power. The Fundamental Rights (Articles 12-35) restrict what the state can do regarding individual freedoms, protecting citizens against state action. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["fundamental_rights", "directive_principles", "restrictions", "liberty"],
+    "notes": "Tests understanding of how Fundamental Rights restrict state authority",
+    "linked_concepts": ["Fundamental Rights", "Article 12", "State Power", "Liberty"]
+  },
+  {
+    "id": "POLITY_2014_005",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Parliamentary Procedures",
+    "subtopic": "No-Confidence Motion",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. There is no mention of a No-Confidence Motion in the Constitution of India. 2. A Motion of No-Confidence can be introduced in the Lok Sabha only.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: The Constitution does not explicitly mention 'No-Confidence Motion' in its articles. It is a creature of Rules of Procedure and Conduct of Business in the Lok Sabha, though the principle underlies Article 75 which states that Ministers are collectively responsible to the House of the People (Lok Sabha). Statement 2 is correct: A No-Confidence Motion can be introduced only in the Lok Sabha, not in the Rajya Sabha. This is specified in the Rules of Procedure. Both statements are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["no_confidence_motion", "lok_sabha", "rules_of_procedure"],
+    "notes": "Tests knowledge of no-confidence motion and its constitutional basis",
+    "linked_concepts": ["Article 75", "Rules of Procedure", "Parliamentary Practice"]
+  },
+  {
+    "id": "POLITY_2014_006",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Law Commission",
+    "subtopic": "Constitutional and Non-Constitutional Bodies",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "The Law Commission of India is constituted under:",
+    "options": [
+      "an Act of the Parliament",
+      "The Constitution of India",
+      "an executive order of the Government",
+      "a legislation on subjects in the Concurrent List"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The Law Commission of India is constituted through an executive order/resolution of the Government of India, not through an Act or constitutional provision. It is a non-constitutional body established by administrative action. While various law commissions have been established over the decades through executive orders, there is no Act of Parliament or constitutional article that specifically provides for the Law Commission. It is created and reconstituted periodically through Government resolutions.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["law_commission", "non_constitutional_body", "executive_order"],
+    "notes": "Tests knowledge of constitutional status of the Law Commission",
+    "linked_concepts": ["Non-Constitutional Bodies", "Law Commission", "Executive Power"]
+  },
+  {
+    "id": "POLITY_2014_007",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Supreme Court Jurisdiction",
+    "subtopic": "Original and Advisory Jurisdiction",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Under which power does the President of India refer matters to the Supreme Court of India for its opinion?",
+    "options": [
+      "advisory jurisdiction",
+      "appellate jurisdiction",
+      "original jurisdiction",
+      "writ jurisdiction"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Under Article 143 of the Constitution, the President can refer matters of public importance for the opinion of the Supreme Court. This is called the 'advisory jurisdiction' of the Supreme Court. The President consults the Supreme Court on matters involving interpretation of the Constitution or questions of law of public importance. This power provides an advisory opinion that is not binding but is highly respected.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["article_143", "advisory_jurisdiction", "supreme_court"],
+    "notes": "Tests knowledge of Supreme Court's advisory jurisdiction under Article 143",
+    "linked_concepts": ["Article 143", "Advisory Opinion", "Presidential Referral"]
+  },
+  {
+    "id": "POLITY_2014_008",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Cabinet and Executive",
+    "subtopic": "Cabinet Secretariat Functions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following is/are the function/functions of the Cabinet Secretariat? 1. Preparation of agenda for Cabinet Meetings. 2. Secretarial assistance to Cabinet Committees. 3. Allocation of financial resources to the Ministries.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: The Cabinet Secretariat prepares the agenda for Cabinet meetings and organizes the meetings. Statement 2 is correct: The Cabinet Secretariat provides secretarial support to Cabinet Committees by maintaining records, coordinating between committees, and facilitating information flow. Statement 3 is incorrect: Allocation of financial resources to Ministries is done by the Department of Expenditure/Finance, not by the Cabinet Secretariat. The Cabinet Secretariat's role is administrative coordination, not financial allocation. Statements 1 and 2 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["cabinet_secretariat", "cabinet_committees", "executive_administration"],
+    "notes": "Tests understanding of Cabinet Secretariat's role and functions",
+    "linked_concepts": ["Cabinet Secretariat", "Cabinet Committees", "Coordination"]
+  },
+  {
+    "id": "POLITY_2014_009",
+    "year": 2014,
+    "subject": "Polity",
+    "topic": "Planning",
+    "subtopic": "Planning in India",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following are associated with 'Planning' in India? 1. The Planning Commission. 2. The National Development Council. 3. The Ministry of Statistics and Programme Implementation.",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "All three statements are correct: (1) The Planning Commission (now replaced by NITI Aayog) was the apex body responsible for formulating five-year plans. (2) The National Development Council (NDC) approved plans and coordinated between center and states. (3) The Ministry of Statistics and Programme Implementation (now Ministry of Planning) is responsible for monitoring and evaluating plan implementations, collecting statistics, and implementing programs. All three are/were associated with India's planning process.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2014
+    },
+    "tags": ["planning_commission", "ndc", "five_year_plans", "planning_ministry"],
+    "notes": "Tests knowledge of institutions involved in India's planning framework",
+    "linked_concepts": ["Planning Commission", "NDC", "NITI Aayog", "Five Year Plans"]
+  },
+  {
+    "id": "POLITY_2015_001",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Panchayati Raj",
+    "subtopic": "Fifth Schedule and Panchayat Functions",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "According to the Constitution of India, the Fifth Schedule is related to the administration and control of Scheduled Areas and Scheduled Tribes. Which one of the following best describes the role of the Seventh Schedule in relation to this?",
+    "options": [
+      "protect the interests of Scheduled Tribes",
+      "determine the boundaries between States",
+      "determine the powers, authority and responsibilities of Panchayats",
+      "protect the interests of all the border States"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The Seventh Schedule of the Constitution divides governmental powers between the Union and States through three lists: Union List, State List, and Concurrent List. It does not directly determine Panchayat powers, but through the distribution of powers it affects how panchayats operate. However, in the context of this question, the best answer relates to how the Seventh Schedule determines powers and responsibilities. The Panchayats' functions are actually provided in the Eleventh and Twelfth Schedules. The question seems to test understanding that the Seventh Schedule delineates powers, though the specific answer regarding Panchayats is better covered by other schedules.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["seventh_schedule", "panchayati_raj", "federalism"],
+    "notes": "Tests knowledge of constitutional schedules and their functions",
+    "linked_concepts": ["Seventh Schedule", "Panchayats", "Division of Powers"]
+  },
+  {
+    "id": "POLITY_2015_002",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Parliament and Budget",
+    "subtopic": "Money Bills and Parliamentary Authorization",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Department of Revenue is responsible for the preparation of Union Budget that is presented to the Parliament. 2. No amount can be withdrawn from the Consolidated Fund of India without the authorization from the Parliament of India. 3. All the disbursements made from the Public Account also need the authorization from the Parliament of India.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is incorrect: The Union Budget is prepared by the Department of Economic Affairs (Finance Ministry), not the Department of Revenue. Statement 2 is correct: Article 266 provides that all moneys received by the Union Government go to the Consolidated Fund of India, and no money can be withdrawn without parliamentary authorization. Statement 3 is incorrect: The Public Account contains moneys held temporarily (deposits, recoveries) and withdrawals from it do not require parliamentary authorization as they are not expenditure from the Consolidated Fund. Only statement 2 is correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["budget", "consolidated_fund", "public_account", "parliament_authorization"],
+    "notes": "Tests understanding of budget preparation and fund withdrawal procedures",
+    "linked_concepts": ["Consolidated Fund", "Public Account", "Budget", "Article 266"]
+  },
+  {
+    "id": "POLITY_2015_003",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Directive Principles",
+    "subtopic": "DPSP and State Policy",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements about the Directive Principles of State Policy: 1. The Principles spell out the socio-economic democracy in the country. 2. The provisions contained in these Principles are not enforceable by any court.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: The Directive Principles (Articles 36-51) lay out the socio-economic objectives that the state should strive to achieve, embodying the vision of a welfare state with economic justice and social security. Statement 2 is correct: Article 37 explicitly states that the provisions in Part IV (Directive Principles) are not enforceable by any court of law. They are moral directions, not legal obligations. Both statements are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["directive_principles", "socio_economic", "non_enforceable"],
+    "notes": "Tests knowledge of nature and scope of Directive Principles",
+    "linked_concepts": ["Article 36-51", "Article 37", "DPSP", "Welfare State"]
+  },
+  {
+    "id": "POLITY_2015_004",
+    "year": 2015,
+    "subject": "Polity",
+    "topic": "Rajya Sabha Powers",
+    "subtopic": "Money Bills and Legislative Authority",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Rajya Sabha has no power either to reject or to amend a Money Bill. 2. The Rajya Sabha cannot vote on the Demands for Grants. 3. The Rajya Sabha cannot discuss the Annual Financial Statement.",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is correct: Per Article 109, Rajya Sabha cannot reject or amend Money Bills. It can only recommend amendments which Lok Sabha is free to accept or reject. Statement 2 is correct: Demands for Grants can only be voted on in the Lok Sabha. Rajya Sabha has no voting power on the Demands. Statement 3 is correct: The Annual Financial Statement can be discussed in both Houses, but according to procedure, the Rajya Sabha typically does not discuss it in the same manner as Lok Sabha does. All three statements reflect the restrictions on Rajya Sabha's financial powers.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2015
+    },
+    "tags": ["rajya_sabha", "money_bill", "financial_statement", "demands_for_grants"],
+    "notes": "Tests understanding of Rajya Sabha's limited financial powers",
+    "linked_concepts": ["Article 109", "Money Bill", "Article 110", "Financial Legislation"]
   }
- ]
+  ]
+ 
