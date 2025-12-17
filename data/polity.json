@@ -1,1 +1,542 @@
-[]
+ [
+  {
+    "id": "POLITY_2013_001",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "subtopic": "Amendment Process and Federal Character",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. An amendment to the Constitution of India can be initiated by the introduction of a bill in the Lok Sabha only. 2. If such an amendment seeks to make changes in the federal character of the Constitution, the amendment also requires to be ratified by the legislature of all the States of India.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: An amendment to the Constitution can be initiated in either the Lok Sabha or Rajya Sabha, not exclusively in the Lok Sabha. Statement 2 is incorrect: While certain amendments require ratification by state legislatures, this requirement applies only to amendments affecting the representation of states in Parliament or the executive powers of the state, not all amendments affecting federal character. The requirement mandates ratification by at least half of the state legislatures, not all states.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["constitutional_amendment", "federal_character", "parliament"],
+    "notes": "Tests understanding of constitutional amendment procedure and federal structure protection mechanisms",
+    "linked_concepts": ["Article 368", "Federal Structure", "Constitutional Amendment", "State Legislature"]
+  },
+  {
+    "id": "POLITY_2013_002",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Governor",
+    "subtopic": "Governor's Position and Appointment",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which one of the following statements is correct? 1. In India, the same person cannot be appointed as Governor for two or more States at the same time. 2. The Judges of the High Court of the States in India are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President. 3. No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her post. 4. In the case of a Union Territory having a legislative setup, the Chief Minister is appointed by the Lt. Governor on the basis of majority support.",
+    "options": [
+      "1, 2 and 3 only",
+      "3 only",
+      "2 and 3 only",
+      "1, 2 and 4 only"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is correct: The Constitution does not prohibit a person from being Governor of more than one state, though current practice limits it to one state. Actually, historically, the same person has served as Governor of multiple states. Statement 2 is incorrect: High Court judges are appointed by the President, not the Governor, though on the recommendation of the Chief Justice and Governor. Statement 3 is incorrect: Article 156(1) provides for removal of Governor on grounds including violation of Constitution. Statement 4 is correct: Chief Minister of a UT with legislative assembly is appointed by the Lt. Governor based on majority support in assembly.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["governor", "union_territory", "judicial_appointments"],
+    "notes": "Clarifies the institutional position of Governor and related constitutional provisions",
+    "linked_concepts": ["Article 156", "Article 155", "Governor's Powers", "Judicial Appointments"]
+  },
+  {
+    "id": "POLITY_2013_003",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Planning Bodies",
+    "subtopic": "Planning Commission and NDC",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following bodies does not/do not find mention in the Constitution? 1. National Development Council. 2. Planning Commission. 3. Zonal Councils.",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "The National Development Council and Planning Commission are extra-constitutional bodies created by executive decision/resolution, not mentioned in the Constitution. They were established through cabinet resolutions and administrative decisions. However, Zonal Councils are mentioned in Article 263 of the Constitution. The Constitution provides for the establishment of Zonal Councils as inter-state bodies, making only NDC and Planning Commission extra-constitutional.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["constitutional_bodies", "planning_commission", "national_development_council"],
+    "notes": "Tests knowledge of constitutional status of various governance bodies in India",
+    "linked_concepts": ["Article 263", "Extra-Constitutional Bodies", "Federal Structure"]
+  },
+  {
+    "id": "POLITY_2013_004",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Attorney General",
+    "subtopic": "Powers and Privileges of Attorney General",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: Attorney General of India can: 1. take part in the proceedings of the Lok Sabha. 2. be a member of a committee of the Lok Sabha. 3. speak in the Lok Sabha. 4. vote in the Lok Sabha.",
+    "options": [
+      "1 only",
+      "2 and 4 only",
+      "2 and 3 only",
+      "1 and 3 only"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "The Attorney General of India can participate in proceedings of both Houses of Parliament, can speak in both houses, and take part in debates, though not as a member. However, the Attorney General cannot vote in Parliament as voting is restricted to members only. The Attorney General cannot be a member of parliamentary committees as that would require membership of the house. The Attorney General can only take part in proceedings and speak when matters related to legal issues are discussed.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["attorney_general", "parliamentary_participation", "constitutional_officials"],
+    "notes": "Clarifies the role and privileges of the Attorney General of India in Parliament",
+    "linked_concepts": ["Article 77", "Article 165", "Parliamentary Privileges", "Constitutional Officials"]
+  },
+  {
+    "id": "POLITY_2013_005",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Cabinet and Council of Ministers",
+    "subtopic": "Collective Responsibility and Ministerial Accountability",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Council of Ministers at the Centre shall be collectively responsible to the Parliament. 2. The Union Ministers shall hold the office during the pleasure of the President of India. 3. The Prime Minister shall communicate to the President about the proposals for Legislation.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is correct: Article 75(3) provides that the Council of Ministers is collectively responsible to the Lok Sabha (part of Parliament). Statement 2 is correct: Article 75(2) states that ministers hold office during the pleasure of the President, though in practice this is exercised on the advice of the Prime Minister. Statement 3 is correct: The Prime Minister communicates to the President regarding legislative proposals as per constitutional convention and practice. All three statements reflect accurate constitutional provisions and practices.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["cabinet", "council_of_ministers", "parliamentary_responsibility"],
+    "notes": "Tests understanding of cabinet structure and ministerial accountability in parliamentary system",
+    "linked_concepts": ["Article 75", "Collective Responsibility", "Parliamentary Democracy"]
+  },
+  {
+    "id": "POLITY_2013_006",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "National Development Council",
+    "subtopic": "Composition of NDC",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Who among the following constitute the National Development Council? 1. The Prime Minister. 2. The Chairman, Finance Commission. 3. Ministers of the Union Cabinet. 4. Chief Ministers of the States.",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The NDC is constituted by: The Prime Minister (head), Union Ministers, State Chief Ministers, and Planning Commission members. Statement 2 about the Chairman of Finance Commission is incorrect - the Finance Commission Chairman is not an automatic member of NDC. The NDC's composition as per its governing resolution includes: PM, all Union Cabinet Ministers, all State and UT Chief Ministers, and members of Planning Commission. Finance Commission is a separate constitutional body.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["national_development_council", "planning", "federal_bodies"],
+    "notes": "Tests knowledge of NDC composition and federal planning structure",
+    "linked_concepts": ["Planning in India", "Federalism", "Executive Bodies"]
+  },
+  {
+    "id": "POLITY_2013_007",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Parliamentary Committees",
+    "subtopic": "Public Accounts Committee",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: The Parliamentary Committee on Public Accounts: 1. Consists of not more than 25 Members of the Lok Sabha. 2. Scrutinizes appropriation finance accounts of Government. 3. Examines the report of Comptroller and Auditor General of India.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: The Public Accounts Committee consists of 22 members total - 15 from Lok Sabha and 7 from Rajya Sabha, not just from Lok Sabha and not limited to 25 members. Statement 2 is correct: PAC scrutinizes appropriation and finance accounts of the Government. Statement 3 is correct: PAC examines the reports and recommendations of the Comptroller and Auditor General of India. Therefore, statements 2 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["parliamentary_committees", "public_accounts_committee", "financial_accountability"],
+    "notes": "Tests knowledge of PAC composition and functions in parliamentary oversight",
+    "linked_concepts": ["Article 151", "Comptroller and Auditor General", "Parliamentary Committees"]
+  },
+  {
+    "id": "POLITY_2013_008",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Money Bill",
+    "subtopic": "Rajya Sabha Powers on Money Bills",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "What will follow if a Money Bill is substantially amended by the Rajya Sabha?",
+    "options": [
+      "The Lok Sabha may still proceed with the Bill",
+      "The Bill cannot be considered further",
+      "The Bill is sent back to the Rajya Sabha for reconsideration",
+      "A joint sitting is called to resolve the dispute"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "According to Article 109, the Rajya Sabha cannot amend a Money Bill. If the Rajya Sabha makes amendments or suggests amendments to a Money Bill, these are merely recommendations. The Lok Sabha can reject these amendments/suggestions and proceed with the Bill unchanged. The Bill is not sent back or requires joint sitting as the Rajya Sabha has no power to amend Money Bills. The Lok Sabha has the final say on Money Bills.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["money_bill", "rajya_sabha", "lok_sabha", "legislative_powers"],
+    "notes": "Tests understanding of Money Bill procedures and Rajya Sabha's limited powers over them",
+    "linked_concepts": ["Article 109", "Article 110", "Legislative Procedure"]
+  },
+  {
+    "id": "POLITY_2013_009",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Planning and Governance",
+    "subtopic": "National Development Council Functions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. National Development Council is an organ of the Planning Commission. 2. The Economic and Social Planning is kept in the Concurrent List in the Constitution of India. 3. The Constitution of India prescribes that Panchayats should be assigned the task of preparation of plans for economic development and social justice.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: While NDC and Planning Commission are related, NDC is not technically an organ/part of Planning Commission. They are separate bodies - NDC is an inter-governmental forum. Statement 2 is correct: Planning (economic and social) is in the Concurrent List (List III), Item 20, meaning both Parliament and States can legislate on it. Statement 3 is correct: Article 243ZD (73rd Amendment) prescribes that Panchayats should be assigned the task of preparation of plans for economic development and social justice. Statements 2 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["planning", "concurrent_list", "panchayati_raj", "national_development_council"],
+    "notes": "Tests understanding of planning structure, constitutional allocation of powers, and panchayat functions",
+    "linked_concepts": ["Concurrent List", "Article 243ZD", "Federalism", "Planning System"]
+  },
+  {
+    "id": "POLITY_2013_010",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Fundamental Rights and Justice",
+    "subtopic": "Economic Justice in Constitution",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Economic Justice as one of the objectives of the Indian Constitution has been provided in:",
+    "options": [
+      "The Preamble and the Fundamental Rights",
+      "The Preamble and the Directive Principles of State Policy",
+      "The Fundamental Rights and the Directive Principles of State Policy",
+      "None of the above"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Economic Justice is reflected in: (1) The Preamble: which mentions 'economic justice' as an objective alongside social and political justice. (2) The Directive Principles of State Policy (Part IV): Articles 39, 39A, 42, 43, 43A and others specifically address economic justice through measures like just and humane conditions of work, living wage, abolition of poverty etc. The Fundamental Rights primarily deal with political rights and civil liberties, not economic justice directly, though they may have economic implications. Therefore, the answer is in Preamble and DPSP.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["economic_justice", "preamble", "directive_principles", "fundamental_rights"],
+    "notes": "Tests understanding of where constitutional objectives are enshrined",
+    "linked_concepts": ["Preamble", "Article 39", "Article 42", "Article 43", "Economic Justice"]
+  },
+  {
+    "id": "POLITY_2013_011",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Parliamentary Governance",
+    "subtopic": "Parliamentary Government Principles",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "In the context of India, which of the following principles is/are implied institutionally in the parliamentary government? 1. Members of the Cabinet are Members of Parliament. 2. Ministers hold the office till they enjoy confidence in the Parliament. 3. Cabinet is headed by the Head of the State.",
+    "options": [
+      "1 and 2 only",
+      "3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Article 75(5) prescribes that all ministers, including the Prime Minister, must be members of Parliament (either House). This is a fundamental principle of parliamentary government. Statement 2 is correct: Ministers hold office during the pleasure of the President (Article 75(2)), but in practice, they remain in office only as long as they retain the confidence of the Lok Sabha (confidence vote). Statement 3 is incorrect: The Cabinet is headed by the Prime Minister, not the Head of State (President). The President is the nominal head. Therefore, statements 1 and 2 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["parliamentary_government", "cabinet", "prime_minister", "parliament"],
+    "notes": "Tests understanding of fundamental principles underlying parliamentary system in India",
+    "linked_concepts": ["Article 75", "Parliamentary Democracy", "Cabinet System"]
+  },
+  {
+    "id": "POLITY_2013_012",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Rajya Sabha",
+    "subtopic": "Rajya Sabha Officers and Voting Rights",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Chairman and the Deputy Chairman of the Rajya Sabha are not the members of that House. 2. While the nominated members of the two Houses of the Parliament have no voting right in the presidential election, they have the right to vote in the election of the Vice President.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: While the Chairman of Rajya Sabha is ex-officio presiding officer and Deputy Chairman is elected from among members, Article 89 and 90 specifically state they are not considered members of the House for parliamentary purposes, though they may participate in proceedings. Statement 2 is correct: Nominated members cannot vote in presidential elections (per Fourth Schedule), but they can vote in vice-presidential elections. Both statements are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["rajya_sabha", "chairman", "deputy_chairman", "nominated_members"],
+    "notes": "Tests knowledge of Rajya Sabha composition and electoral voting rights",
+    "linked_concepts": ["Article 89", "Article 90", "Presidential Election", "Vice-Presidential Election"]
+  },
+  {
+    "id": "POLITY_2013_013",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Forest Rights",
+    "subtopic": "Scheduled Tribes and Forest Dwellers Rights Act",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Under the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, who shall be the authority to initiate the process for determining the nature and extent of individual or community forest rights or both?",
+    "options": [
+      "The District Collector",
+      "The Gram Sabha",
+      "The Forest Department",
+      "The Tahsildar"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Under the Forest Rights Act, 2006, the Gram Sabha is the primary authority to initiate and determine forest rights of individuals and communities. The Act specifically provides that the Gram Sabha must verify and recommend claims for forest rights, and a three-tier committee structure is used with Gram Sabha at the village level, Taluk level committee, and District level committee. The Gram Sabha's role is crucial in ensuring community participation and local governance in forest rights recognition.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["forest_rights", "scheduled_tribes", "gram_sabha", "panchayati_raj"],
+    "notes": "Tests knowledge of implementation mechanism of Forest Rights Act and gram sabha's role",
+    "linked_concepts": ["Forest Rights Act 2006", "Gram Sabha", "Tribal Rights", "Panchayati Raj"]
+  },
+  {
+    "id": "POLITY_2013_014",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Constitution Fundamentals",
+    "subtopic": "Fundamental Provisions of Constitution",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "According to the Constitution of India, which of the following are fundamental for the governance of the country?",
+    "options": [
+      "Fundamental Rights",
+      "Fundamental Duties",
+      "Directive Principles of State Policy",
+      "Preamble of the Constitution"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The Directive Principles of State Policy (Part IV, Articles 36-51) are described in the Constitution as 'fundamental in the governance of the country' (Article 36 states 'Definition'). These principles guide the formulation of laws and policies. While Fundamental Rights are essential for individual freedoms and Fundamental Duties are obligations of citizens, the Constitution specifically identifies the Directive Principles as fundamental for the governance of the country. The Preamble sets objectives but is not itself fundamental for daily governance.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["directive_principles", "governance", "constitutional_framework"],
+    "notes": "Tests knowledge of constitutional framework and role of different parts",
+    "linked_concepts": ["Article 36", "Directive Principles", "Governance", "Constitutional Provisions"]
+  },
+  {
+    "id": "POLITY_2013_015",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "International Treaties",
+    "subtopic": "Parliamentary Powers on International Treaties",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The Parliament can make any law for whole or any part of India for implementing international treaties:",
+    "options": [
+      "With the consent of all the States",
+      "With the consent of the majority of States",
+      "With the consent of the States concerned",
+      "Without the consent of any State"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Under Article 253 of the Constitution, the Parliament has the power to make any law for implementing international treaties, agreements, or conventions with or without the consent of the States. The Parliament can legislate on any matter, even if it falls in the State List, for the purpose of implementing international obligations. This is an exclusive power of Parliament and does not require any state consent. This reflects India's treaty-making obligations under international law.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["international_treaties", "parliament", "article_253", "federalism"],
+    "notes": "Tests understanding of Parliament's special powers for international commitments",
+    "linked_concepts": ["Article 253", "International Relations", "Federal Power Distribution"]
+  },
+  {
+    "id": "POLITY_2013_016",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "PESA Act",
+    "subtopic": "Panchayat Extension to Scheduled Areas Act",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The Government enacted the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Which one of the following is NOT identified as its objective?",
+    "options": [
+      "To provide self-governance to tribal communities",
+      "To recognize traditional rights and customs",
+      "To create autonomous regions in tribal areas",
+      "To free tribal people from exploitation"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The PESA Act, 1996 aims to: (1) provide self-governance and autonomy to tribal communities through panchayats, (2) recognize and protect traditional rights and customs of scheduled tribes, (3) ensure free and fair elections in tribal areas, and (4) protect tribal communities from exploitation. However, PESA does not aim to 'create autonomous regions' - this would be a creation of separate political units, which is not its objective. PESA operates within the framework of panchayati raj and the Indian federal system, not creating separate autonomous regions.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["pesa_act", "tribal_governance", "panchayati_raj", "scheduled_areas"],
+    "notes": "Tests understanding of PESA Act objectives and provisions for tribal governance",
+    "linked_concepts": ["PESA 1996", "Scheduled Areas", "Tribal Rights", "Panchayati Raj"]
+  },
+  {
+    "id": "POLITY_2013_017",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "National Legal Services Authority",
+    "subtopic": "Legal Services Provision",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "The National Legal Services Authority undertakes: 1. Its objective is to provide free and competent legal services to the weaker sections of the society on the basis of equal opportunity. 2. It issues guidelines for the State Legal Services Authorities to implement the legal programmes and schemes throughout the country.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Statement 1 is correct: NALSA's primary objective is to provide free legal services to the poor, weaker sections, and marginalized communities on the basis of equal opportunity to avail justice. This is its core mandate. Statement 2 is correct: NALSA issues guidelines and directives to State Legal Services Authorities for implementing legal aid programmes and schemes across the country. NALSA also promotes alternative dispute resolution mechanisms like mediation and legal literacy. Both statements accurately describe NALSA's functions.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["legal_services", "nalsa", "justice_system", "legal_aid"],
+    "notes": "Tests knowledge of NALSA's role in providing legal services to weaker sections",
+    "linked_concepts": ["Legal Services Authorities Act", "NALSA", "Access to Justice"]
+  },
+  {
+    "id": "POLITY_2013_018",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Constituent Assembly",
+    "subtopic": "Composition of Constituent Assembly",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "The members from the Provinces to the Constituent Assembly of India were:",
+    "options": [
+      "Directly elected by the people",
+      "Nominated by the provinces",
+      "Elected by the Provincial Assemblies",
+      "Selected by the Government of India"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The members of the Constituent Assembly from the provinces were elected by the Provincial Legislatures (Legislative Assemblies) of those provinces. This was the method adopted for representation from British India provinces. The Constituent Assembly had 389 members, of which 292 were from British Indian provinces (elected by provincial assemblies), 93 from Indian princely states, and 4 from chief commissioner's provinces. This indirect election method was used for both constituent representation and later became the basis for electoral college in presidential elections.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["constituent_assembly", "history_of_constitution", "constitutional_framework"],
+    "notes": "Tests historical knowledge of how Constituent Assembly was constituted",
+    "linked_concepts": ["Constituent Assembly", "1946-1950", "Constitutional Drafting"]
+  },
+  {
+    "id": "POLITY_2013_019",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Parliamentary Committees",
+    "subtopic": "Public Accounts Committee Composition",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "The Parliamentary Committee on Public Accounts: 1. Consists of not more than 25 Members of the Lok Sabha. 2. Scrutinizes appropriation and finance accounts of the Government. 3. Examines the report of the Comptroller and Auditor General of India.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: The PAC has 22 members total - 15 from Lok Sabha and 7 from Rajya Sabha, not from Lok Sabha alone. Statement 2 is correct: One of PAC's primary functions is to scrutinize the appropriation and finance accounts of the Government of India. Statement 3 is correct: PAC examines the reports, recommendations, and audit observations of the Comptroller and Auditor General. Therefore, statements 2 and 3 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["parliamentary_committees", "public_accounts_committee", "financial_accountability"],
+    "notes": "Tests knowledge of PAC composition and its scrutiny functions",
+    "linked_concepts": ["PAC", "CAG", "Parliamentary Oversight"]
+  },
+  {
+    "id": "POLITY_2013_020",
+    "year": 2013,
+    "subject": "Polity",
+    "topic": "Cabinet and Executive",
+    "subtopic": "Union Cabinet Composition",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. Members of the Cabinet are Members of the Parliament. 2. Ministers hold the office till they enjoy confidence in the parliament. 3. Cabinet is headed by the Head of the State.",
+    "options": [
+      "1 and 2 only",
+      "3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Article 75(5) mandates that all Cabinet members must be members of either the Lok Sabha or Rajya Sabha. Statement 2 is correct: Article 75(2) provides that ministers hold office during the pleasure of the President, but they require the confidence of the Lok Sabha and resign upon loss of confidence. Statement 3 is incorrect: The Cabinet is headed by the Prime Minister, not the Head of State (President). The President is the constitutional head but not the head of the Cabinet. Cabinet members hold office on PM's advice. Statements 1 and 2 are correct.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2013
+    },
+    "tags": ["cabinet", "council_of_ministers", "parliamentary_system"],
+    "notes": "Tests understanding of Cabinet structure and ministerial accountability",
+    "linked_concepts": ["Article 75", "Parliamentary Government", "Executive Authority"]
+  }
+ ]
