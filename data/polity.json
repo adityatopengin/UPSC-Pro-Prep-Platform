@@ -2215,8 +2215,416 @@
     "tags": ["voting_rights", "electoral_rights", "constitutional_rights"],
     "notes": "Tests understanding of classification and constitutional status of voting rights",
     "linked_concepts": ["Representation of the People Act", "Electoral Rights", "Constitutional Provisions"]
+  },
+  
+  {
+    "id": "POLITY_2017_011",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Electoral Process",
+    "subtopic": "Voter Eligibility",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "A citizen of India who wishes to contest in the election for Lok Sabha may be any:",
+    "options": [
+      "anyone residing in India",
+      "a resident of the constituency from which the election is to be contested",
+      "any citizen of India whose name appears in the electoral roll of a constituency",
+      "any citizen of India"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "A citizen of India who wishes to contest in Lok Sabha elections must satisfy qualifications prescribed in Article 84 of the Constitution. The candidate must: (1) be a citizen of India, (2) be not less than 25 years of age, (3) possess such other qualifications as prescribed by law. The candidate does NOT have to be resident of the constituency - they can contest from any constituency in India. This provision enables national candidates and encourages pan-Indian political engagement.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["electoral_process", "candidate_qualification", "article_84"],
+    "notes": "Tests knowledge of eligibility criteria for Lok Sabha candidates",
+    "linked_concepts": ["Article 84", "Representation of People Act", "Electoral Qualifications"]
+  },
+  {
+    "id": "POLITY_2017_012",
+    "year": 2017,
+    "subject": "Polity",
+    "topic": "Electoral System",
+    "subtopic": "Electoral Procedure",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. In the election for Lok Sabha or State Assembly, the winning candidate must get at least 50 percent of the votes polled, to be declared elected. 2. According to the provisions laid down in the Constitution of India, in Lok Sabha, the Speaker's post goes to the majority party and the Deputy Speaker's to the Opposition.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: India uses the 'First Past the Post' (FPTP) system. A candidate needs to get only a plurality of votes - the highest number of votes - NOT necessarily 50% to win. In a multi-cornered contest, a candidate can win with much less than 50%. Statement 2 is incorrect: The Constitution does not prescribe that the Speaker's post goes to the majority party and Deputy Speaker's to the Opposition. These are matters of convention and parliamentary practice, not constitutional requirement. While such conventions have often been followed, they are not constitutionally mandated.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2017
+    },
+    "tags": ["electoral_system", "fptp", "speaker_deputy_speaker", "parliamentary_convention"],
+    "notes": "Tests understanding of electoral system and parliamentary conventions",
+    "linked_concepts": ["First Past the Post", "Speaker Election", "Parliamentary Convention"]
+  },
+  {
+    "id": "POLITY_2018_001",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Constitutional Emergency",
+    "subtopic": "Governor General Powers",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "In the federation established by The Government of India Act of 1935, Residuary Powers were given to the:",
+    "options": [
+      "Federal Legislature",
+      "Governor General",
+      "Provincial Legislature",
+      "Provincial Governors"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The Government of India Act, 1935 created a federal structure with division of powers between center and provinces. Residuary powers (powers not explicitly assigned to either center or provinces) were vested in the Governor General, who represented the British Crown. This gave the Governor General significant residual authority, reflecting the centralized nature of British colonial governance. The Act was a precursor to the Indian Constitution's structure of dividing powers between Union and States.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["government_of_india_act_1935", "historical", "governor_general", "residuary_powers"],
+    "notes": "Tests knowledge of pre-independence constitutional history",
+    "linked_concepts": ["Government of India Act 1935", "Colonial Constitution", "Residuary Powers"]
+  },
+  {
+    "id": "POLITY_2018_002",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Rights and Citizenship",
+    "subtopic": "Aadhar and Identification",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. Aadhaar card can be used as a proof of citizenship or domicile. 2. Once issued, Aadhaar number cannot be deactivated or omitted by the Issuing Authority.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 3,
+    "correct_option_label": "D",
+    "explanation": "Statement 1 is incorrect: Aadhaar is a biometric identification number, not a proof of citizenship or domicile. Even the Aadhaar card itself contains a disclaimer that it is not a proof of citizenship. Aadhaar is primarily used for identification and authentication purposes in India, but residents including foreign nationals can obtain it. Statement 2 is incorrect: The Unique Identification Authority of India (UIDAI) has the power to deactivate or omit Aadhaar numbers. By August 2017, UIDAI had deactivated close to 81 lakh Aadhaar numbers due to various reasons including death, non-verification, or duplication. Both statements are incorrect.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["aadhaar", "identification", "citizenship", "domicile", "deactivation"],
+    "notes": "Tests understanding of Aadhaar's legal status and limitations",
+    "linked_concepts": ["Aadhaar Scheme", "UIDAI", "Citizenship", "Identification"]
+  },
+  {
+    "id": "POLITY_2018_003",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right to Privacy",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
+    "options": [
+      "Article 14 and the provisions under the 42nd Amendment to the Constitution",
+      "Article 17 and the Directive Principles of State Policy in Part IV",
+      "Article 21 and the freedoms guaranteed in Part III",
+      "Article 24 and the provisions under the 44th Amendment to the Constitution"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "The Supreme Court of India in K.S. Puttaswamy v. Union of India (2017) held that 'Right to Privacy' is a fundamental right and is protected as an intrinsic part of the right to life and personal liberty under Article 21. The right is also part of the freedoms guaranteed in Part III of the Constitution (Fundamental Rights). Article 14 deals with equality, Article 17 with abolition of untouchability, and Article 24 with prohibition of child labour - none of which specifically protect privacy. The 42nd Amendment (1976) made changes to the Preamble but did not specifically address privacy.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["right_to_privacy", "article_21", "fundamental_rights", "puttaswamy_judgment"],
+    "notes": "Tests knowledge of landmark SC judgment on right to privacy",
+    "linked_concepts": ["Article 21", "K.S. Puttaswamy Case", "Fundamental Rights", "2017 SC Judgment"]
+  },
+  {
+    "id": "POLITY_2018_004",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "International Labour Standards",
+    "subtopic": "ILO Conventions",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "International Labour Organization's Conventions 138 and 182 are related to:",
+    "options": [
+      "Child labour",
+      "Adaptation of agricultural practices to global climate change",
+      "Regulation of food prices and food security",
+      "Gender parity at the workplace"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "ILO Convention 138 specifies the minimum age for entry into work and aims to protect children from child labour. It prescribes that the minimum age shall not be less than the age of completion of compulsory schooling and in any case not less than 15 years. ILO Convention 182 addresses the 'Worst Forms of Child Labour' and requires prohibition and elimination of such practices urgently. India ratified both conventions in March 2017. Both conventions are critical instruments for protecting children's rights and ensuring they have access to education rather than being exploited through labour.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["ilo_conventions", "child_labour", "international_labour_standards"],
+    "notes": "Tests knowledge of international labour conventions and their purpose",
+    "linked_concepts": ["ILO Convention 138", "ILO Convention 182", "Child Labour", "International Labour Organization"]
+  },
+  {
+    "id": "POLITY_2018_005",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Presidential Election",
+    "subtopic": "Vote Value in Presidential Elections",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "With reference to the election of the President of India, consider the following statements: 1. The value of the vote of each MLA varies from State to State. 2. The value of the vote of MPs of the Lok Sabha is more than the value of the vote of MPs of the Rajya Sabha.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: The value of each MLA's vote in presidential elections is determined by dividing the state's population (as per 1971 census) by the number of MLAs in that state's legislative assembly, then dividing by 1000. Since different states have different populations and numbers of MLAs, the value per MLA vote differs across states. For example, Uttar Pradesh has a value of 208 while Arunachal Pradesh has 8. Statement 2 is incorrect: All MPs (whether from Lok Sabha or Rajya Sabha) have the same vote value of 708 each in presidential elections. Their individual vote values are equal; only the collective total differs because the Lok Sabha has more members than the Rajya Sabha.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["presidential_election", "vote_value", "electoral_college", "mla_mp"],
+    "notes": "Tests understanding of electoral college composition and vote values",
+    "linked_concepts": ["Article 54", "Electoral College", "Presidential Election", "Vote Value Calculation"]
+  },
+  {
+    "id": "POLITY_2018_006",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Executive Immunity",
+    "subtopic": "Governor's Constitutional Protections",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. No criminal proceedings shall be instituted against the Governor of a State in any court during his term of office. 2. The emoluments and allowances of the Governor of a State shall not be diminished during his term of office.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Both statements are correct. Article 361 of the Constitution provides: 'No criminal proceedings whatsoever shall be instituted or continued against the President or the Governor of a State in any court during his term of office.' This immunity provides constitutional protection to the Governor during their tenure. Additionally, Article 158 states that the Governor shall be entitled to emoluments, allowances and privileges as determined by Parliament, and importantly, 'the emoluments and allowances of the Governor shall not be diminished during his term of office.' These protections ensure the Governor's independence and security while in office, though immunity ends after their tenure.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["governor_immunity", "article_361", "article_158", "emoluments"],
+    "notes": "Tests knowledge of constitutional protections for Governors",
+    "linked_concepts": ["Article 361", "Article 158", "Immunity", "Constitutional Protection"]
+  },
+  {
+    "id": "POLITY_2018_007",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Parliamentary Committees",
+    "subtopic": "Committee on Subordinate Legislation",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "With reference to the Parliament of India, which of the following Parliamentary Committees scrutinizes and reports to the House whether the powers to make regulations, rules, sub-rules, by-laws, etc. conferred by the Constitution or delegated by the Parliament are being properly exercised by the Executive within the scope of such delegation?",
+    "options": [
+      "Committee on Government Assurances",
+      "Committee on Subordinate Legislation",
+      "Rules Committee",
+      "Business Advisory Committee"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "The Committee on Subordinate Legislation (constituted in 1953) examines and reports on whether powers delegated by Parliament or conferred by the Constitution to make regulations, rules, sub-rules, by-laws, etc. are being properly exercised by the Executive. The committee scrutinizes these instruments to ensure they comply with the Constitution, do not contain unlawful provisions, and remain within the scope of delegation. The other committees have different functions: Government Assurances checks ministerial promises, Rules Committee deals with parliamentary procedure, and Business Advisory Committee regulates parliamentary time-table.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["parliamentary_committees", "subordinate_legislation", "committee_functions"],
+    "notes": "Tests knowledge of specific parliamentary committee functions",
+    "linked_concepts": ["Committee on Subordinate Legislation", "Parliamentary Committees", "Delegated Legislation"]
+  },
+  {
+    "id": "POLITY_2018_008",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "State Legislature",
+    "subtopic": "Speaker Tenure",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Speaker of the Legislative Assembly shall vacate his/her office if he/she ceases to be a member of the Assembly. 2. Whenever the Legislative Assembly is dissolved, the Speaker shall vacate his/her office immediately.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Article 179(c) provides that a Speaker vacates office if he ceases to be a member of the Assembly. Statement 2 is incorrect: Article 179 explicitly states that 'whenever the Legislative Assembly is dissolved, the Speaker shall not vacate his office until immediately before the first meeting of the Assembly after the dissolution.' The Speaker continues in office throughout the dissolution period and only vacates immediately before the first meeting of the new assembly. This provision maintains continuity of the office and ensures there is a Speaker available for administrative purposes during the inter-session period.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["speaker", "legislative_assembly", "article_179", "office_vacation"],
+    "notes": "Tests knowledge of Speaker's tenure and vacancy conditions",
+    "linked_concepts": ["Article 179", "State Legislature", "Speaker Functions"]
+  },
+  {
+    "id": "POLITY_2018_009",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Constitutional Emergency",
+    "subtopic": "Article 356 President's Rule",
+    "difficulty": "Easy",
+    "question_type": "MCQ_single",
+    "question_text": "If the President of India exercises his power as provided under Article 356 of the Constitution in respect of a particular State, then:",
+    "options": [
+      "the Assembly of the State is automatically dissolved",
+      "the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament",
+      "Article 19 is suspended in that State",
+      "the President can make laws relating to that State"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "When the President exercises powers under Article 356 (President's Rule), the President by proclamation can declare that 'the powers of the Legislature of the State shall be exercisable by or under the authority of Parliament.' This is the fundamental consequence of invoking Article 356. While the assembly may be dissolved subsequently, this is not automatic or a direct consequence. Article 19 (Fundamental Rights) is not suspended under Article 356 - it would only be suspended under Article 359 when a National Emergency is declared. The President cannot directly make state laws; rather, Parliament exercises state legislative powers through Article 356.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["article_356", "presidents_rule", "state_emergency", "parliament_powers"],
+    "notes": "Tests understanding of Article 356 powers and consequences",
+    "linked_concepts": ["Article 356", "State Emergency", "Article 19", "Article 359"]
+  },
+  {
+    "id": "POLITY_2018_010",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "subtopic": "Ninth Schedule",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. The Parliament of India can place a particular law in the Ninth Schedule of the Constitution of India. 2. The validity of a law placed in the Ninth Schedule cannot be examined by any court and no judgement can be made on it.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct_option_index": 0,
+    "correct_option_label": "A",
+    "explanation": "Statement 1 is correct: Through the 1st Amendment (1951), Article 31B was added to the Constitution, enabling Parliament to place laws in the Ninth Schedule to protect them from challenge. Parliament can add laws through constitutional amendment. Statement 2 is incorrect: While the Ninth Schedule was initially meant to provide blanket immunity, the landmark judgment in I.R. Coelho v. State of Tamil Nadu (2007) ruled that laws placed in the Ninth Schedule (particularly those added after April 24, 1973 when the 'basic structure' doctrine was established) are open to judicial review if they violate the basic structure of the Constitution. Therefore, there is no absolute immunity from judicial examination.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["ninth_schedule", "article_31b", "judicial_review", "basic_structure"],
+    "notes": "Tests knowledge of Ninth Schedule and judicial review limitations",
+    "linked_concepts": ["Article 31B", "Ninth Schedule", "I.R. Coelho Case", "Basic Structure Doctrine"]
+  },
+  {
+    "id": "POLITY_2018_011",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Opposition Leadership",
+    "subtopic": "Leader of Opposition",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_multiple",
+    "question_text": "Consider the following statements: 1. In the first Lok Sabha, the single largest party in the opposition was the Swatantra Party. 2. In the Lok Sabha, a 'Leader of the Opposition' was recognized for the first time in 1969. 3. In the Lok Sabha, if a party does not have a minimum of 75 members, its leader cannot be recognized as the Leader of the Opposition.",
+    "options": [
+      "1 and 3 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "Statement 1 is incorrect: The Swatantra Party was founded in August 1959, after the first general election (1951-52). In the first Lok Sabha, the Communist Party of India (with 16 seats) was the largest opposition party, not Swatantra. Statement 2 is correct: The position of 'Leader of the Opposition' was recognized for the first time in 1969 and received statutory recognition in 1977 through the Salaries and Allowances of Leaders of Opposition in Parliament Act. Statement 3 is incorrect: The requirement is 10% of the total strength of the Lok Sabha (currently 55 members), not 75. This is known as the 'Mavalakar Rule' after G.V. Mavalankar, the first Speaker.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["leader_of_opposition", "first_lok_sabha", "parliamentary_history"],
+    "notes": "Tests knowledge of parliamentary history and opposition leadership",
+    "linked_concepts": ["Opposition Leadership", "Mavalakar Rule", "First Lok Sabha", "Parliamentary Practice"]
+  },
+  {
+    "id": "POLITY_2018_012",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Constitutional Philosophy",
+    "subtopic": "Law and Liberty Relationship",
+    "difficulty": "Moderate",
+    "question_type": "MCQ_single",
+    "question_text": "Which one of the following reflects the most appropriate relationship between law and liberty?",
+    "options": [
+      "If there are more laws, there is less liberty",
+      "If there are no laws, there is no liberty",
+      "If there is liberty, laws have to be made by the people",
+      "If laws are changed too often, liberty is in danger"
+    ],
+    "correct_option_index": 1,
+    "correct_option_label": "B",
+    "explanation": "While the concept of 'negative liberty' (absence of restraint) might support option A, the most appropriate understanding from democratic constitutional theory is that genuine liberty requires the rule of law. Without law, there is only anarchy. John Locke stated that 'restraint is not an evil'; rather, absence of law leads to chaos where no one can truly enjoy liberty. In a society, absolute liberty for one person would mean the denial of liberty to another. True liberty exists when it is protected and regulated by just laws. Laws provide the framework that enables and protects individual freedoms while maintaining social order.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["rule_of_law", "liberty", "political_philosophy"],
+    "notes": "Tests understanding of relationship between law and liberty",
+    "linked_concepts": ["Rule of Law", "Positive Liberty", "Constitutional Philosophy"]
+  },
+  {
+    "id": "POLITY_2018_013",
+    "year": 2018,
+    "subject": "Polity",
+    "topic": "Rule of Law",
+    "subtopic": "Features of Rule of Law",
+    "difficulty": "Easy",
+    "question_type": "MCQ_multiple",
+    "question_text": "Which of the following are regarded as the main features of the 'Rule of Law'? 1. Limitation of powers. 2. Equality before law. 3. People's responsibility to the Government. 4. Liberty and civil rights.",
+    "options": [
+      "1 and 3 only",
+      "2 and 4 only",
+      "1, 2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct_option_index": 2,
+    "correct_option_label": "C",
+    "explanation": "Features of Rule of Law (as per Dicey's formulation and Indian constitutional practice): (1) Limitation of powers - Correct: No person or authority is above the law; everyone is subject to law. (2) Equality before law - Correct: All individuals are equal in the eyes of law regardless of status, religion, or caste. (3) People's responsibility to Government - Incorrect: The defining feature of Rule of Law is that the Government is responsible to the people/law, NOT the reverse. (4) Liberty and civil rights - Correct: Rule of Law protects individual liberties and ensures fundamental rights are respected. Therefore, statements 1, 2 and 4 are correct features of the Rule of Law.",
+    "source": {
+      "exam": "UPSC_CSE_Prelims",
+      "paper": "GS1",
+      "year": 2018
+    },
+    "tags": ["rule_of_law", "equality", "liberty", "dicey"],
+    "notes": "Tests knowledge of Dicey's rule of law principles",
+    "linked_concepts": ["Rule of Law", "Equality Before Law", "Fundamental Rights", "A.V. Dicey"]
   }
-   ]
+  ]
+  
+   
   
   
  
